@@ -14,6 +14,4 @@
 [material]: 
 -->
 
----
-
-[ホーム](/) | [授業](/courses/) | [法学資料（日本）](/law/jp/)
+{% include_relative footer.md %}
