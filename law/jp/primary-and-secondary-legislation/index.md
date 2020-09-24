@@ -1,3 +1,8 @@
+---
+footer_file: footer.md
+---
+
+
 ## 公布済み現行法令件数とその調べ方
 
 ### 公布済み現行法令件数　（2020年09月20日現在）
@@ -60,7 +65,4 @@ e-Gov の法令APIを利用します。次のページで配布されている�
 
 - [get_list_of_primary_and_secondary_legislation_in_japan.py](https://github.com/tkslab/tkslab.github.io/blob/master/law/jp/primary-and-secondary-legislation/get_list_of_primary_and_secondary_legislation_in_japan.py)
 
-
----
-
-[ホーム](/) | [授業](/courses/) | [法学資料（日本）](/law/jp/)
+{% include {{ page.footer_file }}  %}
