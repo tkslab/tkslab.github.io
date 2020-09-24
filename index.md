@@ -1,3 +1,7 @@
+---
+footer_file: footer.md
+---
+
 
 ## Home
 
@@ -15,4 +19,4 @@
 
 
 
-{% include_relative footer.md %}
+{% include {{ page.footer_file }}  %}
