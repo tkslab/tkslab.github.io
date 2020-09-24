@@ -1,12 +1,14 @@
 
-# ホーム
+## ホーム
 
 - [授業](/courses/)
 - [メモ](/memo/)
 
-# 外部サイト
+
+## 外部サイト
 
 - [researchmap](https://researchmap.jp/tkswd)
+- [連絡先](https://www.tokoha-u.ac.jp/teachers/law/nomology/wada/) 
 
 ---
 
