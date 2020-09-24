@@ -1,6 +1,6 @@
 ## 授業
 
-### 2020年度
+### 2020年度分
 
 #### 常葉大学
 
@@ -19,4 +19,4 @@
 
 
 
-{% include_relative footer.md %}
+{% include footer.md %}
