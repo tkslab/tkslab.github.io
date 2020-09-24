@@ -63,6 +63,6 @@ e-Gov の法令APIを利用します。次のページで配布されている�
  
 ### ソースコード
 
-- [get_list_of_primary_and_secondary_legislation_in_japan.py](https://github.com/tkslab/tkslab.github.io/blob/master/law/jp/primary-and-secondary-legislation/get_list_of_primary_and_secondary_legislation_in_japan.py)
+- [get_list_of_primary_and_secondary_legislation.py](https://github.com/tkslab/tkslab.github.io/blob/master/law/jp/primary-and-secondary-legislation/get_list_of_primary_and_secondary_legislation.py)
 
 {% include {{ page.footer_file }}  %}
