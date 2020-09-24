@@ -1,0 +1,15 @@
+title: tks lab
+baseurl: "" 
+url: tkslab.github.io
+
+# Build settings
+markdown: kramdown
+kramdown:
+   input: GFM
+   hard_wrap: false
+   header_offset: 1
+highlighter: rouge
+
+plugins:
+  - github-pages
+  - jekyll-coffeescript
