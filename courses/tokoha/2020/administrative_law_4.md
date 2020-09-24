@@ -1,3 +1,7 @@
+---
+footer_file: footer.md
+---
+
 ## 常葉大学　2020年度　行政法4
 
 ### 講義関連情報
@@ -38,4 +42,4 @@
 
 [sheet01]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UQ1NITTlaQUNUR1BQUDlDSzFNTTM5V05RVC4u
 
-{% include_relative footer.md %}
+{% include {{ page.footer_file }}  %}
