@@ -1,6 +1,6 @@
 
 - [ホーム](/)
-  - [大学](/univ/)
+  - [授業](/courses/)
   - [メモ](/memo/)
   
 - [researchmap](https://researchmap.jp/tkswd)
