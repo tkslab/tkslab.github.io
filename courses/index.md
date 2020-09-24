@@ -19,4 +19,4 @@
 
 
 
-{% include footer.md %}
+{% include_relative ../footer.md %}
