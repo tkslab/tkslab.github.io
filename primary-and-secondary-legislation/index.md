@@ -58,3 +58,8 @@ e-Gov の法令APIを利用します。次のページで配布されている�
 ## ソースコード
 
 - [get_list_of_primary_and_secondary_legislation_in_japan.py](get_list_of_primary_and_secondary_legislation_in_japan.py)
+
+
+---
+
+[ホーム](/) | [大学](/univ/) | [メモ](/memo/)
