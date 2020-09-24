@@ -39,5 +39,4 @@
 [sheet01]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UM0dGVzQ5RUoxWjFDMzg2WTZOTzAyUDNJMS4u
 
 ---
-
-[ホーム](/) | [授業](/courses/) | [メモ](/memo/)
+[ホーム](/) | [授業](/courses/) | [法学資料（日本）](/law/jp/)
