@@ -38,6 +38,4 @@
 
 [sheet01]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UQ1NITTlaQUNUR1BQUDlDSzFNTTM5V05RVC4u
 
----
-
-[ホーム](/) | [授業](/courses/) | [法学資料（日本）](/law/jp/)
+{% include_relative footer.md %}
