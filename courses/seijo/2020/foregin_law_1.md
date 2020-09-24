@@ -1,3 +1,7 @@
+---
+footer_file: footer.md
+---
+
 ## 成城大学　2020年度　外国法I
 
 ### 講義関連情報
@@ -14,4 +18,4 @@
 [material]: 
 -->
 
-{% include_relative footer.md %}
+{% include {{ page.footer_file }}  %}
