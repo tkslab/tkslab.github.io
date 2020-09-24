@@ -1,3 +1,7 @@
+---
+footer_file: footer.md
+---
+
 ## 常葉大学　2020年度　行政法1
 
 ### 講義関連情報
@@ -44,4 +48,4 @@
 |第15回 |  | |
 -->
 
-{% include_relative footer.md %}
+{% include {{ page.footer_file }}  %}
