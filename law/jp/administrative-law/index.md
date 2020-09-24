@@ -7,7 +7,7 @@ footer_file: footer.md
 
 ### 法令
 
-- [e-Gov法令検索（事項別分類索引）](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/#tab4)
+- [e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/)
 
 
 ### 判例
