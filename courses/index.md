@@ -1,10 +1,6 @@
----
-footer: footer.md
----
-
 ## 授業
 
-### 2020年度
+### 2020年度分
 
 #### 常葉大学
 
@@ -23,4 +19,4 @@ footer: footer.md
 
 
 
-{% include {{ page.footer }}  %}
+{% include {{ footer.md }}  %}
