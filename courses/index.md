@@ -19,4 +19,4 @@
 
 
 
-{% include_relative footer.md %}
+{% include _posts/footer.md %}
