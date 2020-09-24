@@ -3,4 +3,4 @@
   - [大学](/univ/)
   - [メモ](/memo/)
   
-- [researchmap](https://researchmap.jp/tkswd)
+- researchmap: https://researchmap.jp/tkswd
