@@ -7,7 +7,7 @@ footer_file: footer.md
 
 ### 一般
 
-- [公布済み現行法令件数とその調べ方](primary-and-secondary-legislation)
+- [公布済み現行法令件数とその調べ方](general/primary-and-secondary-legislation)
 
 
 ### 分野
