@@ -1,3 +1,7 @@
+---
+footer_file: footer.md
+---
+
 ## 授業
 
 ### 2020年度分
@@ -19,4 +23,4 @@
 
 
 
-{% include {{ footer.md }}  %}
+{% include {{ page.footer_file }}  %}
