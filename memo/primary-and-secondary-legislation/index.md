@@ -43,15 +43,10 @@ csv 形式にまとめました。公布年月日、法令の種類、法令番�
 これらは、[e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/) の法令API を用いて取得したものです。
  
  
- - [憲法・法律.csv](憲法・法律.csv)
-   - [https://gist.github.com/tkslab/ee9b92675f30e0cc06c41e96e72e3305](https://gist.github.com/tkslab/ee9b92675f30e0cc06c41e96e72e3305)
- 
- - [政令・勅令.csv](政令・勅令.csv)
-   - [https://gist.github.com/tkslab/320b134f798c8d2a5c3ae26d536b8433](https://gist.github.com/tkslab/320b134f798c8d2a5c3ae26d536b8433)
- 
- - [府省令.csv](府省令.csv)
-   - [https://gist.github.com/tkslab/98f8e6cb69b4c9b072876e69b817e813](https://gist.github.com/tkslab/98f8e6cb69b4c9b072876e69b817e813)
- 
+ - [憲法・法律.csv](https://github.com/tkslab/tkslab.github.io/blob/master/memo/primary-and-secondary-legislation/憲法・法律.csv)
+ - [政令・勅令.csv](https://github.com/tkslab/tkslab.github.io/blob/master/memo/primary-and-secondary-legislation/政令・勅令.csv) 
+ - [府省令.csv](https://github.com/tkslab/tkslab.github.io/blob/master/memo/primary-and-secondary-legislation/府省令.csv)
+
  
 
  
@@ -63,7 +58,7 @@ e-Gov の法令APIを利用します。次のページで配布されている�
  
 ## ソースコード
 
-- [get_list_of_primary_and_secondary_legislation_in_japan.py](get_list_of_primary_and_secondary_legislation_in_japan.py)
+- [get_list_of_primary_and_secondary_legislation_in_japan.py](https://github.com/tkslab/tkslab.github.io/blob/master/memo/primary-and-secondary-legislation/get_list_of_primary_and_secondary_legislation_in_japan.py)
 
 
 ---
