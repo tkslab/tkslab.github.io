@@ -8,7 +8,7 @@
 ## 外部サイト
 
 - [researchmap](https://researchmap.jp/tkswd)
-- [連絡先](https://www.tokoha-u.ac.jp/teachers/law/nomology/wada/) 
+- [教員情報（連絡先）](https://www.tokoha-u.ac.jp/teachers/law/nomology/wada/) 
 
 ---
 
