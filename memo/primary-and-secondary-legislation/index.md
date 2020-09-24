@@ -40,12 +40,18 @@
 ### 憲法・法律、政令・勅令、府省令の一覧
 
 csv 形式にまとめました。公布年月日、法令の種類、法令番号、法令名称の順に記述しています。
+これらは、[e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/) の法令API を用いて取得したものです。
+ 
  
  - [憲法・法律.csv](憲法・法律.csv)
- - [政令・勅令.csv](政令・勅令.csv)
- - [府省令.csv](府省令.csv)
+   - [https://gist.github.com/tkslab/ee9b92675f30e0cc06c41e96e72e3305](https://gist.github.com/tkslab/ee9b92675f30e0cc06c41e96e72e3305)
  
- これらのファイルの内容は、[e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/) の法令API を用いて取得したものです。
+ - [政令・勅令.csv](政令・勅令.csv)
+   - [https://gist.github.com/tkslab/320b134f798c8d2a5c3ae26d536b8433](https://gist.github.com/tkslab/320b134f798c8d2a5c3ae26d536b8433)
+ 
+ - [府省令.csv](府省令.csv)
+   - [https://gist.github.com/tkslab/98f8e6cb69b4c9b072876e69b817e813](https://gist.github.com/tkslab/98f8e6cb69b4c9b072876e69b817e813)
+ 
  
 
  
