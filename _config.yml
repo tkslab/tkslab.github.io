@@ -1,6 +1,4 @@
 title: tks lab
-baseurl: "/" 
-url: tkslab.github.io
 
 # Build settings
 markdown: kramdown
