@@ -7,7 +7,7 @@ markdown: kramdown
 kramdown:
    input: GFM
    hard_wrap: false
-   header_offset: 1
+   header_offset: 0
 highlighter: rouge
 
 plugins:
