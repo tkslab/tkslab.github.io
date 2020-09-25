@@ -24,7 +24,7 @@ footer_file: footer.md
 |講義回|コメントシート|入力期限|
 | -- | -- | -- |
 |第01回 |[リンク][sheet01] |2020年9月28日（月曜日）23時59分|
-|第02回 |  | |
+|第02回 |[リンク][sheet02] |2020年10月5日（月曜日）23時59分|
 |第03回 |  | |
 |第04回 |  | |
 |第05回 |  | |
@@ -41,5 +41,6 @@ footer_file: footer.md
 
 
 [sheet01]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UQ1NITTlaQUNUR1BQUDlDSzFNTTM5V05RVC4u
+[sheet02]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UMUg2WVdTRTBVMFZLTVpFUlVZMVRaSDVGUC4u
 
 {% include {{ page.footer_file }}  %}
