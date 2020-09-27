@@ -1,2 +1,2 @@
 
-[判例（日本）](/law/jp/cases/)
+[裁判情報（日本）](/law/jp/cases/)
