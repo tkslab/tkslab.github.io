@@ -1,1 +1,506 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>判決文の加工処理</title>
+<script
+			  src="https://code.jquery.com/jquery-3.5.1.min.js"
+			  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+			  crossorigin="anonymous"></script>
+<script>
+	var $id = function (id) {
+	  return document.getElementById(id);
+	};
 
+	function replaceZenkakuWithHankaku(str) {
+	  return str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, function (s) {
+	    return String.fromCharCode(s.charCodeAt(0) - 0xFEE0);
+	  });
+	}
+
+	function zeroPadding(num, length) {
+	  return ('0000000000' + num).slice(-length);
+	}
+	var objEraNames = {
+	  '明治': 'meiji',
+	  '大正': 'taishou',
+	  '昭和': 'shouwa',
+	  '平成': 'heisei',
+	  '令和': 'reiwa'
+	}
+	var objEraNamesAndYear = {
+	  '明治': 1867,
+	  '大正': 1911,
+	  '昭和': 1925,
+	  '平成': 1988,
+	  '令和': 2018
+	}
+	var objChineseNumbersAndRomanNumbers = {
+	  '〇': 0,
+	  '一': 1,
+	  '二': 2,
+	  '三': 3,
+	  '四': 4,
+	  '五': 5,
+	  '六': 6,
+	  '七': 7,
+	  '八': 8,
+	  '九': 9
+	}
+	var objRecordSignForCasesAndRoman = {
+	  //簡易裁判所
+	  //和解事件
+	  'イ': 'i'
+	    //督促事件
+	    ,
+	  'ロ': 'ro'
+	    //通常訴訟事件
+	    ,
+	  'ハ': 'ha'
+	    //手形訴訟事件及び小切手訴訟事件
+	    ,
+	  '手ハ': 'teha'
+	    //少額訴訟事件
+	    ,
+	  '少コ': 'shouko'
+	    //少額訴訟判決に対する異議申立て事件
+	    ,
+	  '少エ': 'shoue'
+	    //控訴提起事件
+	    ,
+	  'ハレ': 'hare'
+	    //飛躍上告提起事件
+	    ,
+	  'ハツ': 'hatsu'
+	    //少額異議判決に対する特別上告提起事件
+	    ,
+	  '少テ': 'shoute'
+	    //再審事件
+	    ,
+	  'ニ': 'ni'
+	    //公示催告事件
+	    ,
+	  'ヘ': 'he'
+	    //保全命令事件
+	    ,
+	  'ト': 'to'
+	    //抗告提起事件
+	    ,
+	  'ハソ': 'hatsu'
+	    //借地非訟事件
+	    ,
+	  '借': 'shaku'
+	    //民事一般調停事件
+	    ,
+	  'ノ': 'no'
+	    //宅地建物調停事件
+	    ,
+	  'ユ': 'yu'
+	    //農事調停事件
+	    ,
+	  'セ': 'se'
+	    //商事調停事件
+	    ,
+	  'メ': 'me'
+	    //鉱害調停事件
+	    ,
+	  'ス': 'su'
+	    //交通調停事件
+	    ,
+	  '交': 'majiwari'
+	    //公害等調停事件
+	    ,
+	  '公': 'ooyake'
+	    //特定調停事件
+	    ,
+	  '特ノ': 'tokuno'
+	    //少額訴訟債権執行事件
+	    ,
+	  '少ル': 'shouru'
+	    //過料事件
+	    ,
+	  'ア': 'a'
+	    //共助事件
+	    ,
+	  'キ': 'ki'
+	    //民事雑事件
+	    ,
+	  'サ': 'sa'
+	    //地方裁判所
+	    //通常訴訟事件
+	    ,
+	  'ワ': 'wa'
+	    //手形訴訟事件及び小切手訴訟事件
+	    ,
+	  '手ワ': 'tewa'
+	    //控訴提起事件
+	    ,
+	  'ワネ': 'wane'
+	    //飛躍上告提起事件
+	    ,
+	  'ワオ': 'wao'
+	    //飛躍上告受理申立て事件
+	    ,
+	  'ワ受': 'waju'
+	    //再審事件
+	    ,
+	  'カ': 'ka'
+	    //公示勧告事件
+	    ,
+	  'ヘ': 'he'
+	    //保全命令事件
+	    ,
+	  'ヨ': 'yo'
+	    //控訴事件
+	    ,
+	  'レ': 're'
+	    //上告提起事件
+	    ,
+	  'レツ': 'retsu'
+	    //抗告事件
+	    ,
+	  'ソ': 'so'
+	    //抗告提起事件
+	    ,
+	  'ソラ': 'sora'
+	    //民事非訟事件
+	    ,
+	  'チ': 'chi'
+	    //商事非訟事件
+	    ,
+	  'ヒ': 'hi'
+	    //借地非訟事件
+	    ,
+	  '借チ': 'shakuhi'
+	    //罹災都市借地借家臨時処理事件及び接収不動産に関する借地借家臨時処理事件
+	    ,
+	  'シ': 'shi'
+	    //配偶者暴力等に関する保護命令事件
+	    ,
+	  '配チ': 'haichi'
+	    //労働審判事件
+	    ,
+	  '労': 'rou'
+	    //民事一般調停事件
+	    ,
+	  'ノ': 'no'
+	    //宅地建物調停事件
+	    ,
+	  'ユ': 'yu'
+	    //農事調停事件
+	    ,
+	  'セ': 'se'
+	    //商事調停事件
+	    ,
+	  'メ': 'me'
+	    //鉱害調停事件
+	    ,
+	  'ス': 'su'
+	    //交通調停事件
+	    ,
+	  '交': 'majiwari'
+	    //公害等調停事件
+	    ,
+	  '公': 'ooyake'
+	    //特定調停事件
+	    ,
+	  '特ノ': 'tokuno'
+	    //事情届に基づいて執行裁判所が実施する配当等手続事件
+	    ,
+	  'リ': 'ri'
+	    //不動産、船舶、航空機、自動車、建設機械及び小型船舶に対する強制執行事件
+	    ,
+	  'ヌ': 'nu'
+	    //債権及びその他の財産権に対する強制執行事件
+	    ,
+	  'ル': 'ru'
+	    //不動産、船舶、航空機、自動車、建設機械及び小型船舶を目的とする担保権の実行としての競売等事件
+	    ,
+	  'ケ': 'ke'
+	    //債権及びその他の財産権を目的とする担保権の実行及び行使事件
+	    ,
+	  'ナ': 'na'
+	    //財産開示事件
+	    ,
+	  '財チ': 'zaichi'
+	    //執行雑事件
+	    ,
+	  'ヲ': 'wo'
+	    //企業担保権実行事件
+	    ,
+	  '企': 'ki'
+	    //破産事件
+	    ,
+	  'フ': 'fu'
+	    //再生事件
+	    ,
+	  '再': 'sai'
+	    //小規模個人再生事件
+	    ,
+	  '再イ': 'saii'
+	    //給与所得者等再生事件
+	    ,
+	  '再ロ': 'sairo'
+	    //会社更生事件
+	    ,
+	  'ミ': 'mi'
+	    //承認援助事件
+	    ,
+	  '承': 'shou'
+	    //船舶所有者等責任制限事件
+	    ,
+	  '船': 'fune'
+	    //油濁損害賠償責任制限事件
+	    ,
+	  '油': 'abura'
+	    //簡易確定事件
+	    ,
+	  '集': 'shuu'
+	    //簡易確定決定に対する異議申立て提起事件
+	    ,
+	  '集ワ': 'shuuwa'
+	    //過料事件
+	    ,
+	  'ホ': 'ho'
+	    //共助事件
+	    ,
+	  'エ': 'e'
+	    //仲裁関係事件
+	    ,
+	  '仲': 'naka'
+	    //民事雑事件
+	    ,
+	  'モ': 'mo'
+	    //人身保護事件
+	    ,
+	  '人': 'jin'
+	    //人身保護雑事件
+	    ,
+	  '人モ ': 'jinmo'
+	    //高等裁判所
+	    //通常訴訟事件
+	    ,
+	  'ワ': 'wa'
+	    //控訴事件
+	    ,
+	  'ネ': 'ne'
+	    //上告提起事件
+	    ,
+	  'ネオ': 'neo'
+	    //上告受理申立て事件
+	    ,
+	  'ネ受': 'neju'
+	    //抗告事件
+	    ,
+	  'ラ': 'ra'
+	    //特別抗告提起事件
+	    ,
+	  'ラク': 'raku'
+	    //許可抗告申立て事件
+	    ,
+	  'ラ許': 'rakyo'
+	    //再審事件
+	    ,
+	  'ム': 'mu'
+	    //上告事件
+	    ,
+	  'ツ': 'tsu'
+	    //特別上告提起事件
+	    ,
+	  'ツテ': 'tsute'
+	    //民事一般調停事件
+	    ,
+	  'ノ': 'no'
+	    //宅地建物調停事件
+	    ,
+	  'ユ': 'yu'
+	    //農事調停事件
+	    ,
+	  'セ': 'se'
+	    //商事調停事件
+	    ,
+	  'メ': 'me'
+	    //鉱害調停事件
+	    ,
+	  'ス': 'su'
+	    //交通調停事件
+	    ,
+	  '交': 'majiwari'
+	    //公害等調停事件
+	    ,
+	  '公': 'ooyake'
+	    //民事雑事件
+	    ,
+	  'ウ': 'u'
+	    //人身保護事件
+	    ,
+	  '人ナ': 'jinna'
+	    //人身保護雑事件
+	    ,
+	  '人ウ ': 'jinnu'
+	    //最高裁判所
+	    //上告事件
+	    ,
+	  'オ': 'o'
+	    //上告受理事件
+	    ,
+	  '受': 'ju'
+	    //特別上告事件
+	    ,
+	  'テ': 'te'
+	    //特別抗告事件
+	    ,
+	  'ク': 'ku'
+	    //許可抗告事件
+	    ,
+	  '許': 'kyo'
+	    //再審事件
+	    ,
+	  'ヤ': 'ya'
+	    //民事雑事件
+	    ,
+	  'マ ': 'ma'
+	}
+
+	function replaceTextWighObj(string, obj) {
+	  $.each(obj, function (key, value) {
+	    string = string.replace(new RegExp(key, 'g'), value);
+	  });
+	  return string;
+	}
+
+	function convertText(full_text) {
+	  var convertedArea = $id("convertedArea");
+	  var rows = new Array();
+	  rows = full_text.split("\n");
+	  var buffer = "";
+	  var numberOfDocket = "";
+	  var yymmddDayOfJudgment = "";
+	  var dayOfJudgment = "";
+	  var nameOfCourt = "";
+	  var kindOfJudgment = "";
+	  var englishNameOfCourt = "";
+	  var numberOfPara = 0;
+	  var isReasonOfJudgment = false;
+	  var isFrontFormatter = false;
+	  $.each(rows, function (_, txt) {
+	    txt = replaceZenkakuWithHankaku(txt.trim());
+	    // 最高裁判所第一小法廷
+	    if (txt.match(/kind_of_judgment/)) {
+	      [_1, _2, kindOfJudgment] = txt.match(/^(.+?):(.+)$/);
+	    }
+	    // 最高裁判所第一小法廷
+	    if (txt.match(/kind_of_court/)) {
+	      [_1, _2, nameOfCourt] = txt.match(/^(.+?):(.+)$/);
+	      if (txt.match(/最高/)) {
+	        englishNameOfCourt = "supreme-court";
+	      }
+	      if (txt.match(/高等/)) {
+	        englishNameOfCourt = "high-court";
+	      }
+	      if (txt.match(/地方/)) {
+	        englishNameOfCourt = "district-court";
+	      }
+	    }
+	    if (txt.match(/day_of_judgment/)) {
+	      [_1, _2, dayOfJudgment] = txt.match(/^(.+?):(.+)$/);
+	      let regexpForInfoOfJudgment = /(明治|大正|昭和|平成|令和)(\d{1,2})年(\d{1,2})月(\d{1,2})日$/
+	      let _, eraName, y, m, d;
+	      [_, eraName, y, m, d] = txt.match(regexpForInfoOfJudgment);
+	      y = String(Number(y) + objEraNamesAndYear[eraName]);
+	      yymmddDayOfJudgment = `${y}-${zeroPadding(m,2)}-${zeroPadding(d,2)}`;
+	    }
+	    if (txt.match(/docket_number/)) {
+	      let regexpForNumberOfDocket = /(明治|大正|昭和|平成|令和)(\d{1,2})年（(.{1,2})）第(\d{1,3})号/
+	      let _, eraName, y, kindOfCase, serialNumber;
+	      [_, eraName, y, kindOfCase, serialNumber] = txt.match(regexpForNumberOfDocket);
+	      eraName = replaceTextWighObj(eraName, objEraNames);
+	      kindOfCase = replaceTextWighObj(kindOfCase, objRecordSignForCasesAndRoman);
+	      numberOfDocket = `${eraName}-${y}-${kindOfCase}-${serialNumber}`;
+	    }
+	    txt = txt.replace(/^主　+文$/, '### 主文');
+	    txt = txt.replace(/^理　+由$/, '### 理由');
+	    if (isReasonOfJudgment == false) {
+	      if (txt == "### 理由") {
+	        isReasonOfJudgment = true
+	      }
+	    }
+	    // 段落番号
+	    if (isReasonOfJudgment && txt != "") {
+	      if (!txt.match(/^#/)) {
+	        numberOfPara += 1;
+	        txt = `[${String(numberOfPara)}]　${txt}`
+	      }
+	    }
+	    if (isFrontFormatter && txt.match(/^(.+?):(.+)$/)) {
+	      let _, pre, post;
+	      [_, pre, post] = txt.match(/^(.+?):(.+)$/);
+	      txt = `${pre.trim()}: "${post.trim()}"`;
+	    }
+	    buffer += txt + "\n";
+	    if (isFrontFormatter == false && txt != "---") {
+	      buffer += "\n";
+	    }
+	    // Front Formatter 開始処理
+	    if (isFrontFormatter == false && txt == "---") {
+	      isFrontFormatter = true;
+	      buffer += 'footer_file: "footer.md"' + "\n";
+	      buffer += 'additional_footer_file: "footer_for_jp_cases.md"' + "\n";
+	    } else if (isFrontFormatter == true && txt == "---") {
+	      // Front Formatter 終了処理
+	      isFrontFormatter = false;
+	      buffer += "\n";
+	      buffer += `## ${nameOfCourt}　${kindOfJudgment}　${dayOfJudgment}` + "\n";
+	      buffer += "\n";
+	      buffer += "| 種類 | 情報 |" + "\n";
+	      buffer += "| --- | --- |" + "\n";
+	      buffer += "| 裁判所 | {{ page.kind_of_court }} |" + "\n";
+	      buffer += "| 裁判の種類 |  {{ page.kind_of_judgment }}  |" + "\n";
+	      buffer += "| 言渡期日 |  {{ page.day_of_judgment }}  |" + "\n";
+	      buffer += "| 事件番号 |  {{ page.docket_number }}  |" + "\n";
+	      buffer += "| 事件名 |  {{ page.case_name }}  |" + "\n";
+	      buffer += "| 学習用判例集 |  {{ page.teaching_materials }}  |" + "\n";
+	      buffer += "| 掲載 |  {{ page.law_reports }}  |" + "\n";
+	      buffer += "| 調査官解説の掲載 |  {{ page.commentary_by_investigation_officer }}  |" + "\n";
+	      buffer += "| 審級関係 |  {{ page.step }}  |" + "\n";
+	      buffer += "| 当事者 |  {{ page.parties }}  |" + "\n";
+	      buffer += "\n";
+	    }
+	  });
+	  buffer += "{% include {{ page.footer_file }}  %}" + "\n";
+	  buffer += "{% include {{ page.additional_footer_file }}  %}" + "\n";
+	  convertedArea.innerHTML = buffer;
+	  textFileName.innerHTML = `${englishNameOfCourt}-${yymmddDayOfJudgment}-${numberOfDocket}.md`;
+	}</script>
+
+</head>
+<body>
+	<h1>判決文の修正処理</h1>
+	<form name="form1">
+		<p>修正前<br>
+		<textarea id="sourceArea" rows="5" cols="40" placeholder="input" onkeyup="convertText($id('sourceArea').value);"></textarea>
+		</p>
+		
+		<p>修正後<br>
+		<textarea id="convertedArea" rows="5" cols="40" placeholder="output1"></textarea><br>
+		</p>
+		
+		<p>ファイル名<br>
+		<textarea id="textFileName" rows="1" cols="40" placeholder="output2"></textarea><br>
+		</p>
+	</form>
+	
+	<h1>テンプレート</h1>
+	<div><pre>---
+kind_of_judgment: 
+kind_of_court: 
+day_of_judgment: 
+docket_number: 
+case_name: 
+law_reports: 
+commentary_by_investigation_officer:
+parties: 
+step: 
+---</pre></div>
+</body>
+</html>
