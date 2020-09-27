@@ -22,9 +22,9 @@ step: "第一審:福島地方裁判所,昭和24年（行）第114号,昭和26年
 | 言渡期日 |  {{ page.day_of_judgment }}  |
 | 事件番号 |  {{ page.docket_number }}  |
 | 事件名 |  {{ page.case_name }}  |
-| 学習用判例集 |  {{ page.teaching_materials }}  |
 | 掲載 |  {{ page.law_reports }}  |
 | 調査官解説の掲載 |  {{ page.commentary_by_investigation_officer }}  |
+| 学習用判例集 |  {{ page.teaching_materials }}  |
 | 審級関係 |  {{ page.step }}  |
 | 当事者 |  {{ page.parties }}  |
 
