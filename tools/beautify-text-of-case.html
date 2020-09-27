@@ -380,12 +380,13 @@
 	  var nameOfCourt = "";
 	  var kindOfJudgment = "";
 	  var englishNameOfCourt = "";
+	  var citationForCase = "";
 	  var numberOfPara = 0;
 	  var isReasonOfJudgment = false;
 	  var isFrontFormatter = false;
 	  $.each(rows, function (_, txt) {
 	    txt = replaceZenkakuWithHankaku(txt.trim());
-	    // 最高裁判所第一小法廷
+	    // 
 	    if (txt.match(/kind_of_judgment/)) {
 	      [_1, _2, kindOfJudgment] = txt.match(/^(.+?):(.+)$/);
 	    }
@@ -417,6 +418,9 @@
 	      eraName = replaceTextWighObj(eraName, objEraNames);
 	      kindOfCase = replaceTextWighObj(kindOfCase, objRecordSignForCasesAndRoman);
 	      numberOfDocket = `${eraName}-${y}-${kindOfCase}-${serialNumber}`;
+	    }
+	    if (txt.match(/law_reports/)) {
+	      [_1, _2, citationForCase] = txt.match(/^(.+?):(.+)$/);
 	    }
 	    txt = txt.replace(/^主　+文$/, '### 主文');
 	    txt = txt.replace(/^理　+由$/, '### 理由');
@@ -450,7 +454,7 @@
 	      // Front Formatter 終了処理
 	      isFrontFormatter = false;
 	      buffer += "\n";
-	      buffer += `## ${nameOfCourt}　${kindOfJudgment}　${dayOfJudgment}` + "\n";
+	      buffer += `## ${nameOfCourt}　${kindOfJudgment}　${dayOfJudgment}　${citationForCase}` + "\n";
 	      buffer += "\n";
 	      buffer += "| 種類 | 情報 |" + "\n";
 	      buffer += "| --- | --- |" + "\n";
@@ -459,9 +463,9 @@
 	      buffer += "| 言渡期日 |  {{ page.day_of_judgment }}  |" + "\n";
 	      buffer += "| 事件番号 |  {{ page.docket_number }}  |" + "\n";
 	      buffer += "| 事件名 |  {{ page.case_name }}  |" + "\n";
-	      buffer += "| 学習用判例集 |  {{ page.teaching_materials }}  |" + "\n";
 	      buffer += "| 掲載 |  {{ page.law_reports }}  |" + "\n";
 	      buffer += "| 調査官解説の掲載 |  {{ page.commentary_by_investigation_officer }}  |" + "\n";
+	      buffer += "| 学習用判例集 |  {{ page.teaching_materials }}  |" + "\n";
 	      buffer += "| 審級関係 |  {{ page.step }}  |" + "\n";
 	      buffer += "| 当事者 |  {{ page.parties }}  |" + "\n";
 	      buffer += "\n";
@@ -504,3 +508,4 @@ step:
 ---</pre></div>
 </body>
 </html>
+
