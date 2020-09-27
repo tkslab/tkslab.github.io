@@ -1,6 +1,6 @@
 ---
-footer_file: footer.md
-additional_footer_file: footer_for_jp_cases.md
+footer_file: "footer.md"
+additional_footer_file: "footer_for_jp_cases.md"
 kind_of_judgment:"判決"
 kind_of_court:"最高裁判所第一小法廷"
 day_of_judgment:"昭和27年11月20日"
