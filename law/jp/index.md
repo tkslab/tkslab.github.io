@@ -9,6 +9,9 @@ footer_file: footer.md
 
 - [公布済み現行法令件数とその調べ方](general/primary-and-secondary-legislation)
 
+### [裁判資料（日本）](cases)
+
+
 ### 分野
 
 - [行政法](administrative-law)
