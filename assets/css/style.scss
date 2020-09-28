@@ -6,25 +6,24 @@ h3 { margin-left: 1em }
 h4 { margin-left: 2em }
 
 *{
-    font-family: "UDDigiKyokasho R",
-    "BIZ UDGothic",
-    "Helvetica Neue",
+    font-family: "Helvetica Neue",
     Arial,
+	 Verdana,
     "Hiragino Kaku Gothic ProN",
     "Hiragino Sans",
+    "UDDigiKyokasho R",
+    "BIZ UDGothic",
+    YuGothic, "Yu Gothic Medium", "Yu Gothic", 
     Meiryo,
     sans-serif;
-  
-	}
+  }
 
 p{
   	  /*  
   font-size: 15px; 
-  */
 	    line-height: 1.8;
 	    margin: 1.3em 0px;
 	    letter-spacing: -0.8px;
-	    /*
   text-align:justify;
   */
 }
