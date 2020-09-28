@@ -9,6 +9,7 @@ footer_file: footer.md
 
 #### 最高裁判所
 - [最高裁判所第一小法廷　判決　昭和27年11月20日　最高裁判所民事判例集6巻10号1038頁](/law/jp/cases/supreme-court-1952-11-20-shouwa-26-o-392)
+- [最高裁判所大法廷　判決　昭和50年9月10日　最高裁判所刑事判例集29巻8号489頁](/law/jp/cases/supreme-court-1975-09-10-shouwa-48-a-910)
 
 
 
