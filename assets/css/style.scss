@@ -18,9 +18,11 @@ h4 { margin-left: 3em }
     Meiryo,
     sans-serif;
 	
-.japanese_style_quotation_mark { color:red; }
+.japanese_style_quotation_mark { color:#f8f4e6; }
 
-.round_brackets { color:green; }
+.japanese_style_round_brackets, { color:#c8c2c6; }
+	
+.japanese_style_round_brackets > .japanese_style_quotation_mark { color:#e9dfe5; }
 
 }
 
