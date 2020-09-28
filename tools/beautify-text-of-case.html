@@ -387,6 +387,10 @@
 	  var numberOfPara = 0;
 	  var isReasonOfJudgment = false;
 	  var isFrontFormatter = false;
+	  
+	  var depthJapaneseStyleQuotationMark = 0;
+	  var depthRoundBrackets = 0;
+	  
 	  $.each(rows, function (_, txt) {
 	    txt = replaceZenkakuWithHankaku(txt.trim());
 	    // 
@@ -444,6 +448,42 @@
 	      [_, pre, post] = txt.match(/^(.+?):(.+)$/);
 	      txt = `${pre.trim()}: "${post.trim()}"`;
 	    }
+	    
+	    // 「」と（）の背景色を設定して見やすくする
+	    // span で囲む
+	    tmpTxt = "";
+	    $.each(txt.split(""), function (_, char) {
+	        if (char == "「") {
+	        	depthJapaneseStyleQuotationMark += 1
+	        	
+	            if (depthJapaneseStyleQuotationMark == 1) {
+	                tmpTxt += `<span class='japanese_style_quotation_mark'>${char}`
+	            }
+	        } else if (char == "」") {
+	        	depthJapaneseStyleQuotationMark -= 1
+	        	
+	            if (depthJapaneseStyleQuotationMark == 0) {
+	                tmpTxt += `${char}</span>`
+	            }
+	        } else if (char == "（") {
+	        	depthRoundBrackets += 1
+	        	
+	            if (depthRoundBrackets == 1) {
+	                tmpTxt += `<span class='japanese_style_round_brackets'>${char}`
+	            }
+	        } else if (char == "）") {
+	        	depthRoundBrackets -= 1
+	        	
+	            if (depthRoundBrackets == 0) {
+	                tmpTxt += `${char}</span>`
+	            }
+	        } else {
+	            tmpTxt += `${char}`
+	        }
+	    }
+	    
+	    txt = tmpTxt
+	    
 	    buffer += txt + "\n";
 	    if (isFrontFormatter == false && txt != "---") {
 	      buffer += "\n";
@@ -476,6 +516,7 @@
 	  });
 	  buffer += "{% include {{ page.footer_file }}  %}" + "\n";
 	  buffer += "{% include {{ page.additional_footer_file }}  %}" + "\n";
+	  
 	  convertedArea.innerHTML = buffer;
 	  textFileName.innerHTML = `${englishNameOfCourt}-${yymmddDayOfJudgment}-${numberOfDocket}.md`;
 	}</script>
