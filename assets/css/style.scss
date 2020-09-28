@@ -19,6 +19,13 @@ h4 { margin-left: 2em }
     sans-serif;
   }
 
+
+/* IEだけに適応 */
+_:lang(x)::-ms-backdrop, .selector {
+	a:link {color:#2298A1;}
+}
+
+
 p{
   	  /*  
   font-size: 15px; 
