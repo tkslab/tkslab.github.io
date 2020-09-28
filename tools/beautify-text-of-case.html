@@ -436,7 +436,7 @@
 	    if (isReasonOfJudgment && txt != "") {
 	      if (!txt.match(/^#/)) {
 	        numberOfPara += 1;
-	        txt = `[${String(numberOfPara)}]　${txt}`
+	        txt = `[[${String(numberOfPara)}](#id_${String(numberOfPara)})]<a id="id_${String(numberOfPara)}"></a>　${txt}`
 	      }
 	    }
 	    if (isFrontFormatter && txt.match(/^(.+?):(.+)$/)) {
