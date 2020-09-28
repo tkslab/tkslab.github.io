@@ -1,5 +1,7 @@
 title: tks lab
 
+lang: ja-JP
+
 # Build settings
 markdown: kramdown
 kramdown:
