@@ -468,8 +468,7 @@
 		  
 	    // 「」と（）の背景色を設定して見やすくする
 	    // span で囲む
-	    // 引用部分については処理見送り
-	    if (isFrontFormatter == false && !txt.match(/^>/)) {
+	    if (isFrontFormatter == false) {
 		    tmpTxt = "";
 		    
 		    $.each(txt.split(""), function (_, char) {
