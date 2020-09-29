@@ -7,7 +7,7 @@ day_of_judgment: "昭和50年9月10日"
 docket_number: "昭和48年（あ）第910号"
 case_name: "集団行進及び集団示威運動に関する徳島市条例違反、道路交通法違反被告事件|徳島市公安条例事件大法廷判決"
 law_reports: "最高裁判所刑事判例集29巻8号489頁"
-commentary_by_investigation_officer: "小田健司, 最高裁判所判例解説刑事篇昭和50年度156頁"
+commentary_by_research_law_clerk: "小田健司, 最高裁判所判例解説刑事篇昭和50年度156頁"
 parties: "上告申立人: 検察官|被告人: 寺前学"
 step: "第一審:徳島地方裁判所, 昭和44年（わ）第1号, 昭和47年4月20日判決|控訴審:高松高等裁判所, 昭和47年（う）第172号, 昭和48年2月19日判決"
 
@@ -28,7 +28,7 @@ step: "第一審:徳島地方裁判所, 昭和44年（わ）第1号, 昭和47年
 | 事件番号 |  {{ page.docket_number }}  |
 | 事件名 |  {{ page.case_name }}  |
 | 掲載 |  {{ page.law_reports }}  |
-| 調査官解説の掲載 |  {{ page.commentary_by_investigation_officer }}  |
+| 調査官解説の掲載 |  {{ page.commentary_by_research_law_clerk }}  |
 | 学習用判例集 |  {{ page.teaching_materials }}  |
 | 審級関係 |  {{ page.step }}  |
 | 当事者 |  {{ page.parties }}  |
