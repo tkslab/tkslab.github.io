@@ -494,6 +494,12 @@
 	      txt = `${pre.trim()}: "${post.trim()}"`;
 	    }
 		  
+	    // フロントマター以外ではカンマを読点に統一する
+	    if (isFrontFormatter == false) {
+		txt = txt.replace(/，/g, "、");
+	    }
+		  
+		  
 	    // 「」と（）の背景色を設定して見やすくする
 	    // span で囲む
 	    if (isFrontFormatter == false) {
