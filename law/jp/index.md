@@ -7,9 +7,9 @@ footer_file: footer.md
 
 ### 一般
 
-- [公布済み現行法令件数とその調べ方](general/primary-and-secondary-legislation)
-
 - [裁判資料（日本）](cases)
+
+- [公布済み現行法令件数とその調べ方](general/primary-and-secondary-legislation)
 
 
 ### 分野
