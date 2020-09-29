@@ -13,7 +13,7 @@ footer_file: footer.md
 
 
 #### 高等裁判所
--　[東京高等裁判所　判決　平成15年5月21日　判例時報1835号77頁](/law/jp/cases/high-court-tokyo-2003-05-21-heisei-13-ne-3067)
+- [東京高等裁判所　判決　平成15年5月21日　判例時報1835号77頁](/law/jp/cases/high-court-tokyo-2003-05-21-heisei-13-ne-3067)
 
 
 ### ツール
