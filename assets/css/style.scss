@@ -3,15 +3,15 @@
 
 @import "{{ site.theme }}";
 h3 {
-  margin-left: 1em
-	    padding: .5em;
+  margin-left: 1em;
+	  padding: .5em;
   border-left: 5px solid #ffec47;
 }
 
 h4 {
-  margin-left: 3em
+  margin-left: 3em;
 	    padding: .5em;
-  border-left: 5px solid #d6c6af
+  border-left: 5px solid #d6c6af;
 }
 
 * {
@@ -40,11 +40,5 @@ _:lang(x)::-ms-backdrop, .selector {
 }
 
 p {
-  /*  
-  font-size: 15px; 
-	    line-height: 1.8;
-	    margin: 1.3em 0px;
-	    letter-spacing: -0.8px;
-  text-align:justify;
-  */
+line-height:1.7
 }
