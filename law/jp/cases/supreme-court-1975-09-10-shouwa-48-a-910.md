@@ -3,7 +3,7 @@ footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 kind_of_judgment: "判決"
 kind_of_court: "最高裁判所大法廷"
-day_of_judgment: "昭和50年9月10日"
+day_of_judgment: "昭和50年09月10日"
 docket_number: "昭和48年（あ）第910号"
 case_name: "集団行進及び集団示威運動に関する徳島市条例違反、道路交通法違反被告事件"
 law_reports: "最高裁判所刑事判例集29巻8号489頁"
@@ -13,7 +13,7 @@ step: "第一審:徳島地方裁判所, 昭和44年（わ）第1号, 昭和47年
 
 ---
 
-## 最高裁判所大法廷　判決　昭和50年9月10日　最高裁判所刑事判例集29巻8号489頁
+## 最高裁判所大法廷　判決　昭和50年09月10日　最高裁判所刑事判例集29巻8号489頁
 
 * table
 {:toc}
