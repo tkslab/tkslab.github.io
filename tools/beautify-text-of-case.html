@@ -431,8 +431,10 @@
 	    }
 	    txt = txt.replace(/^主　+文$/, '### 主文');
 	    txt = txt.replace(/^理　+由$/, '### 理由');
-	    if (isReasonOfJudgment == false) {
-	      if (txt == "### 理由") {
+	    txt = txt.replace(/^事実及び理由$/, '### 事実及び理由');
+		  
+       if (isReasonOfJudgment == false) {
+	      if (txt.match(/^### （事実及び）?理由$/)) {
 	        isReasonOfJudgment = true
 	      }
 	    }
