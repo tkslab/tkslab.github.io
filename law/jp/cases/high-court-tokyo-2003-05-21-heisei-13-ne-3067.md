@@ -5,7 +5,7 @@ kind_of_judgment: "判決"
 kind_of_court: "東京高等裁判所"
 day_of_judgment: "平成15年5月21日"
 docket_number: "平成13年（ネ）第3067号"
-case_name: "損害賠償請求控訴事件|大阪O－157食中毒損害賠償訴訟控訴審判決"
+case_name: "損害賠償請求控訴事件"
 law_reports: "判例時報1835号77頁"
 commentary_by_investigation_officer:
 parties:
