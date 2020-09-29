@@ -7,7 +7,7 @@ day_of_judgment: "昭和27年11月20日"
 docket_number: "昭和26年（オ）第392号"
 case_name: "農業用宅地買収計画並びに裁決取消請求上告事件"
 law_reports: "最高裁判所民事判例集6巻10号1038頁"
-commentary_by_investigation_officer:
+commentary_by_research_law_clerk:
 teaching_materials:
 parties: "上告人　控訴人　原告　小松四郎治|被上告人　被控訴人　被告　岩根村農業委員会　福島県農業委員会"
 step: "第一審:福島地方裁判所,昭和24年（行）第114号,昭和26年2月5日判決|控訴審:仙台高等裁判所,昭和26年（ネ）第52号,昭和26年5月4日判決"
@@ -29,7 +29,7 @@ step: "第一審:福島地方裁判所,昭和24年（行）第114号,昭和26年
 | 事件番号 |  {{ page.docket_number }}  |
 | 事件名 |  {{ page.case_name }}  |
 | 掲載 |  {{ page.law_reports }}  |
-| 調査官解説の掲載 |  {{ page.commentary_by_investigation_officer }}  |
+| 調査官解説の掲載 |  {{ page.commentary_by_research_law_clerk }}  |
 | 学習用判例集 |  {{ page.teaching_materials }}  |
 | 審級関係 |  {{ page.step }}  |
 | 当事者 |  {{ page.parties }}  |
