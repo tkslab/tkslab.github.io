@@ -21,6 +21,22 @@
 	function zeroPadding(num, length) {
 	  return ('0000000000' + num).slice(-length);
 	}
+	
+
+	var objCourtNames = {
+		'最高':'supreme-court',
+		'高等':'high-court',
+		'地方':'district-court',
+		'札幌':'-sapporo',
+		'仙台':'-sendai',
+		'東京':'-tokyo',
+		'名古屋':'-nagoya',
+		'大阪':'-osaka',
+		'広島':'-hiroshima',
+		'高松':'-takamatsu',
+		'福岡':'-fukuoka'
+	}
+	
 	var objEraNames = {
 	  '明治': 'meiji',
 	  '大正': 'taishou',
@@ -377,6 +393,33 @@
 	  });
 	  return string;
 	}
+	
+	function zeroPaddingForYYMMDD(string) {
+	      let regexpYYMMDD = /(\d{1,2})(年)(\d{1,2})(月)(\d{1,2})(日)/
+	      let _, eraName, yy, mm, dd, yyJP, mmJP, ddJP;
+	      [_, yy, yyJP, mm, mmJP, dd, ddJP] = string.match(regexpYYMMDD);
+	      yy = zeroPadding(yy,2);
+	      mm = zeroPadding(mm,2);
+	      dd = zeroPadding(dd,2);
+	      return string.replace(regexpYYMMDD, `${yy}${yyJP}${mm}${mmJP}${dd}${ddJP}`);
+	}
+
+	function convertCalendarFromJapaneseToWestern(string) {
+	      let regexpForInfoOfJudgment = /(明治|大正|昭和|平成|令和)(\d{2})(年)/
+	      let yyyy, _, eraName, yy, yyJP;
+	      [_, eraName, yy, yyJP] = string.match(regexpForInfoOfJudgment);
+	      
+	      yyyy = String(Number(yy) + objEraNamesAndYear[eraName]);
+   	      return string.replace(regexpForInfoOfJudgment, `${yyyy}${yyJP}`);
+	}
+
+	function convertCalendarWithHyphen(string) {
+	      let regexpForYYYYMMDD = /(\d{4})年(\d{2})月(\d{2})日$/
+	      let _, yyyy, mm, dd;
+	      [_, yyyy, mm, dd] = string.match(regexpForYYYYMMDD);
+	      
+   	      return `${yyyy}-${mm}-${dd}`;
+	}
 
 	function convertText(full_text) {
 	  var convertedArea = $id("convertedArea");
@@ -403,53 +446,26 @@
 	    if (txt.match(/kind_of_judgment/)) {
 	      [_1, _2, kindOfJudgment] = txt.match(/^(.+?):(.+)$/);
 	    }
-	    // 最高裁判所第一小法廷
+	    // 裁判所を英語表記に切り替える
 	    if (txt.match(/kind_of_court/)) {
-	      [_1, _2, nameOfCourt] = txt.match(/^(.+?):(.+)$/);
-	      if (txt.match(/最高/)) {
-	        englishNameOfCourt = "supreme-court";
-	      }
-	      if (txt.match(/高等/)) {
-	        englishNameOfCourt = "high-court";
-	      }
-	      if (txt.match(/地方/)) {
-	        englishNameOfCourt = "district-court";
-	      }
-		    
-		    
-		if (txt.match(/札幌/)) {
-			englishNameOfCourt += "-sapporo"
-		}
-		if (txt.match(/仙台/)) {
-			englishNameOfCourt += "-sendai"
-		}
-		if (txt.match(/東京/)) {
-			englishNameOfCourt += "-tokyo"
-		}
-		if (txt.match(/名古屋/)) {
-			englishNameOfCourt += "-tokyo"
-		}
-		if (txt.match(/大阪/)) {
-			englishNameOfCourt += "-osaka"
-		}
-		if (txt.match(/広島/)) {
-			englishNameOfCourt += "-hiroshima"
-		}
-		if (txt.match(/高松/)) {
-			englishNameOfCourt += "-takamatsu"
-		}
-		if (txt.match(/福岡/)) {
-			englishNameOfCourt += "-fukuoka"
-		}
+      	  $.each(objCourtNames, function (key, value) {
+		      if (txt.match(new RegExp(key))) {
+		        if (value) {
+			        englishNameOfCourt += value;
+		        }
+		      }
+	      });
+	      
 	    }
+	    
+	    
 	    if (txt.match(/day_of_judgment/)) {
-	      [_1, _2, dayOfJudgment] = txt.match(/^(.+?):(.+)$/);
-	      let regexpForInfoOfJudgment = /(明治|大正|昭和|平成|令和)(\d{1,2})年(\d{1,2})月(\d{1,2})日$/
-	      let _, eraName, y, m, d;
-	      [_, eraName, y, m, d] = txt.match(regexpForInfoOfJudgment);
-	      y = String(Number(y) + objEraNamesAndYear[eraName]);
-	      yymmddDayOfJudgment = `${y}-${zeroPadding(m,2)}-${zeroPadding(d,2)}`;
+	      txt = zeroPaddingForYYMMDD(txt);
+  	      let _;
+	      [_, dayOfJudgment] = txt.match(/^.+?:(.+)$/);
+	      yymmddDayOfJudgment = convertCalendarWithHyphen(convertCalendarFromJapaneseToWestern(txt));
 	    }
+	    
 	    if (txt.match(/docket_number/)) {
 	      let regexpForNumberOfDocket = /(明治|大正|昭和|平成|令和)(\d{1,2})年（(.{1,2})）第(\d{1,5})号/
 	      let _, eraName, y, kindOfCase, serialNumber;
@@ -472,14 +488,14 @@
 	    }
 	    
 	    
+   	    // 「裁判官一覧」という見出しもつける
    	    // 裁判官一覧を表形式に変換する
-   	    // 見出しつき
 	    if (txt.match(/^（裁判長裁判官/)) {
+	      	buffer += "### 裁判官一覧\n\n";
+
 		    [_, body] = txt.match(/^（(.+)）$/);
 		    body = `|${body.replace(/　/g, "|")}|`;
 		    body = `${body.replace(/(\|裁判官)/g, "|\n$1")}`;
-		    
-	      	buffer += "### 裁判官一覧\n\n";
 	      	buffer += body;
 	      	txt = "";
 		}
@@ -490,7 +506,8 @@
 		    //  段落番号をつけない
 	      if (!txt.match(/^[\|#>]/)) {
 	        numberOfPara += 1;
-	        txt = `[[${String(numberOfPara)}](#id_${String(numberOfPara)})]<a id="id_${String(numberOfPara)}"></a>　${txt}`
+	        txt = `[[${String(numberOfPara)}](#id_${String(numberOfPara)})]`
+	        	+ `<a id="id_${String(numberOfPara)}"></a>　${txt}`;
 	      }
 	    }
 	    // フロントマター部分の余分な空白を削除
@@ -555,34 +572,43 @@
 	    // Front Formatter 開始処理
 	    if (isFrontFormatter == false && txt == "---") {
 	      isFrontFormatter = true;
-	      buffer += 'footer_file: "footer.md"' + "\n";
-	      buffer += 'additional_footer_file: "footer_for_jp_cases.md"' + "\n";
+	      buffer += `footer_file: "footer.md"
+additional_footer_file: "footer_for_jp_cases.md"
+`;
+
 	    } else if (isFrontFormatter == true && txt == "---") {
 	      // Front Formatter 終了処理
 	      isFrontFormatter = false;
-	      buffer += "\n";
-	      buffer += `## ${nameOfCourt.trim()}　${kindOfJudgment.trim()}　${dayOfJudgment.trim()}　${citationForCase.trim()}` + "\n";
-	      buffer += "\n";
-	      buffer += "* table\n";
-	      buffer += "{:toc}\n\n";
-	      buffer += "### 裁判情報" + "\n\n";
-	      buffer += "| 種類 | 情報 |" + "\n";
-	      buffer += "| --- | --- |" + "\n";
-	      buffer += "| 裁判所 | {{ page.kind_of_court }} |" + "\n";
-	      buffer += "| 裁判の種類 |  {{ page.kind_of_judgment }}  |" + "\n";
-	      buffer += "| 言渡期日 |  {{ page.day_of_judgment }}  |" + "\n";
-	      buffer += "| 事件番号 |  {{ page.docket_number }}  |" + "\n";
-	      buffer += "| 事件名 |  {{ page.case_name }}  |" + "\n";
-	      buffer += "| 掲載 |  {{ page.law_reports }}  |" + "\n";
-	      buffer += "| 調査官解説の掲載 |  {{ page.commentary_by_research_law_clerk }}  |" + "\n";
-	      buffer += "| 学習用判例集 |  {{ page.teaching_materials }}  |" + "\n";
-	      buffer += "| 審級関係 |  {{ page.step }}  |" + "\n";
-	      buffer += "| 当事者 |  {{ page.parties }}  |" + "\n";
-	      buffer += "\n";
+
+	      buffer += `
+## ${nameOfCourt.trim()}　${kindOfJudgment.trim()}　${dayOfJudgment.trim()}　${citationForCase.trim()}
+
+* table\n
+{:toc}\n\n
+
+### 裁判情報
+
+| 種類 | 情報 |
+| --- | --- |
+| 裁判所 | {{ page.kind_of_court }} |
+| 裁判の種類 |  {{ page.kind_of_judgment }}  |
+| 言渡期日 |  {{ page.day_of_judgment }}  |
+| 事件番号 |  {{ page.docket_number }}  |
+| 事件名 |  {{ page.case_name }}  |
+| 掲載 |  {{ page.law_reports }}  |
+| 調査官解説の掲載 |  {{ page.commentary_by_research_law_clerk }}  |
+| 学習用判例集 |  {{ page.teaching_materials }}  |
+| 審級関係 |  {{ page.step }}  |
+| 当事者 |  {{ page.parties }}  |
+`;
+
 	    }
 	  });
-	  buffer += "{% include {{ page.footer_file }}  %}" + "\n";
-	  buffer += "{% include {{ page.additional_footer_file }}  %}" + "\n";
+	  
+	  buffer += `
+{% include {{ page.footer_file }}  %}
+{% include {{ page.additional_footer_file }}  %}
+`;
 	  
 	  convertedArea.innerHTML = buffer;
 	  textFileName.innerHTML = `${englishNameOfCourt}-${yymmddDayOfJudgment}-${numberOfDocket}.md`;
