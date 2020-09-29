@@ -438,7 +438,7 @@
 	    }
 	    // 段落番号
 	    if (isReasonOfJudgment && txt != "") {
-	      if (!txt.match(/^#/) && !txt.match(/^|/)) {
+	      if (!txt.match(/^#/) && !txt.match(/^\|/)) {
 	        numberOfPara += 1;
 	        txt = `[[${String(numberOfPara)}](#id_${String(numberOfPara)})]<a id="id_${String(numberOfPara)}"></a>　${txt}`
 	      }
@@ -492,7 +492,7 @@
 		  
 		// 改行の挿入を抑制する
 	    if (isFrontFormatter == false) {
-		    if (txt != "---" && !txt.match(/^|/)) {
+		    if (txt != "---" && !txt.match(/^\|/)) {
 	      		buffer += "\n";
 		    }
 	    }
