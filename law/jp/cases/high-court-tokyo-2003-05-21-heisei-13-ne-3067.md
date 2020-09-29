@@ -26,8 +26,8 @@ step: "第一審:東京地方裁判所,平成8年（ワ）第23677号,平成13�
 | 言渡期日 |  {{ page.day_of_judgment }}  |
 | 事件番号 |  {{ page.docket_number }}  |
 | 事件名 |  {{ page.case_name }}  |
-| 掲載 |  {{ page.law_reports }}  |
-| 調査官解説の掲載 |  {{ page.commentary_by_research_law_clerk }}  |
+| 出典 |  {{ page.law_reports }}  |
+| 調査官解説の出典 |  {{ page.commentary_by_research_law_clerk }}  |
 | 学習用判例集 |  {{ page.teaching_materials }}  |
 | 審級関係 |  {{ page.step }}  |
 | 当事者 |  {{ page.parties }}  |
