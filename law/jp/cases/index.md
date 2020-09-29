@@ -12,6 +12,9 @@ footer_file: footer.md
 - [最高裁判所大法廷　判決　昭和50年9月10日　最高裁判所刑事判例集29巻8号489頁](/law/jp/cases/supreme-court-1975-09-10-shouwa-48-a-910)
 
 
+#### 高等裁判所
+[東京高等裁判所　判決　平成15年5月21日　判例時報1835号77頁](/law/jp/cases/high-court-tokyo-2003-05-21-heisei-13-ne-3067)
+
 
 ### ツール
 
