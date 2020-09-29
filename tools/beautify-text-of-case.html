@@ -436,6 +436,21 @@
 	        isReasonOfJudgment = true
 	      }
 	    }
+	    
+	    
+   	    // 裁判官一覧を表形式に変換する
+   	    // 見出しつき
+	    if (txt.match(/^（裁判長裁判官/)) {
+		    [_, body] = txt.match(/^（(.+)）$/);
+		    body = `|${body.replace(/　/g, "|")}|`;
+		    body = `${body.replace(/(\|裁判官)/g, "|\n$1")}`;
+		    
+	      	buffer += "### 裁判官一覧\n\n";
+	      	buffer += body;
+	      	txt = "";
+		}
+	    
+
 	    // 段落番号
 	    if (isReasonOfJudgment && txt != "") {
 		    //  段落番号をつけない
@@ -444,6 +459,7 @@
 	        txt = `[[${String(numberOfPara)}](#id_${String(numberOfPara)})]<a id="id_${String(numberOfPara)}"></a>　${txt}`
 	      }
 	    }
+	    // フロントマター部分の余分な空白を削除
 	    if (isFrontFormatter && txt.match(/^(.+?):(.+)$/)) {
 	      let _, pre, post;
 	      [_, pre, post] = txt.match(/^(.+?):(.+)$/);
@@ -487,7 +503,6 @@
 		    });
 		    txt = tmpTxt;
 	    }
-	    
 	    
 	    buffer += txt + "\n";
 		  
