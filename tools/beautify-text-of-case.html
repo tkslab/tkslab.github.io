@@ -409,6 +409,32 @@
 	      if (txt.match(/地方/)) {
 	        englishNameOfCourt = "district-court";
 	      }
+		    
+		    
+		if (txt.match(/札幌/)) {
+			englishNameOfCourt += "-sapporo"
+		}
+		if (txt.match(/仙台/)) {
+			englishNameOfCourt += "-sendai"
+		}
+		if (txt.match(/東京/)) {
+			englishNameOfCourt += "-tokyo"
+		}
+		if (txt.match(/名古屋/)) {
+			englishNameOfCourt += "-tokyo"
+		}
+		if (txt.match(/大阪/)) {
+			englishNameOfCourt += "-osaka"
+		}
+		if (txt.match(/広島/)) {
+			englishNameOfCourt += "-hiroshima"
+		}
+		if (txt.match(/高松/)) {
+			englishNameOfCourt += "-takamatsu"
+		}
+		if (txt.match(/福岡/)) {
+			englishNameOfCourt += "-fukuoka"
+		}
 	    }
 	    if (txt.match(/day_of_judgment/)) {
 	      [_1, _2, dayOfJudgment] = txt.match(/^(.+?):(.+)$/);
