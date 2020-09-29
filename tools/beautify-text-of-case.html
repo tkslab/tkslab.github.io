@@ -434,7 +434,7 @@
 	    txt = txt.replace(/^事実及び理由$/, '### 事実及び理由');
 		  
        if (isReasonOfJudgment == false) {
-	      if (txt.match(/^### （事実及び）?理由$/)) {
+	      if (txt == "### 理由" || txt == "### 事実及び理由") {
 	        isReasonOfJudgment = true
 	      }
 	    }
