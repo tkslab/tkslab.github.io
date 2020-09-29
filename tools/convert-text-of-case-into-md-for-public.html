@@ -448,6 +448,8 @@
 	    }
 	    // 裁判所を英語表記に切り替える
 	    if (txt.match(/kind_of_court/)) {
+		    [_1, nameOfCourt ] = txt.match(/^.+?:(.+)$/);
+		    
       	  $.each(objCourtNames, function (key, value) {
 		      if (txt.match(new RegExp(key))) {
 		        if (value) {
@@ -583,8 +585,8 @@ additional_footer_file: "footer_for_jp_cases.md"
 	      buffer += `
 ## ${nameOfCourt.trim()}　${kindOfJudgment.trim()}　${dayOfJudgment.trim()}　${citationForCase.trim()}
 
-* table\n
-{:toc}\n\n
+* table
+{:toc}
 
 ### 裁判情報
 
