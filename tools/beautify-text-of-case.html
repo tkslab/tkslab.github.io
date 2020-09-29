@@ -490,8 +490,11 @@
 	    
 	    buffer += txt + "\n";
 		  
-	    if (isFrontFormatter == false && txt != "---") {
-	      buffer += "\n";
+		// 改行の挿入を抑制する
+	    if (isFrontFormatter == false) {
+		    if (txt != "---" && !txt.match(/^|/)) {
+	      		buffer += "\n";
+		    }
 	    }
 	    // Front Formatter 開始処理
 	    if (isFrontFormatter == false && txt == "---") {
