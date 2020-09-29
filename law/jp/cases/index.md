@@ -19,10 +19,4 @@ footer_file: footer.md
 - [東京高等裁判所　判決　平成15年05月21日　判例時報1835号77頁](/law/jp/cases/high-court-tokyo-2003-05-21-heisei-13-ne-3067)
 
 
-### ツール
-
-- [判決文公開用の処理](/tools/convert-text-of-case-into-md-for-public)
-- [文章の整形](/tools/beautify-text)
-
-
 {% include {{ page.footer_file }}  %}
