@@ -438,7 +438,8 @@
 	    }
 	    // 段落番号
 	    if (isReasonOfJudgment && txt != "") {
-	      if (!txt.match(/^[#\|>|/)) {
+		    //  段落番号をつけない
+	      if (!txt.match(/^[#>\|/)) {
 	        numberOfPara += 1;
 	        txt = `[[${String(numberOfPara)}](#id_${String(numberOfPara)})]<a id="id_${String(numberOfPara)}"></a>　${txt}`
 	      }
