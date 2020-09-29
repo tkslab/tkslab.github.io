@@ -3,7 +3,7 @@ footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 kind_of_judgment: "判決"
 kind_of_court: "最高裁判所大法廷"
-day_of_judgment: "平成18年3月1日"
+day_of_judgment: "平成18年03月01日"
 docket_number: "平成12年（行ツ）第62号, 平成12年（行ヒ）第66号"
 case_name: "国民健康保険料賦課処分取消等請求事件"
 law_reports: "最高裁判所民事判例集60巻2号587頁"
@@ -13,7 +13,7 @@ parties:
 step: "第一審:旭川地方裁判所,平成7年（行ウ）第1号,平成10年4月21日,判決|控訴審:札幌高等裁判所,平成10年（行コ）第8号,平成11年12月21日,判決"
 ---
 
-## 最高裁判所大法廷　判決　平成18年3月1日　最高裁判所民事判例集60巻2号587頁
+## 最高裁判所大法廷　判決　平成18年03月01日　最高裁判所民事判例集60巻2号587頁
 
 * table
 {:toc}
