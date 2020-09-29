@@ -2,39 +2,40 @@
 ---
 
 @import "{{ site.theme }}";
-h3 { margin-left: 1em }
-h4 { margin-left: 3em }
-
-*{
-    font-family: "Helvetica Neue",
-    Arial,
-	 Verdana,
-    "Hiragino Kaku Gothic ProN",
-    "Hiragino Sans",
-	    "UD Digi Kyokasho NK-R",
-    "UDDigiKyokasho R",
-    "BIZ UDGothic",
-    YuGothic, "Yu Gothic Medium", "Yu Gothic", 
-    Meiryo,
-    sans-serif;
-	
-.japanese_style_quotation_mark { background-color:#e0ebaf; }
-
-.japanese_style_round_brackets, { background-color:#c8c2c6; }
-	
-.japanese_style_round_brackets > .japanese_style_quotation_mark { background-color:#e9dfe5; }
-
+h3 {
+  margin-left: 1em
 }
 
+h4 {
+  margin-left: 3em
+}
+
+* {
+  font-family: "Helvetica Neue", Arial, Verdana, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "UD Digi Kyokasho NK-R", "UDDigiKyokasho R", "BIZ UDGothic", YuGothic, "Yu Gothic Medium", "Yu Gothic", Meiryo, sans-serif;
+}
+
+.japanese_style_quotation_mark {
+  background: linear-gradient(transparent 60%, #e0ebaf 60%);
+}
+
+.japanese_style_round_brackets, {
+  background-color: #c8c2c6;
+}
+
+.japanese_style_round_brackets>.japanese_style_quotation_mark {
+  background: linear-gradient(transparent 60%, #e9dfe5 60%);
+}
 
 /* IEだけに適応 */
+
 _:lang(x)::-ms-backdrop, .selector {
-	a:link {color:#2298A1;}
+  a:link {
+    color: #2298A1;
+  }
 }
 
-
-p{
-  	  /*  
+p {
+  /*  
   font-size: 15px; 
 	    line-height: 1.8;
 	    margin: 1.3em 0px;
