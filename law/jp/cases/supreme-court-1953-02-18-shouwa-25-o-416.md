@@ -27,8 +27,8 @@ parties: "上告人　控訴人　被告　大分県農地委員会　代表者�
 | 言渡期日 |  {{ page.day_of_judgment }}  |
 | 事件番号 |  {{ page.docket_number }}  |
 | 事件名 |  {{ page.case_name }}  |
-| 掲載 |  {{ page.law_reports }}  |
-| 調査官解説の掲載 |  {{ page.commentary_by_research_law_clerk }}  |
+| 出典 |  {{ page.law_reports }}  |
+| 調査官解説の出典 |  {{ page.commentary_by_research_law_clerk }}  |
 | 学習用判例集 |  {{ page.teaching_materials }}  |
 | 審級関係 |  {{ page.step }}  |
 | 当事者 |  {{ page.parties }}  |
