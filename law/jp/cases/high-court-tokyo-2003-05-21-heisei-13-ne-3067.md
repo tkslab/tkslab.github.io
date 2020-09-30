@@ -70,19 +70,27 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 #### 第1　控訴の趣旨
 
-[[1](#id_1)]<a id="id_1"></a>　1　原判決を取り消す。
+##### 1　
 
-[[2](#id_2)]<a id="id_2"></a>　2　被控訴人は、控訴人A協会に対し、1000万円、及び同控訴人を除くその余の控訴人それぞれに対し、別紙請求額表の控訴請求金額欄各記載の金員、並びにこれらに対する平成8年8月7日から支払済みまで年5分の割合による金員を支払え<span class='japanese_style_round_brackets'>（主位的請求及び当審において追加された損失請求について同じ）</span>。
+[[1](#id_1)]<a id="id_1"></a>　原判決を取り消す。
+
+##### 2　
+
+[[2](#id_2)]<a id="id_2"></a>　被控訴人は、控訴人A協会に対し、1000万円、及び同控訴人を除くその余の控訴人それぞれに対し、別紙請求額表の控訴請求金額欄各記載の金員、並びにこれらに対する平成8年8月7日から支払済みまで年5分の割合による金員を支払え<span class='japanese_style_round_brackets'>（主位的請求及び当審において追加された損失請求について同じ）</span>。
 
 #### 第2　控訴の趣旨に対する答弁
 
-[[3](#id_3)]<a id="id_3"></a>　1　本件控訴を棄却する。
+##### 1　
 
-[[4](#id_4)]<a id="id_4"></a>　2　控訴人らの当審における追加請求<span class='japanese_style_round_brackets'>（損失補償請求）</span>に係る訴えを却下する。
+[[3](#id_3)]<a id="id_3"></a>　本件控訴を棄却する。
+
+##### 2　
+
+[[4](#id_4)]<a id="id_4"></a>　控訴人らの当審における追加請求<span class='japanese_style_round_brackets'>（損失補償請求）</span>に係る訴えを却下する。
 
 #### 第3　事案の概要<span class='japanese_style_round_brackets'>（略語等は、特に記すほか、原判決に従う。）</span>
 
-[[5](#id_5)]<a id="id_5"></a>　1　本件の概要
+##### 1　本件の概要
 
 [[6](#id_6)]<a id="id_6"></a>　本件は、堺市において平成8年7月中旬ころ発生した腸管出血性大腸菌O－157に起因する学童らの集団食中毒につき、厚生大臣<span class='japanese_style_round_brackets'>（当時）</span>が、貝割れ大根が原因食材とは断定できないが、その可能性も否定できない<span class='japanese_style_round_brackets'>（中間報告）</span>、原因食材としては特定施設から7月7日、8日及び9日に出荷された貝割れ大根が最も可能性が高いと考えられる<span class='japanese_style_round_brackets'>（最終報告）</span>などと公表し、これにより、貝割れ大根が前記食中毒の原因食材であり、貝割れ大根一般の安全性に疑問があるかのような印象を与え、貝割れ大根の売上が激減したとして、控訴人A協会<span class='japanese_style_round_brackets'>（控訴人協会）</span>が、前記集団食中毒の真の原因究明や貝割れ大根の販売促進活動等に要した費用に相当する損害、信用毀損等による損害として1000万円、及びその余の控訴人ら<span class='japanese_style_round_brackets'>（控訴人業者ら）</span>が、逸失利益及び貝割れ大根の廃棄費用等の積極損害、信用毀損等による損害が生じたとして、被控訴人に対し、それぞれ国家賠償法1条に基づき、別紙請求額表の控訴請求金額欄記載の損害賠償金<span class='japanese_style_round_brackets'>（当審において、損害賠償金の一部及び弁護士費用の全部につき、減縮された。）</span>並びに中間報告が公表された平成8年8月7日から支払済みまで民法所定の年5分の割合による遅延損害金の支払を請求し、当審において、憲法29条3項に基づく損失補償として同額の金員を追加的に請求した事案である。
 
@@ -92,11 +100,11 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 [[9](#id_9)]<a id="id_9"></a>　当裁判所は、本件各報告の疫学的判断及び結論に不合理な点は認められないとした点について原審の判断を是認したが、原審とは異なり、中間報告の公表の方法には、違法があるとして、控訴人らの請求につき、貝割れ大根の廃棄、販売減少に基づく損害賠償請求は認めなかったものの、貝割れ大根の商品としての評価、信用が毀損されたことによる損害の賠償として、控訴人ら各自100万円<span class='japanese_style_round_brackets'>（同金額以下の請求をする者については、請求額）</span>及びこれに対する違法行為の日<span class='japanese_style_round_brackets'>（平成8年8月7日）</span>から支払済みまで民法所定の年5分の割合による遅延損害金の支払を認め、当審における新たな訴えは却下すべきものと判断した。
 
-[[10](#id_10)]<a id="id_10"></a>　2　争いのない事実等
+##### 2　争いのない事実等
 
 [[11](#id_11)]<a id="id_11"></a>　争いのない事実等は、原判決の事実及び理由の<span class='japanese_style_quotation_mark'>「第2　事案の概要」</span>の1<span class='japanese_style_round_brackets'>（原判決14頁初行から16頁19行目まで）</span>記載を引用する。
 
-[[12](#id_12)]<a id="id_12"></a>　3　争点<span class='japanese_style_round_brackets'>（争点4の他は、原判決16頁再掲）</span>
+##### 3　争点<span class='japanese_style_round_brackets'>（争点4の他は、原判決16頁再掲）</span>
 
 [[13](#id_13)]<a id="id_13"></a>　<span class='japanese_style_round_brackets'>（1）</span>本件各報告の基礎にある疫学的な調査の適否及びその判断の合理性の有無
 
@@ -106,17 +114,17 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 [[16](#id_16)]<a id="id_16"></a>　<span class='japanese_style_round_brackets'>（4）</span>損失補償請求の可否
 
-[[17](#id_17)]<a id="id_17"></a>　4　当事者の主張
+##### 4　当事者の主張
 
 [[18](#id_18)]<a id="id_18"></a>　争点に関する当事者の主張は、別紙のとおり、当審における当事者双方の主張を付加するほか、原判決の事実及び理由の<span class='japanese_style_quotation_mark'>「第2　事案の概要」</span>の3<span class='japanese_style_round_brackets'>（原判決16頁25行目から133頁3行目まで）</span>の記載を引用する。
 
 #### 第4　当裁判所の判断
 
-[[19](#id_19)]<a id="id_19"></a>　1　事実関係
+#####　1　事実関係
 
 [[20](#id_20)]<a id="id_20"></a>　前提となる事実関係は、原判決の事実及び理由の<span class='japanese_style_quotation_mark'>「第3　当裁判所の判断」</span>1記載<span class='japanese_style_round_brackets'>（原判決133頁5行目から174頁17行目まで）</span>を引用する。
 
-[[21](#id_21)]<a id="id_21"></a>　2　争点<span class='japanese_style_round_brackets'>（1）</span><span class='japanese_style_round_brackets'>（疫学的調査の適否及び本件各報告の判断の合理性）</span>について
+##### 2　争点<span class='japanese_style_round_brackets'>（1）</span><span class='japanese_style_round_brackets'>（疫学的調査の適否及び本件各報告の判断の合理性）</span>について
 
 [[22](#id_22)]<a id="id_22"></a>　<span class='japanese_style_round_brackets'>（1）</span>原判決の引用
 
@@ -198,7 +206,7 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 [[61](#id_61)]<a id="id_61"></a>　本件各報告は、原因食材の観点から調査の結果を分析しており、その分析及びこれにより得られた結論には合理性を認めうるが、学校給食に関してのみ本件集団下痢症の大量発生を見た原因についての検討は不十分であったという他ない。
 
-[[62](#id_62)]<a id="id_62"></a>　3　争点<span class='japanese_style_round_brackets'>（2）</span><span class='japanese_style_round_brackets'>（本件各報告の公表の適法性及び相当性）</span>について
+#####　3　争点<span class='japanese_style_round_brackets'>（2）</span><span class='japanese_style_round_brackets'>（本件各報告の公表の適法性及び相当性）</span>について
 
 [[63](#id_63)]<a id="id_63"></a>　<span class='japanese_style_round_brackets'>（1）</span>本件各報告の公表の意義、法的根拠の要否
 
@@ -254,7 +262,7 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 [[87](#id_87)]<a id="id_87"></a>　キ　控訴人ら主張の被害は、中間報告の公表により生じたと認められ、最終報告の公表により生じたと認めうる部分は見あたらず、最終報告の当否については、判断の限りでないが、最終報告において、本件特定施設の出荷した貝割れ大根が汚染された裏付けは見あたらず、汚染の疑いを招いた貝割れ大根が本件特定施設が出荷した総量の5％以下にとどまり、学校給食以外に出荷された95％超のものについて、食中毒の原因食材の疑いを抱かれたものがないことは、考慮の対象とした。
 
-[[88](#id_88)]<a id="id_88"></a>　4　争点<span class='japanese_style_round_brackets'>（3）</span><span class='japanese_style_round_brackets'>（損害額）</span>について
+##### 4　争点<span class='japanese_style_round_brackets'>（3）</span><span class='japanese_style_round_brackets'>（損害額）</span>について
 
 [[89](#id_89)]<a id="id_89"></a>　<span class='japanese_style_round_brackets'>（1）</span>控訴人ら主張の損害について1
 
@@ -276,7 +284,7 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 [[98](#id_98)]<a id="id_98"></a>　控訴人らが当審において追加的に併合して審理することを求める損失補償請求については、被控訴人が請求の追加に同意せず、当審において、この請求について審理することはできず<span class='japanese_style_round_brackets'>（最高裁平成5年7月20日第三小法廷判決・民集47巻7号4627頁）</span>、損失補償に係る訴えは、不適法であり、却下を免れない。
 
-[[99](#id_99)]<a id="id_99"></a>　6　まとめ
+##### 6　まとめ
 
 [[100](#id_100)]<a id="id_100"></a>　以上のとおり、控訴人らの請求は、取り扱う商品について違法に市場評価及び信用を毀損されたことに基づき、本判決により、市場評価及び信用が回復されることをも考慮し、各100万円<span class='japanese_style_round_brackets'>（一部の者は、請求額）</span>及び遅延損害金の限度において認容する。中間報告の公表後、貝割れ大根の生産及び販売が受けた苛酷な影響は、前記認定の事実からも、その一端を窺うことができる。控訴人らの貝割れ大根の生産及び販売が、今もなお、当時の販売量を回復しない<span class='japanese_style_round_brackets'>（控訴人らの主張）</span>ことを考慮すると、控訴人らの怒りの程は察するにあまりあるが、当裁判所は、この判決において判断した以上の解決を見出すことはできない。控訴人らが突きつける怒りは、この訴訟を契機として、被控訴人において、非常時に遭遇してから対処するのではなく、将来の危機に備え、国民の利益をどのように調整し、確保するかについての技能を高める契機とすることによって解消されることを期待すべきものと考える。
 
@@ -284,18 +292,18 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 [[101](#id_101)]<a id="id_101"></a>　よって、原判決を変更し、控訴人らの請求の一部各100万円<span class='japanese_style_round_brackets'>（同額以下の請求をする者については、請求額）</span>及び平成8年8月7日<span class='japanese_style_round_brackets'>（厚生大臣による違法行為の日）</span>から支払済みまで、民法所定の年5分の割合による遅延損害金を認容し、その余を棄却し、当審において追加された損失補償請求に係る訴えを却下することとして、主文のとおり判決する<span class='japanese_style_round_brackets'>（仮執行宣言は、付さない。）</span>。
 
+### 裁判官一覧
+
 [[102](#id_102)]<a id="id_102"></a>　東京高等裁判所第1民事部
 
-[[103](#id_103)]<a id="id_103"></a>　裁判長裁判官　江見弘武　裁判官　白石研二
+
+|裁判長裁判官|江見弘武|
+|裁判官|白石研二|
 
 [[104](#id_104)]<a id="id_104"></a>　裁判官土谷裕子は、転補のため、署名及び押印をすることができない。
 
 [[105](#id_105)]<a id="id_105"></a>　裁判長裁判官　江見弘武
 
-### 裁判官一覧
-
-|裁判長裁判官|江見弘武|
-|裁判官|白石研二|
 
 {% include {{ page.footer_file }}  %}
 {% include {{ page.additional_footer_file }}  %}
