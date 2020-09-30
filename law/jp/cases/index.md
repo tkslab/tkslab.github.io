@@ -28,7 +28,7 @@ footer_file: footer.md
 - [最高裁判所第三小法廷　判決　平成01年09月19日　最高裁判所民事判例集43巻8号955頁](/law/jp/cases/supreme-court-1989-09-19-shouwa-58-o-1413)
 
 - [最高裁判所第一小法廷　判決　平成14年10月24日　最高裁判所民事判例集56巻8号1903頁](/law/jp/cases/supreme-court-2002-10-24-heisei-12-gyouhi-174)
-- [最高裁判所第三小法廷　判決　平成16年07月13日　判例時報1874号58頁](/law/jp/cases/supreme-court-2004-07-13-eisei-12-gyouhi-32)
+- [最高裁判所第三小法廷　判決　平成16年07月13日　判例時報1874号58頁](/law/jp/cases/supreme-court-2004-07-13-heisei-12-gyouhi-32)
 - [最高裁判所　　　　大法廷　判決　平成18年03月01日　最高裁判所民事判例集60巻2号587頁](/law/jp/cases/supreme-court-2006-03-01-heisei-12-gyoutsu-62)
 
 - [最高裁判所第一小法廷　判決　平成22年06月03日　最高裁判所民事判例集64巻4号1010頁](/law/jp/cases/supreme-court-2010-06-03-heisei-21-ju-1338)
