@@ -70,6 +70,9 @@
 	  '行ヒ': 'gyouhi'
 	    //
 	    ,
+	  '行ス': 'gyousu'
+	    //
+	    ,
 	  '手ハ': 'teha'
 	    //少額訴訟事件
 	    ,
@@ -496,7 +499,7 @@
 	      	buffer += "### 裁判官一覧\n\n";
 
 		    [_, body] = txt.match(/^（(.+)）$/);
-		    body = `|${body.replace(/　/g, "|")}|`;
+		    body = `|${body.replace(/　+/g, "|")}|`;
 		    body = `${body.replace(/(\|裁判官)/g, "|\n$1")}`;
 	      	buffer += body;
 	      	txt = "";
