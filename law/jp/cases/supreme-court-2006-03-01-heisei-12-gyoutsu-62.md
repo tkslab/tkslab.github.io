@@ -221,7 +221,9 @@ step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年
 
 ### <span class='japanese_style_round_brackets'>（別紙）</span>目録
 
-[[58](#id_58)]<a id="id_58"></a>　1　当該年度における次の<span class='japanese_style_round_brackets'>（1）</span>から<span class='japanese_style_round_brackets'>（6）</span>までの額の合算額
+#### 1　
+
+[[58](#id_58)]<a id="id_58"></a>　当該年度における次の<span class='japanese_style_round_brackets'>（1）</span>から<span class='japanese_style_round_brackets'>（6）</span>までの額の合算額
 
 [[59](#id_59)]<a id="id_59"></a>　<span class='japanese_style_round_brackets'>（1）</span>平成6年度分については、国民健康保険の事務<span class='japanese_style_round_brackets'>（老人保健拠出金の納付に関する事務を含む。）</span>の執行に要する費用の額
 
@@ -243,7 +245,9 @@ step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年
 
 [[68](#id_68)]<a id="id_68"></a>　平成7年度分及び同8年度分については、その他の国民健康保険事業に要する費用<span class='japanese_style_round_brackets'>（職員給与費及び特定事務費以外の物件費を除く。）</span>の額<span class='japanese_style_round_brackets'>（退職被保険者等に係る療養の給付に要する費用の額から当該給付に係る一部負担金に相当する額を控除した額並びに退職被保険者等に係る入院時食事療養費、特定療養費、療養費、訪問看護療養費、特別療養費、移送費及び高額療養費の支給に要する費用の額を除く。）</span>
 
-[[69](#id_69)]<a id="id_69"></a>　2　当該年度における次の<span class='japanese_style_round_brackets'>（1）</span>から<span class='japanese_style_round_brackets'>（6）</span>までの額の合算額
+#### 2　
+
+[[69](#id_69)]<a id="id_69"></a>　当該年度における次の<span class='japanese_style_round_brackets'>（1）</span>から<span class='japanese_style_round_brackets'>（6）</span>までの額の合算額
 
 [[70](#id_70)]<a id="id_70"></a>　<span class='japanese_style_round_brackets'>（1）</span>法69条及び70条の規定による負担金
 
