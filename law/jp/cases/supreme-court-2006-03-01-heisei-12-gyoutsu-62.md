@@ -63,21 +63,27 @@ step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年
 
 [[1](#id_1)]<a id="id_1"></a>　本件は、平成6年4月12日に被上告人旭川市<span class='japanese_style_round_brackets'>（以下<span class='japanese_style_quotation_mark'>「被上告人市」</span>という。）</span>を保険者とする国民健康保険の一般被保険者<span class='japanese_style_round_brackets'>（全被保険者から退職被保険者及びその被扶養者を除いた被保険者）</span>の資格を取得した世帯主である上告人が、平成6年度から同8年度までの各年度分の国民健康保険の保険料について、被上告人市から賦課処分を受け、また、被上告人旭川市長<span class='japanese_style_round_brackets'>（以下<span class='japanese_style_quotation_mark'>「被上告人市長」</span>という。）</span>から所定の減免事由に該当しないとして減免しない旨の通知<span class='japanese_style_round_brackets'>（以下<span class='japanese_style_quotation_mark'>「減免非該当処分」</span>という。）</span>を受けたことから、被上告人市に対し上記各賦課処分の取消し及び無効確認を、被上告人市長に対し上記各減免非該当処分の取消し及び無効確認をそれぞれ求める事案である。
 
-##### 2　
-
-[[2](#id_2)]<a id="id_2"></a>　法令の定め等
+##### 2　法令の定め等
 
 [[3](#id_3)]<a id="id_3"></a>　以下に摘示する国民健康保険法<span class='japanese_style_round_brackets'>（以下<span class='japanese_style_quotation_mark'>「法」</span>という。）</span>、地方税法及び旭川市国民健康保険条例<span class='japanese_style_round_brackets'>（昭和34年旭川市条例第5号。以下<span class='japanese_style_quotation_mark'>「本件条例」</span>という。）</span>の各条項は、それぞれ別表のものをいう。
 
-[[4](#id_4)]<a id="id_4"></a>　<span class='japanese_style_round_brackets'>（1）</span>法は、国民健康保険事業の健全な運営を確保し、もって社会保障及び国民保健の向上に寄与することを目的とする<span class='japanese_style_round_brackets'>（1条）</span>ものであり、市町村及び特別区<span class='japanese_style_round_brackets'>（以下、単に<span class='japanese_style_quotation_mark'>「市町村」</span>という。）</span>を保険者とし<span class='japanese_style_round_brackets'>（3条1項）</span>、市町村の区域内に住所を有する者を被保険者として当該市町村が行う国民健康保険に強制的に加入させた上<span class='japanese_style_round_brackets'>（5条）</span>、被保険者の疾病、負傷、出産又は死亡に関して必要な保険給付を行い<span class='japanese_style_round_brackets'>（2条）</span>、被保険者の属する世帯の世帯主が納付する保険料又は国民健康保険税<span class='japanese_style_round_brackets'>（76条）</span>のほか、国の負担金<span class='japanese_style_round_brackets'>（69条、70条）</span>、調整交付金<span class='japanese_style_round_brackets'>（72条）</span>及び補助金<span class='japanese_style_round_brackets'>（74条）</span>、都道府県及び市町村の補助金及び貸付金<span class='japanese_style_round_brackets'>（75条）</span>、市町村の一般会計からの繰入金<span class='japanese_style_round_brackets'>（72条の2第1項、72条の3第1項）</span>等をその費用に充てるものとしている。
+###### <span class='japanese_style_round_brackets'>（1）</span>
 
-[[5](#id_5)]<a id="id_5"></a>　<span class='japanese_style_round_brackets'>（2）</span>市町村は、国民健康保険事業に要する費用に充てるために、世帯主から保険料を徴収するか<span class='japanese_style_round_brackets'>（法76条本文）</span>、目的税である国民健康保険税を課することになる<span class='japanese_style_round_brackets'>（地方税法703条の4第1項）</span>ところ、被上告人市は、保険料を徴収する方式を採用している。市町村が徴収する保険料については、督促を受けた者が指定された期限までに納付すべき金額を納付しないときは、地方税の滞納処分の例により処分することができるものとされている<span class='japanese_style_round_brackets'>（法79条の2、地方自治法231条の3第3項）</span>。
+[[4](#id_4)]<a id="id_4"></a>　法は、国民健康保険事業の健全な運営を確保し、もって社会保障及び国民保健の向上に寄与することを目的とする<span class='japanese_style_round_brackets'>（1条）</span>ものであり、市町村及び特別区<span class='japanese_style_round_brackets'>（以下、単に<span class='japanese_style_quotation_mark'>「市町村」</span>という。）</span>を保険者とし<span class='japanese_style_round_brackets'>（3条1項）</span>、市町村の区域内に住所を有する者を被保険者として当該市町村が行う国民健康保険に強制的に加入させた上<span class='japanese_style_round_brackets'>（5条）</span>、被保険者の疾病、負傷、出産又は死亡に関して必要な保険給付を行い<span class='japanese_style_round_brackets'>（2条）</span>、被保険者の属する世帯の世帯主が納付する保険料又は国民健康保険税<span class='japanese_style_round_brackets'>（76条）</span>のほか、国の負担金<span class='japanese_style_round_brackets'>（69条、70条）</span>、調整交付金<span class='japanese_style_round_brackets'>（72条）</span>及び補助金<span class='japanese_style_round_brackets'>（74条）</span>、都道府県及び市町村の補助金及び貸付金<span class='japanese_style_round_brackets'>（75条）</span>、市町村の一般会計からの繰入金<span class='japanese_style_round_brackets'>（72条の2第1項、72条の3第1項）</span>等をその費用に充てるものとしている。
 
-[[6](#id_6)]<a id="id_6"></a>　<span class='japanese_style_round_brackets'>（3）</span>法81条は、法第5章に規定するもののほか、賦課額、料率、賦課期日、納期、減額賦課その他保険料の賦課及び徴収等に関する事項は、政令で定める基準に従って条例で定める旨を規定しており、これを受けて、被上告人市は、国民健康保険法施行令で定める基準に従って本件条例を制定している。
+###### <span class='japanese_style_round_brackets'>（2）</span>
+
+[[5](#id_5)]<a id="id_5"></a>　市町村は、国民健康保険事業に要する費用に充てるために、世帯主から保険料を徴収するか<span class='japanese_style_round_brackets'>（法76条本文）</span>、目的税である国民健康保険税を課することになる<span class='japanese_style_round_brackets'>（地方税法703条の4第1項）</span>ところ、被上告人市は、保険料を徴収する方式を採用している。市町村が徴収する保険料については、督促を受けた者が指定された期限までに納付すべき金額を納付しないときは、地方税の滞納処分の例により処分することができるものとされている<span class='japanese_style_round_brackets'>（法79条の2、地方自治法231条の3第3項）</span>。
+
+###### <span class='japanese_style_round_brackets'>（3）</span>
+
+[[6](#id_6)]<a id="id_6"></a>　法81条は、法第5章に規定するもののほか、賦課額、料率、賦課期日、納期、減額賦課その他保険料の賦課及び徴収等に関する事項は、政令で定める基準に従って条例で定める旨を規定しており、これを受けて、被上告人市は、国民健康保険法施行令で定める基準に従って本件条例を制定している。
 
 [[7](#id_7)]<a id="id_7"></a>　<span class='japanese_style_round_brackets'>（4）</span>市町村が行う国民健康保険に関する収入及び支出については、市町村の一般会計から分離し、特別会計を設けなければならないとされているところ<span class='japanese_style_round_brackets'>（法10条）</span>、被上告人市の平成6年度から同8年度までの国民健康保険事業特別会計においては、保険料収入は全収入の約3分の1であり、国民健康保険事業に要する経費の約3分の2は国庫の負担金、被上告人市の一般会計からの繰入金等の公的資金により賄われていた。
 
-[[8](#id_8)]<a id="id_8"></a>　<span class='japanese_style_round_brackets'>（5）</span>本件条例12条1項は、一般被保険者に係る保険料率について、次のとおり定めている。
+###### <span class='japanese_style_round_brackets'>（5）</span>
+
+[[8](#id_8)]<a id="id_8"></a>　本件条例12条1項は、一般被保険者に係る保険料率について、次のとおり定めている。
 
 [[9](#id_9)]<a id="id_9"></a>　ア　一般被保険者に係る保険料の賦課額<span class='japanese_style_round_brackets'>（本件条例17条により保険料の額を減額するものとした場合にあっては、減額することとなる額を含む。）</span>の総額<span class='japanese_style_round_brackets'>（賦課総額）</span>を、本件条例所定の比率によって所得割総額、資産割総額、被保険者均等割総額及び世帯別平等割総額に4分する。
 
@@ -91,11 +97,17 @@ step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年
 
 [[14](#id_14)]<a id="id_14"></a>　<span class='japanese_style_round_brackets'>（エ）</span>世帯別平等割　世帯別平等割総額を当該年度の初日における一般被保険者の属する世帯の数で除して得た額
 
-[[15](#id_15)]<a id="id_15"></a>　<span class='japanese_style_round_brackets'>（6）</span>本件条例8条は、上記<span class='japanese_style_round_brackets'>（5）</span>アの賦課総額を、同条1号に掲げる額の見込額から同条2号に掲げる見込額を控除した額を基準として算定した額とする旨を規定し、同条1号に掲げる額を別紙目録1のとおり、同条2号に掲げる額を同目録2のとおりそれぞれ定めている。
+###### <span class='japanese_style_round_brackets'>（6）</span>
 
-[[16](#id_16)]<a id="id_16"></a>　<span class='japanese_style_round_brackets'>（7）</span>本件条例9条は、一般被保険者に係る保険料の賦課額を、当該世帯に属する一般被保険者につき算定した所得割額<span class='japanese_style_round_brackets'>（当該一般被保険者に係る賦課期日の属する年の前年の所得に係る基礎控除後の総所得金額等に所得割を乗じて算定した額。本件条例10条）</span>、資産割額<span class='japanese_style_round_brackets'>（当該一般被保険者に係る当該年度分の土地及び家屋に係る固定資産税額に資産割を乗じて算定した額。本件条例11条）</span>及び被保険者均等割額の合算額の総額並びに当該世帯につき算定した世帯別平等割額の合計額と定めている。
+[[15](#id_15)]<a id="id_15"></a>　本件条例8条は、上記<span class='japanese_style_round_brackets'>（5）</span>アの賦課総額を、同条1号に掲げる額の見込額から同条2号に掲げる見込額を控除した額を基準として算定した額とする旨を規定し、同条1号に掲げる額を別紙目録1のとおり、同条2号に掲げる額を同目録2のとおりそれぞれ定めている。
 
-[[17](#id_17)]<a id="id_17"></a>　<span class='japanese_style_round_brackets'>（8）</span>本件条例12条3項は、被上告人市長が一般被保険者に係る保険料率を決定したときは、速やかに告示しなければならないと規定している。これを受けて、被上告人市長は、平成6年度分、同7年度分及び同8年度分の一般被保険者に係る保険料率を、それぞれ賦課期日である4月1日<span class='japanese_style_round_brackets'>（本件条例13条）</span>の後の平成6年7月4日、同7年5月29日及び同8年5月30日に告示した<span class='japanese_style_round_brackets'>（それぞれ平成6年旭川市告示第137号、平成7年旭川市告示第120号及び平成8年旭川市告示第122号）</span>。
+###### <span class='japanese_style_round_brackets'>（7）</span>
+
+[[16](#id_16)]<a id="id_16"></a>　本件条例9条は、一般被保険者に係る保険料の賦課額を、当該世帯に属する一般被保険者につき算定した所得割額<span class='japanese_style_round_brackets'>（当該一般被保険者に係る賦課期日の属する年の前年の所得に係る基礎控除後の総所得金額等に所得割を乗じて算定した額。本件条例10条）</span>、資産割額<span class='japanese_style_round_brackets'>（当該一般被保険者に係る当該年度分の土地及び家屋に係る固定資産税額に資産割を乗じて算定した額。本件条例11条）</span>及び被保険者均等割額の合算額の総額並びに当該世帯につき算定した世帯別平等割額の合計額と定めている。
+
+###### <span class='japanese_style_round_brackets'>（8）</span>
+
+[[17](#id_17)]<a id="id_17"></a>　本件条例12条3項は、被上告人市長が一般被保険者に係る保険料率を決定したときは、速やかに告示しなければならないと規定している。これを受けて、被上告人市長は、平成6年度分、同7年度分及び同8年度分の一般被保険者に係る保険料率を、それぞれ賦課期日である4月1日<span class='japanese_style_round_brackets'>（本件条例13条）</span>の後の平成6年7月4日、同7年5月29日及び同8年5月30日に告示した<span class='japanese_style_round_brackets'>（それぞれ平成6年旭川市告示第137号、平成7年旭川市告示第120号及び平成8年旭川市告示第122号）</span>。
 
 #### 第2　上告人の上告理由第一点、第二点の一及び上告受理申立て理由第二点について
 
@@ -119,7 +131,9 @@ step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年
 
 ##### 4
 
-[[24](#id_24)]<a id="id_24"></a>　<span class='japanese_style_round_brackets'>（1）</span>本件条例12条3項は、被上告人市長に対し、保険料率を決定し、決定した保険料率を告示の方式により公示することを委任しているが、本件条例においては、保険料の賦課総額が確定すれば、保険料率が自動的に算定されることとなっているから、本件条例は、所定の算定基準に従って賦課総額を確定することをも、被上告人市長に委任したものと解される。
+###### <span class='japanese_style_round_brackets'>（1）</span>
+
+[[24](#id_24)]<a id="id_24"></a>　本件条例12条3項は、被上告人市長に対し、保険料率を決定し、決定した保険料率を告示の方式により公示することを委任しているが、本件条例においては、保険料の賦課総額が確定すれば、保険料率が自動的に算定されることとなっているから、本件条例は、所定の算定基準に従って賦課総額を確定することをも、被上告人市長に委任したものと解される。
 
 [[25](#id_25)]<a id="id_25"></a>　本件条例8条は、保険料の賦課総額を、同条1号に掲げる額の見込額から同条2号に掲げる額の見込額を控除した額を基準として算定した額と規定しているところ、同条1号に掲げる額の見込額は、国民健康保険事業の運営に必要な各種費用の合算額の見込額であり、同条2号に掲げる額の見込額は国民健康保険事業に係る収入<span class='japanese_style_round_brackets'>（保険料を除く。）</span>の合算額の見込額である。国民健康保険の保険料は、国民健康保険事業に要する費用に充てるために徴収されるものであるから<span class='japanese_style_round_brackets'>（法76条本文）</span>、当該年度の費用から収入<span class='japanese_style_round_brackets'>（保険料を除く。）</span>を控除したその不足額の合理的な見込額を基礎として賦課総額を算定し、これを世帯主に応分に負担させることは、相互扶助の精神に基づく国民健康保険における保険料徴収の趣旨及び目的に沿うものであり、本件条例もこれを当然の前提としているものと解される。そして、本件条例8条各号は、この費用及び収入の見込額の対象となるものの詳細を明確に規定している。
 
@@ -129,7 +143,9 @@ step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年
 
 [[28](#id_28)]<a id="id_28"></a>　そうすると、本件条例が、8条において保険料率算定の基礎となる賦課総額の算定基準を定めた上で、12条3項において、被上告人市長に対し、同基準に基づいて保険料率を決定し、決定した保険料率を告示の方式により公示することを委任したことをもって、法81条に違反するということはできず、また、これが憲法84条の趣旨に反するということもできない。
 
-[[29](#id_29)]<a id="id_29"></a>　<span class='japanese_style_round_brackets'>（2）</span>また、賦課総額の算定基準及び賦課総額に基づく保険料率の算定方法は、本件条例によって賦課期日までに明らかにされているのであって、この算定基準にのっとって収支均衡を図る観点から決定される賦課総額に基づいて算定される保険料率についてはし意的な判断が加わる余地はなく、これが賦課期日後に決定されたとしても法的安定が害されるものではない。したがって、被上告人市長が本件条例12条3項の規定に基づき平成6年度から同8年度までの各年度の保険料率をそれぞれ各年度の賦課期日後に告示したことは、憲法84条の趣旨に反するものとはいえない。
+###### <span class='japanese_style_round_brackets'>（2）</span>
+
+[[29](#id_29)]<a id="id_29"></a>　また、賦課総額の算定基準及び賦課総額に基づく保険料率の算定方法は、本件条例によって賦課期日までに明らかにされているのであって、この算定基準にのっとって収支均衡を図る観点から決定される賦課総額に基づいて算定される保険料率についてはし意的な判断が加わる余地はなく、これが賦課期日後に決定されたとしても法的安定が害されるものではない。したがって、被上告人市長が本件条例12条3項の規定に基づき平成6年度から同8年度までの各年度の保険料率をそれぞれ各年度の賦課期日後に告示したことは、憲法84条の趣旨に反するものとはいえない。
 
 ##### 5　
 
