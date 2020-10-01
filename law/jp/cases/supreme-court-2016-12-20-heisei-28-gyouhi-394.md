@@ -71,6 +71,8 @@ step: "第一審,福岡高等裁判所那覇支部,平成28年（行ケ）第3�
 
 > [[5](#id_5)]<a id="id_5"></a>　<span class='japanese_style_round_brackets'>（3）</span>
 
+####### ア
+
 >> ア　平成8年4月に行われた内閣総理大臣と駐日米国大使との会談において、普天間飛行場につき、一定の措置を講じた後に返還される旨の合意がされ、更に同年12月、日米安全保障協議委員会<span class='japanese_style_round_brackets'>（日本国とアメリカ合衆国との間の相互協力及び安全保障条約4条を根拠として設置された協議機関）</span>に出席した関係閣僚等により、同飛行場の代替施設を設置し、運用が可能となった後に同飛行場を返還する旨が承認された。その後、国は、同飛行場の代替施設及びその関連施設としての飛行場<span class='japanese_style_round_brackets'>（以下<span class='japanese_style_quotation_mark'>「本件新施設等」</span>という。）</span>を名護市辺野古沿岸域に設置するため、本件埋立事業を実施することとし、沖縄防衛局がその手続を進めた。
 
 >> [[6](#id_6)]<a id="id_6"></a>　イ　沖縄防衛局は、キャンプ・シュワブ施設敷地内から辺野古崎とこれに隣接する大浦湾、辺野古湾の水域を結ぶ形で埋立地を造成し、本件新施設等を設置するため、平成25年3月22日、前知事に対し、原判決別紙4記載の公有水面の埋立て<span class='japanese_style_round_brackets'>（本件埋立事業）</span>の承認を求めて、公有水面埋立承認願書を提出した<span class='japanese_style_round_brackets'>（以下、この出願を<span class='japanese_style_quotation_mark'>「本件埋立出願」</span>という。）</span>。
