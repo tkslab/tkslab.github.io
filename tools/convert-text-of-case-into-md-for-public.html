@@ -398,7 +398,7 @@
 	}
 	
 	function zeroPaddingForYYMMDD(string) {
-	      let regexpYYMMDD = /(\d{1,2})(年)(\d{1,2})(月)(\d{1,2})(日)/
+	      let regexpYYMMDD = /(\d{1,2})(年)　?(\d{1,2})(月)　?(\d{1,2})(日)/
 	      let _, eraName, yy, mm, dd, yyJP, mmJP, ddJP;
 	      [_, yy, yyJP, mm, mmJP, dd, ddJP] = string.match(regexpYYMMDD);
 	      yy = zeroPadding(yy,2);
