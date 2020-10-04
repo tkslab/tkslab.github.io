@@ -10,10 +10,12 @@ footer_file: footer.md
 - [最高裁判所第一小法廷　判決　昭和27年11月20日　最高裁判所民事判例集6巻10号1038頁](/law/jp/cases/supreme-court-1952-11-20-shouwa-26-o-392)
 - [最高裁判所　　　　大法廷　判決　昭和28年02月18日　最高裁判所民事判例集7巻2号157頁](/law/jp/cases/supreme-court-1953-02-18-shouwa-25-o-416)
 
+- [最高裁判所第一小法廷　判決　昭和34年01月29日　最高裁判所民事判例集13巻1号32頁](/law/jp/cases/supreme-court-1959-01-29-shouwa-29-o-391)
 - [最高裁判所第一小法廷　判決　昭和35年03月31日　最高裁判所民事判例集14巻4号663頁](/law/jp/cases/supreme-court-1960-03-31-shouwa-32-o-934)
 - [最高裁判所第三小法廷　判決　昭和36年03月07日　最高裁判所民事判例集15巻3号381頁](/law/jp/cases/supreme-court-1961-03-07-shouwa-35-o-759)
 - [最高裁判所第二小法廷　判決　昭和36年04月21日　最高裁判所民事判例集15巻4号850頁](/law/jp/cases/supreme-court-1961-04-21-shouwa-35-o-248)
 - [最高裁判所第二小法廷　判決　昭和37年12月26日　最高裁判所民事判例集16巻12号2557頁](/law/jp/cases/supreme-court-1962-12-26-shouwa-36-o-409)
+- [最高裁判所第一小法廷　判決　昭和39年10月29日　最高裁判所民事判例集18巻8号1809頁](/law/jp/cases/supreme-court-1964-10-29-shouwa-37-o-296)
 
 - [最高裁判所第一小法廷　判決　昭和48年04月26日　最高裁判所民事判例集27巻3号629頁](/law/jp/cases/supreme-court-1973-04-26-shouwa-42-gyoutsu-57)
 
@@ -30,7 +32,9 @@ footer_file: footer.md
 - [最高裁判所第三小法廷　判決　平成01年09月19日　最高裁判所民事判例集43巻8号955頁](/law/jp/cases/supreme-court-1989-09-19-shouwa-58-o-1413)
 
 - [最高裁判所第一小法廷　判決　平成14年10月24日　最高裁判所民事判例集56巻8号1903頁](/law/jp/cases/supreme-court-2002-10-24-heisei-12-gyouhi-174)
+- [最高裁判所第一小法廷　判決　平成16年04月26日　最高裁判所民事判例集58巻4号989頁](/law/jp/cases/supreme-court-2004-04-26-heisei-15-gyouhi-206)
 - [最高裁判所第三小法廷　判決　平成16年07月13日　判例時報1874号58頁](/law/jp/cases/supreme-court-2004-07-13-heisei-12-gyouhi-32)
+- [最高裁判所第二小法廷　判決　平成17年07月15日　最高裁判所民事判例集59巻6号1661頁](/law/jp/cases/supreme-court-2005-07-15-heisei-14-gyouhi-207)
 - [最高裁判所　　　　大法廷　判決　平成18年03月01日　最高裁判所民事判例集60巻2号587頁](/law/jp/cases/supreme-court-2006-03-01-heisei-12-gyoutsu-62)
 
 - [最高裁判所第二小法廷　判決　平成21年04月17日　最高裁判所民事判例集63巻4号638頁](/law/jp/cases/supreme-court-2009-04-17-heisei-20-gyouhi-35)
