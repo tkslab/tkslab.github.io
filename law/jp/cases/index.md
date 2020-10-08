@@ -63,4 +63,6 @@ additional_footer_file: "footer_for_jp_cases.md"
 
 - [事件記録符号一覧 (www.courts.go.jp)](https://www.courts.go.jp/app/picture/hanrei_help.html)
 
+
 {% include {{ page.footer_file }}  %}
+{% include {{ page.additional_footer_file }}  %}
