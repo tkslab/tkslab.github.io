@@ -430,11 +430,11 @@
 	  rows = full_text.split("\n");
 	  var buffer = "";
 	  var numberOfDocket = "";
-	  var yymmddDayOfJudgment = "";
-	  var dayOfJudgment = "";
-	  var nameOfCourt = "";
-	  var kindOfJudgment = "";
-	  var englishNameOfCourt = "";
+	  var yymmddjudgmentDate = "";
+	  var judgmentDate = "";
+	  var typesOfCourts = "";
+	  var typesOfJudgment = "";
+	  var englishtypesOfCourts = "";
 	  var citationForCase = "";
 	  var numberOfPara = 0;
 	  var isReasonOfJudgment = false;
@@ -443,17 +443,17 @@
 	  $.each(rows, function (_, txt) {
 	    txt = replaceZenkakuWithHankaku(txt.trim());
 	    // 
-	    if (txt.match(/kind_of_judgment/)) {
-	      [_1, _2, kindOfJudgment] = txt.match(/^(.+?):(.+)$/);
+	    if (txt.match(/types_of_judgment/)) {
+	      [_1, _2, typesOfJudgment] = txt.match(/^(.+?):(.+)$/);
 	    }
 	    // 裁判所を英語表記に切り替える
-	    if (txt.match(/kind_of_court/)) {
-		    [_1, nameOfCourt ] = txt.match(/^.+?:(.+)$/);
+	    if (txt.match(/types_of_courts/)) {
+		    [_1, typesOfCourts ] = txt.match(/^.+?:(.+)$/);
 		    
       	  $.each(objCourtNames, function (key, value) {
 		      if (txt.match(new RegExp(key))) {
 		        if (value) {
-			        englishNameOfCourt += value;
+			        englishtypesOfCourts += value;
 		        }
 		      }
 	      });
@@ -461,11 +461,11 @@
 	    }
 	    
 	    
-	    if (txt.match(/day_of_judgment/)) {
+	    if (txt.match(/judgment_date/)) {
 	      txt = zeroPaddingForYYMMDD(txt);
   	      let _;
-	      [_, dayOfJudgment] = txt.match(/^.+?:(.+)$/);
-	      yymmddDayOfJudgment = convertCalendarWithHyphen(convertCalendarFromJapaneseToWestern(txt));
+	      [_, judgmentDate] = txt.match(/^.+?:(.+)$/);
+	      yymmddjudgmentDate = convertCalendarWithHyphen(convertCalendarFromJapaneseToWestern(txt));
 	    }
 	    
 	    if (txt.match(/docket_number/)) {
@@ -476,7 +476,7 @@
 	      kindOfCase = replaceTextWighObj(kindOfCase, objRecordSignForCasesAndRoman);
 	      numberOfDocket = `${eraName}-${y}-${kindOfCase}-${serialNumber}`;
 	    }
-	    if (txt.match(/law_reports/)) {
+	    if (txt.match(/citation/)) {
 	      [_1, _2, citationForCase] = txt.match(/^(.+?):(.+)$/);
 	    }
 	    txt = txt.replace(/^主　+文$/, '### 主文');
@@ -537,7 +537,7 @@ additional_footer_file: "footer_for_jp_cases.md"
 	      isFrontFormatter = false;
 
 	      buffer += `
-## ${nameOfCourt.trim()}　${kindOfJudgment.trim()}　${dayOfJudgment.trim()}　${citationForCase.trim()}
+## ${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}
 
 * table
 {:toc}
@@ -546,16 +546,16 @@ additional_footer_file: "footer_for_jp_cases.md"
 
 | 種類 | 情報 |
 | --- | --- |
-| 裁判所 | {{ page.kind_of_court }} |
-| 裁判の種類 |  {{ page.kind_of_judgment }}  |
-| 言渡期日 |  {{ page.day_of_judgment }}  |
+| 裁判所 | {{ page.types_of_courts }} |
+| 裁判の種類 |  {{ page.judgment_date }}  |
+| 言渡期日 |  {{ page.judgment_date }}  |
 | 事件番号 |  {{ page.docket_number }}  |
 | 事件名 |  {{ page.case_name }}  |
-| 出典 |  {{ page.law_reports }}  |
-| 調査官解説の出典 |  {{ page.commentary_by_research_law_clerk }}  |
+| 出典 |  {{ page.citation }}  |
+| 調査官解説の出典 |  {{ page.source_of_commentary_by_research_law_clerk }}  |
 | 学習用判例集 |  {{ page.teaching_materials }}  |
 | 審級関係 |  {{ page.step }}  |
-| 当事者 |  {{ page.parties }}  |
+| 当事者 |  {{ page.party_name }}  |
 `;
 
 	    }
@@ -567,7 +567,7 @@ additional_footer_file: "footer_for_jp_cases.md"
 `;
 	  
 	  convertedArea.innerHTML = buffer;
-	  textFileName.innerHTML = `${englishNameOfCourt}-${yymmddDayOfJudgment}-${numberOfDocket}.md`;
+	  textFileName.innerHTML = `${englishtypesOfCourts}-${yymmddjudgmentDate}-${numberOfDocket}.md`;
 	}</script>
 
 	<link rel="stylesheet" href="/assets/css/style.css?v=5ba8de3e899d6af0d7c978ed2dc1bc9c4d2b3879">
