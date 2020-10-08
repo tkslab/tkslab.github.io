@@ -1,13 +1,13 @@
 $(function() {
-    $('p').each(function(index, elem) {
+    let para_index = 0;
+    $('p').each(function(_, elem) {
         if ($(elem).closest("li").length > 0) {
             return true
         }
-
-
-        let i = index + 1
+        
+        para_index += 1;
         $(elem).prepend(
-            `[<a href="#id_${i}">${i}</a>]<a id="id_${i}"></a>　`
+            `[<a href="#id_${para_index}">${para_index}</a>]<a id="id_${para_index}"></a>　`
         );
     });
 
