@@ -1,5 +1,6 @@
 ---
-footer_file: footer.md
+footer_file: "footer.md"
+additional_footer_file: "footer_for_jp_cases.md"
 ---
 
 
