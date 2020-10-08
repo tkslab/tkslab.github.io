@@ -440,9 +440,6 @@
 	  var isReasonOfJudgment = false;
 	  var isFrontFormatter = false;
 	  
-	  var depthJapaneseStyleQuotationMark = 0;
-	  var depthRoundBrackets = 0;
-	  
 	  $.each(rows, function (_, txt) {
 	    txt = replaceZenkakuWithHankaku(txt.trim());
 	    // 
@@ -506,15 +503,7 @@
 		}
 	    
 
-	    // 段落番号
-	    if (isReasonOfJudgment && txt != "") {
-		    //  段落番号をつけない
-	      if (!txt.match(/^[\|#>]/)) {
-	        numberOfPara += 1;
-	        txt = `[[${String(numberOfPara)}](#id_${String(numberOfPara)})]`
-	        	+ `<a id="id_${String(numberOfPara)}"></a>　${txt}`;
-	      }
-	    }
+
 	    // フロントマター部分の余分な空白を削除
 	    if (isFrontFormatter && txt.match(/^(.+?):(.+)$/)) {
 	      let _, pre, post;
@@ -527,46 +516,6 @@
 		txt = txt.replace(/，/g, "、");
 	    }
 		  
-		  
-	    // 「」と（）の背景色を設定して見やすくする
-	    // span で囲む
-	    if (isFrontFormatter == false) {
-		    tmpTxt = "";
-		    
-		    $.each(txt.split(""), function (_, char) {
-			if (char == "「") {
-				depthJapaneseStyleQuotationMark += 1
-
-			    if (depthJapaneseStyleQuotationMark == 1) {
-				tmpTxt += `<span class='japanese_style_quotation_mark'>${char}`
-			    }
-			} else if (char == "」") {
-				depthJapaneseStyleQuotationMark -= 1
-
-			    if (depthJapaneseStyleQuotationMark == 0) {
-				tmpTxt += `${char}</span>`
-			    }
-			} else if (char == "（") {
-				depthRoundBrackets += 1
-
-			    if (depthRoundBrackets == 1) {
-				tmpTxt += `<span class='japanese_style_round_brackets'>${char}`
-			    }
-			} else if (char == "）") {
-				depthRoundBrackets -= 1
-
-			    if (depthRoundBrackets == 0) {
-				tmpTxt += `${char}</span>`
-			    }
-			} else {
-			    tmpTxt += `${char}`
-
-			}
-		    });
-		    txt = tmpTxt;
-	    }
-	    
-	    buffer += txt + "\n";
 		  
 		// 改行の挿入を抑制する
 	    if (isFrontFormatter == false) {
