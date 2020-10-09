@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第三小法廷"
-day_of_judgment: "昭和50年02月25日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第三小法廷"
+judgment_date: "昭和50年02月25日"
 docket_number: "昭和48年（オ）第383号"
 case_name: "損害賠償請求上告事件"
-law_reports: "最高裁判所民事判例集29巻2号143頁"
-commentary_by_research_law_clerk: "柴田保幸,最高裁判所判例解説民事篇昭和50年度60頁"
+citation: "最高裁判所民事判例集29巻2号143頁"
+source_of_commentary_by_research_law_clerk: "柴田保幸,最高裁判所判例解説民事篇昭和50年度60頁"
 teaching_materials: "行政判例百選7版I-31事件"
 step: "第一審,東京地方裁判所,昭和44年（ワ）第10838号,昭和46年10月30日,判決|控訴審,東京高等裁判所,昭和46年（ネ）第2901号,昭和48年1月31日,判決"
-parties:
+party_name:
 ---
 
 ## 最高裁判所第三小法廷　判決　昭和50年02月25日　最高裁判所民事判例集29巻2号143頁

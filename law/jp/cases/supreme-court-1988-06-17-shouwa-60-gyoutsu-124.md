@@ -2,14 +2,14 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第二小法廷"
-day_of_judgment: "昭和63年06月17日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第二小法廷"
+judgment_date: "昭和63年06月17日"
 docket_number: "昭和60年（行ツ）第124号"
 case_name: "優生保護法指定医の指定取消処分取消等請求事件"
-law_reports: "判例時報1289号39頁"
-commentary_by_research_law_clerk:
-parties: "上告人, 菊田昇|被上告人, 社団法人宮城県医師会,右代表者理事, 沖津貞夫,被上告人, 国,右代表者法務大臣, 林田悠紀夫"
+citation: "判例時報1289号39頁"
+source_of_commentary_by_research_law_clerk:
+party_name: "上告人, 菊田昇|被上告人, 社団法人宮城県医師会,右代表者理事, 沖津貞夫,被上告人, 国,右代表者法務大臣, 林田悠紀夫"
 step: "第一審,仙台地方裁判所,昭和53年（行ウ）第5号,昭和57年3月30日,判決|控訴審,仙台高等裁判所,昭和57年（行コ）第2号,昭和60年3月29日,判決"
 ---
 

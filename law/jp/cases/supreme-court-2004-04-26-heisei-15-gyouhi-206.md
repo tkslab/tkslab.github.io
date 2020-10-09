@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第一小法廷"
-day_of_judgment: "平成16年04月26日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第一小法廷"
+judgment_date: "平成16年04月26日"
 docket_number: "平成15年（行ヒ）第206号"
 case_name: "食品衛生法違反処分取消請求事件"
-law_reports: "最高裁判所民事判例集58巻4号989頁"
-commentary_by_research_law_clerk: "林俊之, 最高裁判所判例解説民事篇平成16年度291頁"
+citation: "最高裁判所民事判例集58巻4号989頁"
+source_of_commentary_by_research_law_clerk: "林俊之, 最高裁判所判例解説民事篇平成16年度291頁"
 teaching_materials:
 step: "第一審, 千葉地方裁判所, 平成13年（行ウ）第35号, 平成14年, 8月, 9日, 判決|控訴審, 東京高等裁判所, 平成14年（行コ）第230号, 平成15年4月23日, 判決|差戻第一審, 千葉地方裁判所, 平成16年（行ウ）第23号, 平成18年3月17日, 判決|差戻控訴審, 東京高等裁判所, 平成18年（行コ）第101号平成19年, 7月18日, 判決"
-parties:
+party_name:
 ---
 
 ## 最高裁判所第一小法廷　判決　平成16年04月26日　最高裁判所民事判例集58巻4号989頁

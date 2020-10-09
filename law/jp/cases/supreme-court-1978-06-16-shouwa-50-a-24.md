@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第二小法廷"
-day_of_judgment: "昭和53年06月16日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第二小法廷"
+judgment_date: "昭和53年06月16日"
 docket_number: "昭和50年（あ）第24号"
 case_name: "風俗営業等取締法違反被告事件"
-law_reports: "最高裁判所刑事判例集32巻4号605頁"
-commentary_by_research_law_clerk: "松本光雄, 最高裁判所判例解説刑事篇昭和53年度179頁"
+citation: "最高裁判所刑事判例集32巻4号605頁"
+source_of_commentary_by_research_law_clerk: "松本光雄, 最高裁判所判例解説刑事篇昭和53年度179頁"
 teaching_materials: "行政判例百選7版I-68事件"
 step: "第一審, 酒田簡易裁判所, 昭和44年（ろ）第5号, 昭和47年10月23日, 判決|控訴審, 仙台高等裁判所秋田支部, 昭和47年（う）第110号, 昭和49年12月10日, 判決"
-parties:
+party_name:
 ---
 
 ## 最高裁判所第二小法廷　判決　昭和53年06月16日　最高裁判所刑事判例集32巻4号605頁

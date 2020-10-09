@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第三小法廷"
-day_of_judgment: "平成16年07月13日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第三小法廷"
+judgment_date: "平成16年07月13日"
 docket_number: "平成12年（行ヒ）第32号, 平成12年（行ヒ）第33号, 平成12年（行ヒ）第34号"
 case_name: "法人税更正処分等取消請求事件"
-law_reports: "判例時報1874号58頁"
-commentary_by_research_law_clerk:
+citation: "判例時報1874号58頁"
+source_of_commentary_by_research_law_clerk:
 teaching_materials:
 step: "第一審, 熊本地方裁判所, 平成2年（行ウ）第13号, 平成, 8年, 3月29日, 判決|控訴審, 福岡高等裁判所, 平成8年（行コ）第11号, 平成11年, 4月27日, 判決"
-parties:
+party_name:
 ---
 
 ## 最高裁判所第三小法廷　判決　平成16年07月13日　判例時報1874号58頁

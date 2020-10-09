@@ -2,14 +2,14 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第二小法廷"
-day_of_judgment: "平成28年12月20日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第二小法廷"
+judgment_date: "平成28年12月20日"
 docket_number: "平成28年（行ヒ）第394号"
 case_name: "地方自治法251条の7第1項の規定に基づく不作為の違法確認請求事件"
-law_reports: "最高裁判所民事判例集70巻9号2281頁"
-commentary_by_research_law_clerk: "衣斐瑞穂,最高裁判所判例解説民事篇平成28年度580頁"
-parties:
+citation: "最高裁判所民事判例集70巻9号2281頁"
+source_of_commentary_by_research_law_clerk: "衣斐瑞穂,最高裁判所判例解説民事篇平成28年度580頁"
+party_name:
 step: "第一審,福岡高等裁判所那覇支部,平成28年（行ケ）第3号,平成28年9月16日,判決"
 ---
 

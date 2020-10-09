@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第三小法廷"
-day_of_judgment: "昭和53年03月14日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第三小法廷"
+judgment_date: "昭和53年03月14日"
 docket_number: "昭和49年（行ツ）第99号"
 case_name: "審決取消請求上告事件"
-law_reports: "最高裁判所民事判例集32巻2号211頁"
-commentary_by_research_law_clerk: "越山安久, 最高裁判所判例解説民事篇昭和53年度75頁"
+citation: "最高裁判所民事判例集32巻2号211頁"
+source_of_commentary_by_research_law_clerk: "越山安久, 最高裁判所判例解説民事篇昭和53年度75頁"
 teaching_materials: "行政判例百選7版II-132事件"
 step: "第一審,	東京高等裁判所, 昭和48年（行ケ）第34号, 昭和49年7月19日, 判決"
-parties: "上告人, 原告, 主婦連合会|被上告人, 被告, 公正取引委員会"
+party_name: "上告人, 原告, 主婦連合会|被上告人, 被告, 公正取引委員会"
 ---
 
 ## 最高裁判所第三小法廷　判決　昭和53年03月14日　最高裁判所民事判例集32巻2号211頁

@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第一小法廷"
-day_of_judgment: "昭和57年09月09日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第一小法廷"
+judgment_date: "昭和57年09月09日"
 docket_number: "昭和52年（行ツ）第56号"
 case_name: "保安林解除処分取消請求上告事件"
-law_reports: "最高裁判所民事判例集36巻9号1679頁"
-commentary_by_research_law_clerk: "園部逸夫・最高裁判所判例解説民事篇昭和57年度686頁"
+citation: "最高裁判所民事判例集36巻9号1679頁"
+source_of_commentary_by_research_law_clerk: "園部逸夫・最高裁判所判例解説民事篇昭和57年度686頁"
 teaching_materials: "行政判例百選7版II-177事件"
 step: "第一審, 札幌地方裁判所, 昭和44年（行ウ）第23号, 昭和48年9月7日, 判決|控訴審, 札幌高等裁判所, 昭和48年（行コ）第2号, 昭和51年8月5日, 判決"
-parties: "上告人, 被控訴人, 原告, 宇野邦晴, 外一二七名|被上告人, 控訴人, 被告, 農林水産大臣, 田沢吉郎"
+party_name: "上告人, 被控訴人, 原告, 宇野邦晴, 外一二七名|被上告人, 控訴人, 被告, 農林水産大臣, 田沢吉郎"
 ---
 
 ## 最高裁判所第一小法廷　判決　昭和57年09月09日　最高裁判所民事判例集36巻9号1679頁

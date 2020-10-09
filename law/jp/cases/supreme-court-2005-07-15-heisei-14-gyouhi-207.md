@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第二小法廷"
-day_of_judgment: "平成17年07月15日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第二小法廷"
+judgment_date: "平成17年07月15日"
 docket_number: "平成14年（行ヒ）第207号"
 case_name: "勧告取消等請求事件"
-law_reports: "最高裁判所民事判例集59巻6号1661頁"
-commentary_by_research_law_clerk: "杉原則彦, 最高裁判所判例解説民事篇平成17年度440頁"
+citation: "最高裁判所民事判例集59巻6号1661頁"
+source_of_commentary_by_research_law_clerk: "杉原則彦, 最高裁判所判例解説民事篇平成17年度440頁"
 teaching_materials: "行政判例百選7版II-160事件"
 step: "第一審, 富山地方裁判所, 平成10年（行ウ）第3号, 平成13年10月31日, 判決|控訴審, 名古屋高等裁判所金沢支部, 平成13年（行コ）第18号, 平成14年5月20日, 判決|差戻第一審, 富山地方裁判所, 平成17年（行ウ）第5号, 平成19年, 8月29日, 判決|差戻控訴審, 名古屋高等裁判所金沢支部, 平成19年（行コ）第18号, 平成20年, 7月23日, 判決"
-parties:
+party_name:
 ---
 
 ## 最高裁判所第二小法廷　判決　平成17年07月15日　最高裁判所民事判例集59巻6号1661頁

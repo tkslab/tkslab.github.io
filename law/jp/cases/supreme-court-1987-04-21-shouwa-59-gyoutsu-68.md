@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第三小法廷"
-day_of_judgment: "昭和62年04月21日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第三小法廷"
+judgment_date: "昭和62年04月21日"
 docket_number: "昭和59年（行ツ）第68号"
 case_name: "懲戒処分取消請求事件"
-law_reports: "最高裁判所民事判例集41巻3号309頁"
-commentary_by_research_law_clerk: "石川善則, 最高裁判所判例解説民事篇昭和62年度158頁"
+citation: "最高裁判所民事判例集41巻3号309頁"
+source_of_commentary_by_research_law_clerk: "石川善則, 最高裁判所判例解説民事篇昭和62年度158頁"
 teaching_materials: "行政判例百選7版II-138事件"
 step: "第一審, 鳥取地方裁判所, 昭和56年（行ウ）第2号, 昭和58年8月10日, 判決|控訴審, 広島高等裁判所松江支部, 昭和58年（行コ）第1号, 昭和59年2月29日, 判決"
-parties: "上告人, 控訴人, 原告, 石倉俊男|被上告人, 被控訴人, 被告, 中国郵政局長, 小宮和夫"
+party_name: "上告人, 控訴人, 原告, 石倉俊男|被上告人, 被控訴人, 被告, 中国郵政局長, 小宮和夫"
 ---
 
 ## 最高裁判所第三小法廷　判決　昭和62年04月21日　最高裁判所民事判例集41巻3号309頁

@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "決定"
-kind_of_court: "福岡高等裁判所"
-day_of_judgment: "平成17年05月27日"
+types_of_judgment: "決定"
+types_of_courts: "福岡高等裁判所"
+judgment_date: "平成17年05月27日"
 docket_number: "平成17年（行ス）第3号"
 case_name: "被告変更許可申立て却下決定に対する抗告事件"
-law_reports: "判例タイムズ1223号155頁"
-commentary_by_research_law_clerk:
+citation: "判例タイムズ1223号155頁"
+source_of_commentary_by_research_law_clerk:
 teaching_materials:
 step:
-parties:
+party_name:
 ---
 
 ## 福岡高等裁判所　決定　平成17年05月27日　判例タイムズ1223号155頁

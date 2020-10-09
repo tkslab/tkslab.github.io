@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第一小法廷"
-day_of_judgment: "昭和48年04月26日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第一小法廷"
+judgment_date: "昭和48年04月26日"
 docket_number: "昭和42年（行ツ）第57号"
 case_name: "所得税賦課処分無効確認等請求事件"
-law_reports: "最高裁判所民事判例集27巻3号629頁"
-commentary_by_research_law_clerk: "可部恒雄, 最高裁判所判例解説民事篇昭和48年度532頁"
+citation: "最高裁判所民事判例集27巻3号629頁"
+source_of_commentary_by_research_law_clerk: "可部恒雄, 最高裁判所判例解説民事篇昭和48年度532頁"
 teaching_materials: "行政判例百選7版I-83事件"
 step: "第一審, 横浜地方裁判所, 昭和38年（行）第11号, 	昭和40年12月21日, 判決|控訴審, 東京高等裁判所, 昭和41年（行コ）第4号, 昭和42年, 4月17日, 判決|差戻控訴審, 東京高等裁判所, 昭和48年（行コ）第30号, 昭和49年10月23日, 判決"
-parties: "上告人, 花里広吉|被上告人, 神奈川税務署長, 杉山健太郎"
+party_name: "上告人, 花里広吉|被上告人, 神奈川税務署長, 杉山健太郎"
 ---
 
 ## 最高裁判所第一小法廷　判決　昭和48年04月26日　最高裁判所民事判例集27巻3号629頁
