@@ -85,17 +85,15 @@ $(function() {
 
 
 		$.each(search_pattern_for_using_roman_numbers, function(_, search_pattern) {
-
-
 			let patterns_matched = tmpHTML.match(new RegExp(search_pattern, "gi"));
 			
-			// 文字列の長さ順にソート
-			if (patterns_matched != null) {
-				console.log(patterns_matched);
-				patterns_matched.sort(function(a, b) {return b.length - a.length;});
-				console.log(patterns_matched);
+			if (patterns_matched == null) {
+				return true;
 			}
-
+			
+			// 文字列の長さ順にソート
+			patterns_matched.sort(function(a, b) {return b.length - a.length;});
+			
 			$.each(patterns_matched, function(_, pattern) {
 				let text_with_hankaku_numbers = replaceTextWighObj(pattern,
 					objChineseNumbersAndRomanNumbers);
