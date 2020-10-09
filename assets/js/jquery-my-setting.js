@@ -15,7 +15,8 @@ var objChineseNumbersAndRomanNumbers = {
 	'六': 6,
 	'七': 7,
 	'八': 8,
-	'九': 9
+	'九': 9,
+	'、': ","
 }
 
 var search_pattern_for_using_roman_numbers = [
@@ -24,6 +25,7 @@ var search_pattern_for_using_roman_numbers = [
 	"[〇一二三四五六七八九]+(年|月|箇月|カ月|日)",
 	"[〇一二三四五六七八九]+[巻号頁]",
 	"[〇一二三四五六七八九]+・[〇一二三四五六七八九]+・[〇一二三四五六七八九]+",
+	"[〇一二三四五六七八九、万]+円",
 ]
 
 
