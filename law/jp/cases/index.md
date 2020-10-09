@@ -73,7 +73,7 @@ additional_footer_file: "footer_for_jp_cases.md"
 - [最高裁判所第一小法廷　判決　平成17年09月08日　判例時報1920号29頁](/law/jp/cases/supreme-court-2005-09-08-heisei-14-gyoutsu-36)
 - [最高裁判所第三小法廷　判決　平成17年10月25日　判例時報1920号32頁](/law/jp/cases/supreme-court-2005-10-25-heisei-15-gyouhi-320)
 - [最高裁判所　　　　大法廷　判決　平成18年03月01日　最高裁判所民事判例集60巻2号587頁](/law/jp/cases/supreme-court-2006-03-01-heisei-12-gyoutsu-62)
-- [最高裁判所第二小法廷　判決　平成18年07月14日　最高裁判所民事判例集60巻6号2369頁]/law/jp/cases/supreme-court-2006-07-14-heisei-15-gyoutsu-35)
+- [最高裁判所第二小法廷　判決　平成18年07月14日　最高裁判所民事判例集60巻6号2369頁](/law/jp/cases/supreme-court-2006-07-14-heisei-15-gyoutsu-35)
 
 #### 平成21年～
 
