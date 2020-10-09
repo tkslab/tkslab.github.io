@@ -43,6 +43,21 @@ h6 {
   background: linear-gradient(transparent 60%, #e0ebaf 60%);
 }
 
+
+p {
+line-height:1.7
+}
+
+
+.dt {
+  font-style:normal;
+  background: linear-gradient(transparent 60%, #AC5936 60%);
+}
+
+.dd {
+  text-indent:4em;
+}
+
 /* IEだけに適応 */
 
 _:lang(x)::-ms-backdrop, .selector {
@@ -51,6 +66,3 @@ _:lang(x)::-ms-backdrop, .selector {
   }
 }
 
-p {
-line-height:1.7
-}
