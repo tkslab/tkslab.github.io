@@ -50,8 +50,10 @@ line-height:1.7
 
 
 dt {
+  padding: 0.5em;
+  border-left: 4px solid #ffc1ff;
+  
   font-style:normal;
-  background: linear-gradient(transparent 60%, #AC5936 60%);
 }
 
 dd {
