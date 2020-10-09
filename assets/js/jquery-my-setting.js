@@ -88,6 +88,9 @@ $(function() {
 
 
 			let patterns_matched = tmpHTML.match(new RegExp(search_pattern, "gi"));
+			
+			// 文字列の長さ順にソート
+			patterns_matched.sort(function(a, b) {return b.length - a.length;});
 
 			$.each(patterns_matched, function(_, pattern) {
 				let text_with_hankaku_numbers = replaceTextWighObj(pattern,
