@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第一小法廷"
-day_of_judgment: "昭和34年01月29日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第一小法廷"
+judgment_date: "昭和34年01月29日"
 docket_number: "昭和29年（オ）第391号"
 case_name: "書類返還損害賠償並びに慰藉料請求上告事件"
-law_reports: "最高裁判所民事判例集13巻1号32頁"
-commentary_by_research_law_clerk: "田中真次, 最高裁判所判例解説民事篇昭和34年度8頁"
+citation: "最高裁判所民事判例集13巻1号32頁"
+source_of_commentary_by_research_law_clerk: "田中真次, 最高裁判所判例解説民事篇昭和34年度8頁"
 teaching_materials: "行政判例百選7版I-20事件"
 step: "第一審, 福岡地方裁判所, 昭和25年（行）第22号, 昭和26年2月28日, 判決|控訴審, 福岡高等裁判所, 昭和26年（ネ）第495号, 昭和29年, 2月26日, 判決"
-parties:
+party_name:
 ---
 
 ## 最高裁判所第一小法廷　判決　昭和34年01月29日　最高裁判所民事判例集13巻1号32頁

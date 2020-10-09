@@ -2,14 +2,14 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "東京高等裁判所"
-day_of_judgment: "平成15年05月21日"
+types_of_judgment: "判決"
+types_of_courts: "東京高等裁判所"
+judgment_date: "平成15年05月21日"
 docket_number: "平成13年（ネ）第3067号"
 case_name: "損害賠償請求控訴事件"
-law_reports: "判例時報1835号77頁"
+citation: "判例時報1835号77頁"
 commentary_by_investigation_officer:
-parties:
+party_name:
 step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13年5月30日,判決"
 ---
 

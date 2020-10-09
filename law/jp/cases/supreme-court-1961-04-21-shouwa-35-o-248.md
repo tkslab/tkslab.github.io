@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第二小法廷"
-day_of_judgment: "昭和36年04月21日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第二小法廷"
+judgment_date: "昭和36年04月21日"
 docket_number: "昭和35年（オ）第248号"
 case_name: "宅地買収不服所有権確認請求上告事件"
-law_reports: "最高裁判所民事判例集15巻4号850頁"
-commentary_by_research_law_clerk: "白石健三, 最高裁判所判例解説民事篇昭和36年度159頁"
+citation: "最高裁判所民事判例集15巻4号850頁"
+source_of_commentary_by_research_law_clerk: "白石健三, 最高裁判所判例解説民事篇昭和36年度159頁"
 teaching_materials:
 step: "第一審, 岡山地方裁判所|控訴審, 広島高等裁判所岡山支部, 昭和34年11月30日, 判決"
-parties: "上告人, 控訴人, 原告, 大森武夫|被上告人, 被控訴人, 被告, 矢掛町農業委員会"
+party_name: "上告人, 控訴人, 原告, 大森武夫|被上告人, 被控訴人, 被告, 矢掛町農業委員会"
 ---
 
 ## 最高裁判所第二小法廷　判決　昭和36年04月21日　最高裁判所民事判例集15巻4号850頁

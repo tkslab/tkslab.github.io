@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所大法廷"
-day_of_judgment: "昭和28年02月18日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所大法廷"
+judgment_date: "昭和28年02月18日"
 docket_number: "昭和25年（オ）第416号"
 case_name: "行政行為取消請求上告事件"
-law_reports: "最高裁判所民事判例集7巻2号157頁"
-commentary_by_research_law_clerk:
+citation: "最高裁判所民事判例集7巻2号157頁"
+source_of_commentary_by_research_law_clerk:
 teaching_materials:
 step: "第一審,大分地方裁判所,昭和23年（行）第30号|控訴審,福岡高等裁判所,昭和25年（ネ）第142号,昭和25年10月9日,判決"
-parties: "上告人, 控訴人, 被告, 大分県農地委員会, 代表者, 会長, 細田徳寿|被上告人, 被控訴人, 原告, 平尾縫太郎"
+party_name: "上告人, 控訴人, 被告, 大分県農地委員会, 代表者, 会長, 細田徳寿|被上告人, 被控訴人, 原告, 平尾縫太郎"
 ---
 
 ## 最高裁判所大法廷　判決　昭和28年02月18日　最高裁判所民事判例集7巻2号157頁

@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第三小法廷"
-day_of_judgment: "昭和36年03月07日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第三小法廷"
+judgment_date: "昭和36年03月07日"
 docket_number: "昭和35年（オ）第759号"
 case_name: "国税賦課処分無効確認請求事件"
-law_reports: "最高裁判所民事判例集15巻3号381頁"
-commentary_by_research_law_clerk: "白石健三, 最高裁判所判例解説民事篇昭和36年度号94頁"
+citation: "最高裁判所民事判例集15巻3号381頁"
+source_of_commentary_by_research_law_clerk: "白石健三, 最高裁判所判例解説民事篇昭和36年度号94頁"
 teaching_materials:
 step: "第一審, 福島地方裁判所, 昭和33年（行）第4号, 昭和34年3月6日, 判決|控訴審, 仙台高等裁判所, 昭和34年（ネ）第132号, 昭和35年, 4月11日, 判決"
-parties: "上告人, 渡辺兼太郎|被上告人, 平税務署長, 木須義晴"
+party_name: "上告人, 渡辺兼太郎|被上告人, 平税務署長, 木須義晴"
 ---
 
 ## 最高裁判所第三小法廷　判決　昭和36年03月07日　最高裁判所民事判例集15巻3号381頁

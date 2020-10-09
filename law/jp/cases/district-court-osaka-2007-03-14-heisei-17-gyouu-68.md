@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "大阪地方裁判所"
-day_of_judgment: "平成19年03月14日"
+types_of_judgment: "判決"
+types_of_courts: "大阪地方裁判所"
+judgment_date: "平成19年03月14日"
 docket_number: "平成17年（行ウ）第68号"
 case_name: "個人タクシー値下げ請求却下処分取消請求事件"
-law_reports: "判例タイムズ1252号189頁"
-commentary_by_research_law_clerk:
+citation: "判例タイムズ1252号189頁"
+source_of_commentary_by_research_law_clerk:
 teaching_materials:
 step:
-parties:
+party_name:
 ---
 
 ## 大阪地方裁判所　判決　平成19年03月14日　判例タイムズ1252号189頁

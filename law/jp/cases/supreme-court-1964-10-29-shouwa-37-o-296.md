@@ -2,16 +2,16 @@
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
-kind_of_judgment: "判決"
-kind_of_court: "最高裁判所第一小法廷"
-day_of_judgment: "昭和39年10月29日"
+types_of_judgment: "判決"
+types_of_courts: "最高裁判所第一小法廷"
+judgment_date: "昭和39年10月29日"
 docket_number: "昭和37年（オ）第296号"
 case_name: "ごみ焼場設置条例無効確認等請求上告事件"
-law_reports: "最高裁判所民事判例集18巻8号1809頁"
-commentary_by_research_law_clerk:
+citation: "最高裁判所民事判例集18巻8号1809頁"
+source_of_commentary_by_research_law_clerk:
 teaching_materials: "行政判例百選7版II-148事件"
 step: "第一審, 東京地方裁判所, 昭和35年（行）第12号, 昭和36年2月23日, 判決|控訴審, 東京高等裁判所, 昭和36年（ネ）第431号, 昭和36年12月14日, 判決"
-parties: "上告人, 控訴人, 原告, 町田又吉, 外八名|被上告人, 被控訴人, 被告, 東京都"
+party_name: "上告人, 控訴人, 原告, 町田又吉, 外八名|被上告人, 被控訴人, 被告, 東京都"
 ---
 
 ## 最高裁判所第一小法廷　判決　昭和39年10月29日　最高裁判所民事判例集18巻8号1809頁
