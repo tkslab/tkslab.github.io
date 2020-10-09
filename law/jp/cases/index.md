@@ -3,6 +3,8 @@ footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 ---
 
+* table
+{:toc}
 
 ## 裁判資料（日本）
 
