@@ -82,6 +82,8 @@ $(function() {
 
 
 		$.each(search_pattern_for_using_roman_numbers, function(_, search_pattern) {
+
+
 			let patterns_matched = tmpHTML.match(new RegExp(search_pattern, "gi"));
 
 			$.each(patterns_matched, function(_, pattern) {
@@ -89,7 +91,7 @@ $(function() {
 					objChineseNumbersAndRomanNumbers);
 
 
-				tmpHTML = tmpHTML.replace(pattern, text_with_hankaku_numbers);
+				tmpHTML = tmpHTML.replace(new RegExp(pattern, 'g'), text_with_hankaku_numbers);
 			});
 		});
 
