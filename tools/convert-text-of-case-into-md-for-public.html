@@ -398,7 +398,7 @@
 	}
 	
 	function zeroPaddingForYYMMDD(string) {
-	      let regexpYYMMDD = /(\d{1,2})(年)　?(\d{1,2})(月)　?(\d{1,2})(日)/
+	      let regexpYYMMDD = /　?(\d{1,2})(年)　?(\d{1,2})(月)　?(\d{1,2})(日)/
 	      let _, eraName, yy, mm, dd, yyJP, mmJP, ddJP;
 	      [_, yy, yyJP, mm, mmJP, dd, ddJP] = string.match(regexpYYMMDD);
 	      yy = zeroPadding(yy,2);
@@ -469,7 +469,7 @@
 	    }
 	    
 	    if (txt.match(/docket_number/)) {
-	      let regexpForNumberOfDocket = /(明治|大正|昭和|平成|令和)(\d{1,2})年（(.{1,2})）第(\d{1,5})号/
+	      let regexpForNumberOfDocket = /(明治|大正|昭和|平成|令和)　?(\d{1,2})年（(.{1,2})）第(\d{1,5})号/
 	      let _, eraName, y, kindOfCase, serialNumber;
 	      [_, eraName, y, kindOfCase, serialNumber] = txt.match(regexpForNumberOfDocket);
 	      eraName = replaceTextWighObj(eraName, objEraNames);
