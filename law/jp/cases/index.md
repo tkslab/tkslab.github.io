@@ -36,7 +36,7 @@ additional_footer_file: "footer_for_jp_cases.md"
 - [最高裁判所　　　　大法廷　判決　昭和56年12月16日　最高裁判所民事判例集35巻10号1369頁](/law/jp/cases/supreme-court-1981-12-16-shouwa-51-o-395)
 - [最高裁判所第一小法廷　判決　昭和57年05月27日　最高裁判所民事判例集36巻5号777頁](/law/jp/cases/supreme-court-1982-05-27-shouwa-51-gyoutsu-114)
 - [最高裁判所第一小法廷　判決　昭和57年09月09日　最高裁判所民事判例集36巻9号1679頁](/law/jp/cases/supreme-court-1982-09-09-shouwa-52-gyoutsu-56)
-- [最高裁判所大法廷　判決　昭和59年12月12日　最高裁判所民事判例集38巻12号1308頁](/law/jp/cases/supreme-court-1984-12-12-shouwa-57-gyoutsu-156)
+- [最高裁判所　　　　大法廷　判決　昭和59年12月12日　最高裁判所民事判例集38巻12号1308頁](/law/jp/cases/supreme-court-1984-12-12-shouwa-57-gyoutsu-156)
 
 
 - [最高裁判所第三小法廷　判決　昭和62年04月21日　最高裁判所民事判例集41巻3号309頁](/law/jp/cases/supreme-court-1987-04-21-shouwa-59-gyoutsu-68)
