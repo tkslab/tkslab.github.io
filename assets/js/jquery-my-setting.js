@@ -22,6 +22,7 @@ var objChineseNumbersAndRomanNumbers = {
 var search_pattern_for_using_roman_numbers = [
 	"([〇一二三四五六七八九]+[条項号]の){1,2}[〇一二三四五六七八九]+[条項号]?[あ-ん、。]",
 	"[〇一二三四五六七八九]+[条項号]",
+	"[〇一二三四五六七八九、]+各[条項号]",
 	// 割合
 	"[〇一二三四五六七八九]+分の[〇一二三四五六七八九]+",
 	// 日時
