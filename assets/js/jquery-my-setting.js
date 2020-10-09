@@ -52,6 +52,8 @@ $(function() {
             }
         });
 
+        // let pattern_matched = tmpHTML.match(/[〇一二三四五六七八九の条]+条/);
+        
         $(elem).html(tmpHTML);
     });
 });
