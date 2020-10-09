@@ -23,18 +23,6 @@ party_name: "上告人, 附帯被上告人, 盛岡市長|被上告人, 附帯上
 
 
 
-| 裁判所 | {{ page.types_of_courts }} |
-| 裁判の種類 |  {{ page.judgment_date }}  |
-| 言渡期日 |  {{ page.judgment_date }}  |
-
-
-| 出典 |  {{ page.citation }}  |
-| 調査官解説の出典 |  {{ page.source_of_commentary_by_research_law_clerk }}  |
-
-
-| 当事者 |  {{ page.party_name }}  |
-
-
 ### 主文
 
 

@@ -23,18 +23,6 @@ party_name: "上告人, 控訴人, 原告, 江戸川区, 外一二名|被上告�
 
 
 
-| 裁判所 | {{ page.types_of_courts }} |
-| 裁判の種類 |  {{ page.judgment_date }}  |
-| 言渡期日 |  {{ page.judgment_date }}  |
-
-
-| 出典 |  {{ page.citation }}  |
-| 調査官解説の出典 |  {{ page.source_of_commentary_by_research_law_clerk }}  |
-
-
-| 当事者 |  {{ page.party_name }}  |
-
-
 
 
 
