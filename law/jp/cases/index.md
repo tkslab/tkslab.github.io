@@ -54,6 +54,7 @@ additional_footer_file: "footer_for_jp_cases.md"
 #### 昭和61年～
 
 - [最高裁判所第三小法廷　判決　昭和62年04月21日　最高裁判所民事判例集41巻3号309頁](/law/jp/cases/supreme-court-1987-04-21-shouwa-59-gyoutsu-68)
+- [最高裁判所第三小法廷　判決　昭和62年10月30日　判例時報1262号91頁](/law/jp/cases/supreme-court-1987-10-30-shouwa-60-gyoutsu-125)
 - [最高裁判所第二小法廷　判決　昭和63年06月17日　判例時報1289号39頁](/law/jp/cases/supreme-court-1988-06-17-shouwa-60-gyoutsu-124)
 
 #### 平成01年～
@@ -74,6 +75,8 @@ additional_footer_file: "footer_for_jp_cases.md"
 - [最高裁判所第三小法廷　判決　平成17年10月25日　判例時報1920号32頁](/law/jp/cases/supreme-court-2005-10-25-heisei-15-gyouhi-320)
 - [最高裁判所　　　　大法廷　判決　平成18年03月01日　最高裁判所民事判例集60巻2号587頁](/law/jp/cases/supreme-court-2006-03-01-heisei-12-gyoutsu-62)
 - [最高裁判所第二小法廷　判決　平成18年07月14日　最高裁判所民事判例集60巻6号2369頁](/law/jp/cases/supreme-court-2006-07-14-heisei-15-gyoutsu-35)
+- [最高裁判所第三小法廷　判決　平成19年02月06日　最高裁判所民事判例集61巻1号122頁](/law/jp/cases/supreme-court-2007-02-06-heisei-18-gyouhi-136)
+
 
 #### 平成21年～
 
