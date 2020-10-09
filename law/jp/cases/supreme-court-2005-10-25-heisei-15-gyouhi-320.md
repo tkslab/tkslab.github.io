@@ -1,6 +1,7 @@
 ---
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
+info_on_case_file: "info_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第三小法廷"
 judgment_date: "平成17年10月25日"
@@ -18,19 +19,19 @@ party_name:
 * table
 {:toc}
 
-### 裁判情報
+{% include {{ page.info_on_case_file }}  %}
 
-| 種類 | 情報 |
-| --- | --- |
+
+
 | 裁判所 | {{ page.types_of_courts }} |
 | 裁判の種類 |  {{ page.judgment_date }}  |
 | 言渡期日 |  {{ page.judgment_date }}  |
-| 事件番号 |  {{ page.docket_number }}  |
-| 事件名 |  {{ page.case_name }}  |
+
+
 | 出典 |  {{ page.citation }}  |
 | 調査官解説の出典 |  {{ page.source_of_commentary_by_research_law_clerk }}  |
-| 学習用判例集 |  {{ page.teaching_materials }}  |
-| 審級関係 |  {{ page.step }}  |
+
+
 | 当事者 |  {{ page.party_name }}  |
 
 

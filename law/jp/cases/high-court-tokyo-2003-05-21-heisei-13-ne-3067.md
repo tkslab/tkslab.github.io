@@ -1,6 +1,7 @@
 ---
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
+info_on_case_file: "info_for_jp_cases.md"
 kind_of_judgment: "判決"
 kind_of_court: "東京高等裁判所"
 day_of_judgment: "平成15年05月21日"
@@ -17,20 +18,20 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 * table
 {:toc}
 
-### 裁判情報
+{% include {{ page.info_on_case_file }}  %}
 
-| 種類 | 情報 |
-| --- | --- |
-| 裁判所 | {{ page.kind_of_court }} |
-| 裁判の種類 |  {{ page.kind_of_judgment }}  |
-| 言渡期日 |  {{ page.day_of_judgment }}  |
-| 事件番号 |  {{ page.docket_number }}  |
-| 事件名 |  {{ page.case_name }}  |
-| 出典 |  {{ page.law_reports }}  |
-| 調査官解説の出典 |  {{ page.commentary_by_research_law_clerk }}  |
-| 学習用判例集 |  {{ page.teaching_materials }}  |
-| 審級関係 |  {{ page.step }}  |
-| 当事者 |  {{ page.parties }}  |
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
