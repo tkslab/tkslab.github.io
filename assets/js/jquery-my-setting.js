@@ -20,7 +20,7 @@ var objChineseNumbersAndRomanNumbers = {
 
 var search_pattern_for_using_roman_numbers = [
 	"([〇一二三四五六七八九]+[条項号]の){1,2}[〇一二三四五六七八九]+[条項号]?[あ-ん、。]",
-	"[〇一二三四五六七八九]+[条項号][あ-ん、。]",
+	"[〇一二三四五六七八九]+[条項号]",
 	"[〇一二三四五六七八九]+(年|月|箇月|カ月|日)",
 	"[〇一二三四五六七八九]+[巻号頁]",
 ]
@@ -91,7 +91,8 @@ $(function() {
 					objChineseNumbersAndRomanNumbers);
 
 
-				tmpHTML = tmpHTML.replace(new RegExp(pattern, 'g'), text_with_hankaku_numbers);
+				tmpHTML = tmpHTML.replace(new RegExp(pattern, 'g'),
+					text_with_hankaku_numbers);
 			});
 		});
 
