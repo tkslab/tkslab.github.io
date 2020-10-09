@@ -19,8 +19,6 @@ parties:
 * table
 {:toc}
 
-### 裁判情報
-
 {% include {{ page.info_on_case_file }}  %}
 
 
