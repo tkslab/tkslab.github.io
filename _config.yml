@@ -7,11 +7,10 @@ markdown: kramdown
 kramdown:
    input: GFM
    hard_wrap: false
+   toc_levels: 2..6
+   
 highlighter: rouge
 
 plugins:
   - github-pages
   - jekyll-coffeescript
-
-toc:
-  min_level: 2 # default: 1
