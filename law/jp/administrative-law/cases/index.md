@@ -3,10 +3,10 @@ footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 ---
 
+## 判例一覧（行政法分野）
+
 * table
 {:toc}
-
-## 判例一覧（行政法分野）
 
 ### 最高裁判所
 
