@@ -16,3 +16,5 @@ footer_file: footer.md
 
 
 {% include {{ page.footer_file }}  %}
+
+[法学資料（日本）](../../../) > [この分野のまとめページ](../)
