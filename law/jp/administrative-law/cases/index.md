@@ -6,7 +6,7 @@ additional_footer_file: "footer_for_jp_cases.md"
 * table
 {:toc}
 
-## 裁判資料（日本）
+## 行政法の裁判書
 
 ### 最高裁判所
 
