@@ -12,3 +12,6 @@ highlighter: rouge
 plugins:
   - github-pages
   - jekyll-coffeescript
+
+toc:
+  min_level: 2 # default: 1
