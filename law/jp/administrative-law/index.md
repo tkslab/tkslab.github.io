@@ -12,7 +12,7 @@ footer_file: footer.md
 
 ### 判例
 
-
+- [裁判書（行政法分野）](cases)
 
 
 {% include {{ page.footer_file }}  %}
