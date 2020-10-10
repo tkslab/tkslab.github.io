@@ -7,7 +7,7 @@ markdown: kramdown
 kramdown:
    input: GFM
    hard_wrap: false
-   toc_levels: "2..6"
+   toc_levels: "3..6"
    
 highlighter: rouge
 
