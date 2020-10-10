@@ -105,7 +105,7 @@ additional_footer_file: "footer_for_jp_cases.md"
 
 - [大阪地方裁判所　判決　平成19年03月14日　判例タイムズ1252号189頁](district-court-osaka-2007-03-14-heisei-17-gyouu-68)
 - [東京地方裁判所　判決　平成25年07月19日　判例地方自治386号46頁](district-court-tokyo-2013-07-19-heisei-20-wa-25098)
-
+- [東京地方裁判所　判決　平成31年04月11日　判例集未登載](district-court-tokyo-2019-04-11-heisei-29-gyouu-232)
 
 ### 参考
 
