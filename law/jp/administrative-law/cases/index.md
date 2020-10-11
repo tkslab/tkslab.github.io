@@ -10,6 +10,13 @@ additional_footer_file: "footer_for_jp_cases.md"
 
 ### 最高裁判所
 
+- [最高裁判所第一小法廷　判決　平成14年01月17日　最高裁判所民事判例集56巻1号1頁](supreme-court-2002-01-17-heisei-10-gyouhi-49)
+- [最高裁判所第一小法廷　判決　平成21年11月26日　最高裁判所民事判例集63巻9号2124頁](supreme-court-2009-11-26-heisei-21-gyouhi-75)
+- [最高裁判所第一小法廷　判決　平成14年04月25日　判例地方自治229号52頁](supreme-court-2002-04-25-heisei-9-gyoutsu-60)
+- [最高裁判所大法廷　判決　平成20年09月10日　最高裁判所民事判例集62巻8号2029頁](supreme-court-2008-09-10-heisei-17-gyouhi-397)
+- [最高裁判所第一小法廷　判決　平成15年09月04日　判例時報1841号89頁](supreme-court-2003-09-04-heisei-11-gyouhi-99)
+
+
 
 #### 昭和01年～
 
