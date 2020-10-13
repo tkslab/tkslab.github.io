@@ -9,7 +9,8 @@ additional_footer_file: "footer_for_jp_cases.md"
 {:toc}
 
 ### 最高裁判所
-
+- [最高裁判所第一小法廷　判決　昭和50年05月29日　最高裁判所民事判例集29巻5号662頁](supreme-court-1975-05-29-shouwa-42-gyoutsu-84)
+- [最高裁判所第二小法廷　判決　平成03年12月20日　最高裁判所民事判例集45巻9号1455頁](supreme-court-1991-12-20-heisei-2-gyoutsu-137)
 
 #### 昭和01年～
 
