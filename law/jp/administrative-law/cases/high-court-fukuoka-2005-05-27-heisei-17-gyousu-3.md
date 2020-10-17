@@ -1,7 +1,6 @@
 ---
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
-info_on_case_file: "info_for_jp_cases.md"
+header_file: "header_for_jp_cases.md"
 types_of_judgment: "決定"
 types_of_courts: "福岡高等裁判所"
 judgment_date: "平成17年05月27日"
@@ -16,8 +15,8 @@ party_name:
 
 ## 福岡高等裁判所　決定　平成17年05月27日　判例タイムズ1223号155頁
 
-* table
-{:toc}
+
+
 
 {% include {{ page.info_on_case_file }}  %}
 
@@ -89,4 +88,4 @@ party_name:
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
+

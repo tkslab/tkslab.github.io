@@ -1,12 +1,12 @@
 ---
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
+header_file: "header_for_jp_cases.md"
 ---
 
 ## 判例一覧（行政法分野）
 
-* table
-{:toc}
+
+
 
 ### 最高裁判所
 
@@ -156,4 +156,4 @@ additional_footer_file: "footer_for_jp_cases.md"
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
+

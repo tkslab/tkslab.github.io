@@ -1,7 +1,6 @@
 ---
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
-info_on_case_file: "info_for_jp_cases.md"
+header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "東京高等裁判所"
 judgment_date: "平成15年05月21日"
@@ -15,8 +14,8 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 ## 東京高等裁判所　判決　平成15年05月21日　判例時報1835号77頁
 
-* table
-{:toc}
+
+
 
 {% include {{ page.info_on_case_file }}  %}
 
@@ -307,4 +306,4 @@ DNAパターンが同一であるか、又は近縁性があることは、発�
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
+

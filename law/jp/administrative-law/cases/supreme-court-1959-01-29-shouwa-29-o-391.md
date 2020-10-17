@@ -1,7 +1,6 @@
 ---
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
-info_on_case_file: "info_for_jp_cases.md"
+header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
 judgment_date: "昭和34年01月29日"
@@ -16,8 +15,8 @@ party_name:
 
 ## 最高裁判所第一小法廷　判決　昭和34年01月29日　最高裁判所民事判例集13巻1号32頁
 
-* table
-{:toc}
+
+
 
 {% include {{ page.info_on_case_file }}  %}
 
@@ -65,4 +64,4 @@ party_name:
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
+

@@ -1,7 +1,6 @@
 ---
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
-info_on_case_file: "info_for_jp_cases.md"
+header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
 judgment_date: "昭和35年03月31日"
@@ -16,8 +15,8 @@ party_name: "上告人, 浜西栄作|被上告人, 富山税務署長, 米田歳
 
 ## 最高裁判所第一小法廷　判決　昭和35年03月31日　最高裁判所民事判例集14巻4号663頁
 
-* table
-{:toc}
+
+
 
 {% include {{ page.info_on_case_file }}  %}
 
@@ -100,4 +99,4 @@ party_name: "上告人, 浜西栄作|被上告人, 富山税務署長, 米田歳
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
+

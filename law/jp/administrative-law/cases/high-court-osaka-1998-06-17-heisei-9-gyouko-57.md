@@ -1,7 +1,6 @@
 ---
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
-info_on_case_file: "info_for_jp_cases.md"
+header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "大阪高等裁判所"
 judgment_date: "平成10年06月17日"
@@ -16,10 +15,10 @@ party_name: "控訴人　奈良県知事　柿本善也|被控訴人　吉川家
 
 ## 大阪高等裁判所　判決　平成10年06月17日　最高裁判所民事判例集56巻1号18頁
 
-* table
-{:toc}
 
-{% include {{ page.info_on_case_file }} %}
+
+
+{% include {{ page.header_file }}  %}
 
 
 ### 主文
@@ -82,4 +81,4 @@ party_name: "控訴人　奈良県知事　柿本善也|被控訴人　吉川家
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
+

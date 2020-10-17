@@ -1,7 +1,6 @@
 ---
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
-info_on_case_file: "info_for_jp_cases.md"
+header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "東京地方裁判所"
 judgment_date: "平成31年04月11日"
@@ -16,10 +15,10 @@ party_name:
 
 ## 東京地方裁判所　判決　平成31年04月11日　判例集未登載
 
-* table
-{:toc}
 
-{% include {{ page.info_on_case_file }} %}
+
+
+{% include {{ page.header_file }}  %}
 
 
 
@@ -544,4 +543,4 @@ E前市長の権限を所管する各部局（以下「市長部局」という�
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
+

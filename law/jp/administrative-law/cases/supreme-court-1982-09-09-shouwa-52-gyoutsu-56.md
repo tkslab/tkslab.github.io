@@ -1,7 +1,6 @@
 ---
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
-info_on_case_file: "info_for_jp_cases.md"
+header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
 judgment_date: "昭和57年09月09日"
@@ -16,8 +15,8 @@ party_name: "上告人, 被控訴人, 原告, 宇野邦晴, 外一二七名|被�
 
 ## 最高裁判所第一小法廷　判決　昭和57年09月09日　最高裁判所民事判例集36巻9号1679頁
 
-* table
-{:toc}
+
+
 
 {% include {{ page.info_on_case_file }}  %}
 
@@ -119,4 +118,4 @@ party_name: "上告人, 被控訴人, 原告, 宇野邦晴, 外一二七名|被�
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
+
