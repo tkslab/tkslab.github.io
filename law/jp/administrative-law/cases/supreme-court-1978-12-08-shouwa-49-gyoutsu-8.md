@@ -18,7 +18,7 @@ party_name: "上告人, 控訴人, 原告, 江戸川区, 外一二名|被上告�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

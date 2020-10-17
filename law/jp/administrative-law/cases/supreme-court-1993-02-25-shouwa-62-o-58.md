@@ -18,7 +18,7 @@ party_name: "上告人　鈴木保　外七一名|被上告人　国"
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

@@ -17,7 +17,7 @@ step: "第一審,仙台地方裁判所,昭和53年（行ウ）第5号,昭和57�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

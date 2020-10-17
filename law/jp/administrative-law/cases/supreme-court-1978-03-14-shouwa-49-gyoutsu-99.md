@@ -18,7 +18,7 @@ party_name: "上告人, 原告, 主婦連合会|被上告人, 被告, 公正取�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

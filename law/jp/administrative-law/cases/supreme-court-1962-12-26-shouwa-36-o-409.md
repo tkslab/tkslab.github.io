@@ -18,7 +18,7 @@ party_name: "上告人, 甘糟産業汽船株式会社|被上告人, 芝税務�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

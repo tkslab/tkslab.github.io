@@ -18,7 +18,7 @@ party_name: "上告人, 栗原嘉右衛門|被上告人, 高杉峯敏"
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

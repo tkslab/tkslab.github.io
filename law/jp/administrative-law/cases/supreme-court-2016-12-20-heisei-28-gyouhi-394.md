@@ -17,7 +17,7 @@ step: "第一審,福岡高等裁判所那覇支部,平成28年（行ケ）第3�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

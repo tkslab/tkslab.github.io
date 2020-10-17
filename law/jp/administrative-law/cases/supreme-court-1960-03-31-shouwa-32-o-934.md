@@ -18,7 +18,7 @@ party_name: "上告人, 浜西栄作|被上告人, 富山税務署長, 米田歳
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

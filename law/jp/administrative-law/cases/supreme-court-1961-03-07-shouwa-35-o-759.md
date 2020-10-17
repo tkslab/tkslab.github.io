@@ -18,7 +18,7 @@ party_name: "上告人, 渡辺兼太郎|被上告人, 平税務署長, 木須義
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

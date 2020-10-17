@@ -18,7 +18,7 @@ party_name: "上告人, 被控訴人, 原告, 宇野邦晴, 外一二七名|被�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

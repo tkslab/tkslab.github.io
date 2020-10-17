@@ -18,7 +18,7 @@ party_name: "上告人, 控訴人, 被告, 大分県農地委員会, 代表者, 
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

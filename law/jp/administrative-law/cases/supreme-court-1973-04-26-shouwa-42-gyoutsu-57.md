@@ -18,7 +18,7 @@ party_name: "上告人, 花里広吉|被上告人, 神奈川税務署長, 杉山
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

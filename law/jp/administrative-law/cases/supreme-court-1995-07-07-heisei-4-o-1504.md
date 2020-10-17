@@ -18,7 +18,7 @@ party_name: "上告人　眞木美佐子　外七三名|被上告人　国　外
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

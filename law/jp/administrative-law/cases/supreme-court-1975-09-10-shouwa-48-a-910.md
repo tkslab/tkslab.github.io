@@ -18,7 +18,7 @@ step: "第一審,徳島地方裁判所, 昭和44年（わ）第1号, 昭和47年
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

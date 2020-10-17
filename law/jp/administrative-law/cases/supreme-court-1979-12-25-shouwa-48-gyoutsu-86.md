@@ -18,7 +18,7 @@ party_name: "上告人, 控訴人, 原告, 株式会社ホンリユー・コー�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

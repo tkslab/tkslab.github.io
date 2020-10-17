@@ -18,7 +18,7 @@ step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

@@ -18,7 +18,7 @@ party_name: "上告人, 控訴人, 原告, 大森武夫|被上告人, 被控訴�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

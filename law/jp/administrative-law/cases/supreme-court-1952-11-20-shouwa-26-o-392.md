@@ -19,7 +19,7 @@ step: "第一審,福島地方裁判所,昭和24年（行）第114号,昭和26年
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

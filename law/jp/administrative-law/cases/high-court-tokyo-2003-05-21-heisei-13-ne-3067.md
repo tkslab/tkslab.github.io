@@ -17,7 +17,7 @@ step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13�
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 

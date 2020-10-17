@@ -18,7 +18,7 @@ party_name: "上告人, 附帯被上告人, 盛岡市長|被上告人, 附帯上
 
 
 
-{% include {{ page.info_on_case_file }}  %}
+{% include {{ page.header_file }}  %}
 
 
 
