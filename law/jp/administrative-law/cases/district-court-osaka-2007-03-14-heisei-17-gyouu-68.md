@@ -1,8 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
 footer_file: "footer.md"
-additional_footer_file: "footer_for_jp_cases.md"
-info_on_case_file: "info_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "大阪地方裁判所"
 judgment_date: "平成19年03月14日"
@@ -839,4 +837,3 @@ c　申請に対する処分
 
 
 {% include {{ page.footer_file }}  %}
-{% include {{ page.additional_footer_file }}  %}
