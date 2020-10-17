@@ -1,6 +1,6 @@
 ---
-footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
+footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "大阪地方裁判所"
 judgment_date: "昭和57年02月19日"
@@ -537,10 +537,4 @@ party_name: "原告, 岩崎善四郎, 外二名|被告, 大阪陸運局長"
 
 - 本法ハ公布ノ日ヨリ之ヲ施行ス
 
-
-
-
-
-
 {% include {{ page.footer_file }}  %}
-
