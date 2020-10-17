@@ -75,6 +75,8 @@ _:lang(x)::-ms-backdrop, .selector {
   border-radius: 3px;
 }
 
-pre {
-	white-space: pre-wrap ;
+pre code {
+  white-space: pre-wrap !important;
+  word-wrap: break-word !important;
+  overflow: auto !important;
 }
