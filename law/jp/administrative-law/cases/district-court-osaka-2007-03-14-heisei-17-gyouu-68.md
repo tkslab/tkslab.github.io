@@ -1,4 +1,5 @@
 ---
+header_file: "header_for_jp_cases.md"
 footer_file: "footer.md"
 additional_footer_file: "footer_for_jp_cases.md"
 info_on_case_file: "info_for_jp_cases.md"
@@ -16,11 +17,7 @@ party_name:
 
 ## 大阪地方裁判所　判決　平成19年03月14日　判例タイムズ1252号189頁
 
-* table
-{:toc}
-
-{% include {{ page.info_on_case_file }}  %}
-
+{% include {{ page.header_file }}  %}
 
 ### 主文
 
