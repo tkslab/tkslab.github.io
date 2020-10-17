@@ -73,6 +73,8 @@
 	  '行ス': 'gyousu'
 	    //
 	    ,
+	  '行ウ': 'gyouu'
+	    ,
 	  '手ハ': 'teha'
 	    //少額訴訟事件
 	    ,
@@ -388,8 +390,6 @@
 	    //民事雑事件
 	    ,
 	  'マ': 'ma'
-	    ,
-	  '行ウ': 'gyouu'
 	}
 
 	function replaceTextWighObj(string, obj) {
@@ -443,6 +443,12 @@
 	  var isFrontFormatter = false;
 	  
 	  $.each(rows, function (_, txt) {
+	  	let pre_spaces = "";
+	    if (txt.match(/^(\t+|\s{4,})/)) {
+	      [_, pre_spaces] = txt.match(/^(\t+|\s{4,})/);
+	      console.log(pre_spaces + "ok");
+	    }
+
 	    txt = replaceZenkakuWithHankaku(txt.trim());
 	    // 
 	    if (txt.match(/types_of_judgment/)) {
@@ -519,15 +525,23 @@
 	    if (isFrontFormatter == false) {
 		txt = txt.replace(/，/g, "、");
 	    }
-		  
-	    buffer += txt + "\n";
-		  
-		  
-		// 改行の挿入を抑制する
+		
+		
+	    buffer += pre_spaces + txt + "\n";
+		
+		
+		// jekyll での表示のために
+		// 改行をさらに挿入する
 	    if (isFrontFormatter == false) {
 	    	// 区切り文字があるとき
 	    	// 表形式のとき
-		    if (txt != "---" && !txt.match(/^\|/)) {
+		    if (txt == "---") {
+	      		buffer += "";
+	      	} else if (txt.match(/^\|/)) {
+	      		buffer += "";
+	      	} else if (pre_spaces != "") {
+	      		buffer += "";
+		    } else {
 	      		buffer += "\n";
 		    }
 	    }
@@ -571,23 +585,10 @@ info_on_case_file: "info_for_jp_cases.md"
     <div class="container-lg px-3 my-5 markdown-body">
       
       <h1><a href="https://tkslab.github.io/">tks lab</a></h1>
-	<h2>裁判書公開用の処理</h2>
-	<form name="form1">
-		<p>処理前<br>
-		<textarea id="sourceArea" rows="5" cols="80" placeholder="input" onkeyup="convertText($id('sourceArea').value);"></textarea>
-		</p>
-		
-		<p>処理後<br>
-		<textarea id="convertedArea" rows="5" cols="80" placeholder="output1"></textarea><br>
-		</p>
-		
-		<p>新ファイル名<br>
-		<textarea id="textFileName" rows="1" cols="80" placeholder="output2"></textarea><br>
-		</p>
-	</form>
-	
-	<h1>テンプレート</h1>
-	<div><textarea name="kanso" rows="20" cols="40">---
+	<h2>裁判書公開用処理</h2>
+
+	<h3>テンプレート</h3>
+	<div><textarea name="kanso" rows="5" cols="40">---
 types_of_judgment: 
 types_of_courts: 
 judgment_date: 
@@ -599,6 +600,22 @@ source_of_commentary_by_research_law_clerk:
 teaching_materials: 
 party_name: 
 ---</textarea></div>
+
+	<h3>変換処理</h3>
+	<form name="form1">
+		<p>処理前<br>
+		<textarea id="sourceArea" rows="5" cols="80" placeholder="input" onkeyup="convertText($id('sourceArea').value);"></textarea>
+		</p>
+		
+		<p>新ファイル名<br>
+		<textarea id="textFileName" rows="1" cols="80" placeholder="output2"></textarea><br>
+		</p>
+
+		<p>処理後<br>
+		<textarea id="convertedArea" rows="5" cols="80" placeholder="output1"></textarea><br>
+		</p>
+		
+	</form>
 	  </div>
 </body>
 </html>
