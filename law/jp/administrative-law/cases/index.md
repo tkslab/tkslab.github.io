@@ -140,6 +140,7 @@ additional_footer_file: "footer_for_jp_cases.md"
 
 #### 大阪高等裁判所管内
 
+- [大阪地方裁判所　判決　昭和57年02月19日　行政事件裁判例集33巻1・2号118頁](district-court-osaka-1982-02-19-shouwa-55-gyouu-55)
 - [大阪地方裁判所　判決　平成19年03月14日　判例タイムズ1252号189頁](district-court-osaka-2007-03-14-heisei-17-gyouu-68)
 
 #### 広島高等裁判所管内
