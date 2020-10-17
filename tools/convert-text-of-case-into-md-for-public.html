@@ -439,14 +439,12 @@
 	  var englishtypesOfCourts = "";
 	  var citationForCase = "";
 	  var numberOfPara = 0;
-	  var isReasonOfJudgment = false;
 	  var isFrontFormatter = false;
 	  
 	  $.each(rows, function (_, txt) {
 	  	let pre_spaces = "";
-	    if (txt.match(/^(\t+|\s{4,})/)) {
+	    if (txt.match(/^(\t+|\s{4,})[^#]/)) {
 	      [_, pre_spaces] = txt.match(/^(\t+|\s{4,})/);
-	      console.log(pre_spaces + "ok");
 	    }
 
 	    txt = replaceZenkakuWithHankaku(txt.trim());
@@ -489,16 +487,11 @@
 	      [_1, _2, citationForCase] = txt.match(/^(.+?):(.+)$/);
 	    }
 	    
-	    txt = txt.replace(/^\s*主　+文$/, '### 主文');
-	    txt = txt.replace(/^\s*理　+由$/, '### 理由');
-	    txt = txt.replace(/^\s*事実及び理由$/, '### 事実及び理由');
+	    txt = txt.replace(/^主　+文$/, '### 主文');
+	    txt = txt.replace(/^事　+実$/, '### 事実');
+	    txt = txt.replace(/^理　+由$/, '### 理由');
+	    txt = txt.replace(/^事実及び理由$/, '### 事実及び理由');
 		  
-       if (isReasonOfJudgment == false) {
-	      if (txt == "### 理由" || txt == "### 事実及び理由") {
-	        isReasonOfJudgment = true
-	      }
-	    }
-	    
 	    
    	    // 「裁判官一覧」という見出しもつける
    	    // 裁判官一覧を表形式に変換する
