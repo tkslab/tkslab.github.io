@@ -489,9 +489,9 @@
 	      [_1, _2, citationForCase] = txt.match(/^(.+?):(.+)$/);
 	    }
 	    
-	    txt = txt.replace(/^主　+文$/, '### 主文');
-	    txt = txt.replace(/^理　+由$/, '### 理由');
-	    txt = txt.replace(/^事実及び理由$/, '### 事実及び理由');
+	    txt = txt.replace(/^\s*主　+文$/, '### 主文');
+	    txt = txt.replace(/^\s*理　+由$/, '### 理由');
+	    txt = txt.replace(/^\s*事実及び理由$/, '### 事実及び理由');
 		  
        if (isReasonOfJudgment == false) {
 	      if (txt == "### 理由" || txt == "### 事実及び理由") {
