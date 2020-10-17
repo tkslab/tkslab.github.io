@@ -387,7 +387,9 @@
 	  'ヤ': 'ya'
 	    //民事雑事件
 	    ,
-	  'マ ': 'ma'
+	  'マ': 'ma'
+	    ,
+	  '行ウ': 'gyouu'
 	}
 
 	function replaceTextWighObj(string, obj) {
@@ -476,9 +478,11 @@
 	      kindOfCase = replaceTextWighObj(kindOfCase, objRecordSignForCasesAndRoman);
 	      numberOfDocket = `${eraName}-${y}-${kindOfCase}-${serialNumber}`;
 	    }
+	    
 	    if (txt.match(/citation/)) {
 	      [_1, _2, citationForCase] = txt.match(/^(.+?):(.+)$/);
 	    }
+	    
 	    txt = txt.replace(/^主　+文$/, '### 主文');
 	    txt = txt.replace(/^理　+由$/, '### 理由');
 	    txt = txt.replace(/^事実及び理由$/, '### 事実及び理由');
@@ -521,10 +525,13 @@
 		  
 		// 改行の挿入を抑制する
 	    if (isFrontFormatter == false) {
+	    	// 区切り文字があるとき
+	    	// 表形式のとき
 		    if (txt != "---" && !txt.match(/^\|/)) {
 	      		buffer += "\n";
 		    }
 	    }
+	    
 	    // Front Formatter 開始処理
 	    if (isFrontFormatter == false && txt == "---") {
 	      isFrontFormatter = true;
