@@ -1,12 +1,14 @@
 ---
 footer_file: "footer.md"
-header_file: "header_for_jp_cases.md"
 ---
+
+|[ホーム](/) | [法学資料（日本）](../../) | [この分野のまとめページ](../) | [判例一覧](./)|
 
 ## 判例一覧（行政法分野）
 
+* table
+{:toc}
 
-{% include {{ page.header_file }}  %}
 
 ### 最高裁判所
 
