@@ -39,7 +39,7 @@ footer_file: footer.md
 
 
 - [裁判所 - Courts in Japan](https://www.courts.go.jp/index.html)
-- [規則集 | 裁判所](https://www.courts.go.jp/toukei_siryou/kisokusyu/index.html)
+- [規則集 / 裁判所](https://www.courts.go.jp/toukei_siryou/kisokusyu/index.html)
 
 
 {% include {{ page.footer_file }}  %}
