@@ -447,6 +447,7 @@
 	      [_, pre_spaces] = txt.match(/^(\t+|\s{4,})/);
 	    }
 		  
+		 // 見出しの場合には冒頭のスペースを除去
 	    if (txt.match(/^(\t+|\s{4,})#{3,}/)) {
 	      pre_spaces = "";
 	    }
