@@ -446,6 +446,11 @@
 	    if (txt.match(/^(\t+|\s{4,})[^#]/)) {
 	      [_, pre_spaces] = txt.match(/^(\t+|\s{4,})/);
 	    }
+		  
+	    if (txt.match(/^(\t+|\s{4,})#{3,}/)) {
+	      pre_spaces = "";
+	    }
+		  
 
 	    txt = replaceZenkakuWithHankaku(txt.trim());
 	    // 
