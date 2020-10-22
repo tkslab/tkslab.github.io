@@ -152,6 +152,7 @@ footer_file: "footer.md"
 #### 東京高等裁判所管内
 
 - [東京地方裁判所　判決　平成25年07月19日　判例地方自治386号46頁](district-court-tokyo-2013-07-19-heisei-20-wa-25098)
+- [東京地方裁判所　判決　平成25年03月26日　判例時報2209号79頁](district-court-tokyo-2013-03-26-heisei-22-gyouu-462)
 - [東京地方裁判所　判決　平成31年04月11日　判例集未登載](district-court-tokyo-2019-04-11-heisei-29-gyouu-232)
 
 #### 名古屋高等裁判所管内
