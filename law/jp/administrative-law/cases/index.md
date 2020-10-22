@@ -128,8 +128,8 @@ footer_file: "footer.md"
 
 #### 大阪高等裁判所管内
 
-- [大阪高等裁判所　判決　平成10年06月17日　最高裁判所民事判例集56巻1号18頁](high-court-osaka-1998-06-17-heisei-9-gyouko-57)
-- [大阪高等裁判所　判決　平成20年03月06日　最高裁判所民事判例集63巻8号1788頁](high-court-osaka-2008-03-06-heisei-19-gyouko-33)
+- [大阪高等裁判所　判決　平成10年06月17日　判例タイムズ994号143頁](high-court-osaka-1998-06-17-heisei-9-gyouko-57)
+- [大阪高等裁判所　判決　平成20年03月06日　判例時報2019号17頁](high-court-osaka-2008-03-06-heisei-19-gyouko-33)
 
 #### 広島高等裁判所管内
 
@@ -140,7 +140,7 @@ footer_file: "footer.md"
 
 - [福岡高等裁判所　決定　平成17年05月27日　判例タイムズ1223号155頁](high-court-fukuoka-2005-05-27-heisei-17-gyousu-3)
 
-- [福岡高等裁判所宮崎支部　判決　平成24年04月25日　最高裁判所民事判例集68巻6号656頁](high-court-fukuoka-2012-04-25-heisei-23-gyouko-13)
+- [福岡高等裁判所宮崎支部　判決　平成24年04月25日　判例地方自治388号79頁](high-court-fukuoka-2012-04-25-heisei-23-gyouko-13)
 
 
 ### 地方裁判所
