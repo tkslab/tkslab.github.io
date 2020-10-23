@@ -26,8 +26,8 @@ footer_file: footer.md
 |第01回 |[リンク][sheet01] |9月28日（月曜日）23時59分|
 |第02回 |[リンク][sheet02] |10月12日（月曜日）23時59分|
 |第03回 |[リンク][sheet03] |10月19日（月曜日）23時59分|
-|第04回 | |10月26日（月曜日）23時59分|
-|第05回 |  | |
+|第04回 |[リンク][sheet04]|11月02日（月曜日）23時59分|
+|第05回 |[リンク][sheet05]|11月02日（月曜日）23時59分|
 |第06回 |  | |
 |第07回 |  | |
 |第08回 |  | |
@@ -43,6 +43,7 @@ footer_file: footer.md
 [sheet01]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UM0dGVzQ5RUoxWjFDMzg2WTZOTzAyUDNJMS4u
 [sheet02]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UQlpCQjFUTFUzVVJJMzA2N09MODE1Qjk2OS4u
 [sheet03]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9URTNKMDlHMFFCSlJGVTlTWktaNTVHWVdNUC4u
-
+[sheet04]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UNFlDMjNMVE1TVlpOTUdKRDlYRTI0VTMwWC4u
+[sheet05]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UNjZTWjgxNDhFWUVMVTBUUE1RM0JXWE4zRS4u
 
 {% include {{ page.footer_file }}  %}
