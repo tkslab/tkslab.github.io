@@ -1,6 +1,15 @@
 ---
-footer_file: footer.md
+header_file: "header_for_various_topics.md"
 ---
+
+{% include {{ page.header_file }}  %}
+
+<nav>
+	<ul class="breadcrumbs">
+		<li><a href="/">ホーム</a></li>
+		<li><a href="../">法学資料（日本）</a></li>
+	</ul>
+</nav>
 
 
 ## 公布済み現行法令件数とその調べ方
@@ -65,4 +74,3 @@ e-Gov の法令APIを利用します。次のページで配布されている�
 
 - [get_list_of_primary_and_secondary_legislation.py](https://github.com/tkslab/tkslab.github.io/blob/master/law/jp/general/primary-and-secondary-legislation/get_list_of_primary_and_secondary_legislation.py)
 
-{% include {{ page.footer_file }}  %}
