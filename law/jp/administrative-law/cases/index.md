@@ -167,6 +167,7 @@ footer_file: "footer.md"
 - [大阪地方裁判所　判決　平成19年03月14日　判例タイムズ1252号189頁](district-court-osaka-2007-03-14-heisei-17-gyouu-68)
 - [大阪地方裁判所　判決　平成24年02月29日　判例時報2165号69頁](district-court-osaka-2012-02-29-heisei-21-gyouu-189)
 
+
 - [神戸地方裁判所　判決　昭和58年08月29日　判例時報1097号32頁](district-court-koube-1983-08-29-shouwa-57-gyouu-36)
 
 ##### 高等裁判所
@@ -193,6 +194,8 @@ footer_file: "footer.md"
 
 
 - [福岡高等裁判所　決定　平成17年05月27日　判例タイムズ1223号155頁](high-court-fukuoka-2005-05-27-heisei-17-gyousu-3)
+
+
 - [福岡高等裁判所宮崎支部　判決　平成24年04月25日　判例地方自治388号79頁](high-court-fukuoka-miyazaki-2012-04-25-heisei-23-gyouko-13)
 
 {% include {{ page.footer_file }}  %}
