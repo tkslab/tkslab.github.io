@@ -1,4 +1,5 @@
 ---
+header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 ---
