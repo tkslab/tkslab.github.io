@@ -1,6 +1,8 @@
 ---
-footer_file: footer.md
+header_file: "header_for_courses.md"
 ---
+
+{% include {{ page.header_file }}  %}
 
 ## 授業
 
@@ -21,6 +23,3 @@ footer_file: footer.md
 
 - [外国法I](seijo/2020/foregin_law_1)
 
-
-
-{% include {{ page.footer_file }}  %}
