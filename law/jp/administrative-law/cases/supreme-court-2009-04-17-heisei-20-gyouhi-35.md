@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 東京地方裁判所, 平成18年（行ウ）第309号, 平�
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第二小法廷　判決　平成21年04月17日　最高裁判所民事判例集63巻4号638頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -196,5 +199,5 @@ party_name:
 |裁判官|竹内行夫|
 
 
-{% include {{ page.footer_file }}  %}
+
 

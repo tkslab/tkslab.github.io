@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 神戸地方裁判所, 平成10年（行ウ）第44号, 平成
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　平成17年04月14日　最高裁判所民事判例集59巻3号491頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -145,5 +148,5 @@ party_name:
 
 
 
-{% include {{ page.footer_file }}  %}
+
 

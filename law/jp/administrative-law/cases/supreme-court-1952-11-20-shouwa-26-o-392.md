@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -14,12 +15,14 @@ step: "第一審,福島地方裁判所,昭和24年（行）第114号,昭和26年
 
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　昭和27年11月20日　最高裁判所民事判例集6巻10号1038頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -65,5 +68,5 @@ step: "第一審,福島地方裁判所,昭和24年（行）第114号,昭和26年
 |裁判官|岩松三郎|
 |裁判官|入江俊郎|
 
-{% include {{ page.footer_file }}  %}
+
 

@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials: "行政判例百選7版I-22事件"
 party_name: "上告人, 岩田光利|被上告人, 植田肇, 外五名"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第二小法廷　判決　平成03年12月20日　最高裁判所民事判例集45巻9号1455頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -95,5 +98,5 @@ party_name: "上告人, 岩田光利|被上告人, 植田肇, 外五名"
 
 
 
-{% include {{ page.footer_file }}  %}
+
 

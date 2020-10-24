@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審,大阪地方裁判所,昭和55年（ワ）第7566号,昭和57�
 party_name: "上告人, 栗原嘉右衛門|被上告人, 高杉峯敏"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　平成01年09月19日　最高裁判所民事判例集43巻8号955頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -124,5 +127,5 @@ party_name: "上告人, 栗原嘉右衛門|被上告人, 高杉峯敏"
 |裁判官|貞家克己|
 
 
-{% include {{ page.footer_file }}  %}
+
 

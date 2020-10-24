@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials:
 party_name: "上告人, 控訴人, 被告, 広島県公安委員会|被上告人, 被控訴人, 原告, 馬林和夫"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　昭和39年06月04日　最高裁判所民事判例集18巻5号745頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 ### 主文
@@ -55,5 +58,5 @@ party_name: "上告人, 控訴人, 被告, 広島県公安委員会|被上告人
 |裁判官|松田二郎|
 
 
-{% include {{ page.footer_file }}  %}
+
 

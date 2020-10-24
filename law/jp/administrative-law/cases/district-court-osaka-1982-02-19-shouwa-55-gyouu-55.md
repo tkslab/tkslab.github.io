@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "大阪地方裁判所"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name: "原告, 岩崎善四郎, 外二名|被告, 大阪陸運局長"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 大阪地方裁判所　判決　昭和57年02月19日　行政事件裁判例集33巻1・2号118頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 ### 主文
@@ -537,4 +540,4 @@ party_name: "原告, 岩崎善四郎, 外二名|被告, 大阪陸運局長"
 
 - 本法ハ公布ノ日ヨリ之ヲ施行ス
 
-{% include {{ page.footer_file }}  %}
+

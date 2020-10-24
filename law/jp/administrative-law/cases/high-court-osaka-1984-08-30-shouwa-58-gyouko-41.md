@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "大阪高等裁判所"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 大阪高等裁判所　判決　昭和59年08月30日　判例地方自治8号93頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -107,4 +110,4 @@ party_name:
 
 
 
-{% include {{ page.footer_file }}  %}
+

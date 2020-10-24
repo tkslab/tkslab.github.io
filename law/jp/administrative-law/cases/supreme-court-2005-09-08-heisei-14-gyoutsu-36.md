@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 鹿児島地方裁判所, 平成10年（行ウ）第3号, 平�
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　平成17年09月08日　判例時報1920号29頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -115,5 +118,5 @@ party_name:
 |裁判官|才口千晴|
 
 
-{% include {{ page.footer_file }}  %}
+
 

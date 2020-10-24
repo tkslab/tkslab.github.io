@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審,東京地方裁判所,昭和44年（ワ）第10838号,昭和46�
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　昭和50年02月25日　最高裁判所民事判例集29巻2号143頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -77,5 +80,5 @@ party_name:
 |裁判官|高辻正己|
 
 
-{% include {{ page.footer_file }}  %}
+
 

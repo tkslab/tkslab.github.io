@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所大法廷"
@@ -13,9 +14,11 @@ teaching_materials: "行政判例百選7版II-165事件|環境法判例百選3�
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所大法廷　判決　平成17年12月07日　最高裁判所民事判例集59巻10号2645頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -357,4 +360,4 @@ party_name:
 
 
 
-{% include {{ page.footer_file }}  %}
+

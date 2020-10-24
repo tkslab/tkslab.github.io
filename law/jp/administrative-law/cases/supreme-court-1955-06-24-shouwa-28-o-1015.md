@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials:
 party_name: "上告人, 控訴人, 原告, 藤沼藤七郎|被上告人, 被控訴人, 被告, 南河内村長, 岩瀬鉾太郎"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第二小法廷　判決　昭和30年06月24日　最高裁判所民事判例集9巻7号930頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -75,5 +78,5 @@ party_name: "上告人, 控訴人, 原告, 藤沼藤七郎|被上告人, 被控�
 |裁判官|池田克|
 
 
-{% include {{ page.footer_file }}  %}
+
 

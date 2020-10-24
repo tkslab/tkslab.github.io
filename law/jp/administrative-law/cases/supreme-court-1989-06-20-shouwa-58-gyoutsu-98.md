@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第三小法廷"
@@ -13,9 +14,11 @@ teaching_materials: "行政判例百選7版II-169事件|環境法判例百選3�
 party_name: "上告人, 菊地康明, 上告人, 山村宏, 上告人, 柴田稔|被上告人, 静岡県教育委員会, 右代表者委員長, 松島勇平"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　平成01年06月20日　判例時報1334号201頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -70,4 +73,4 @@ party_name: "上告人, 菊地康明, 上告人, 山村宏, 上告人, 柴田稔
 
 
 
-{% include {{ page.footer_file }}  %}
+

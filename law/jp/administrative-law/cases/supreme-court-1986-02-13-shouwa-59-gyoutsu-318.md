@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　昭和61年02月13日　最高裁判所民事判例集40巻1号1頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -71,4 +74,4 @@ party_name:
 
 
 
-{% include {{ page.footer_file }}  %}
+

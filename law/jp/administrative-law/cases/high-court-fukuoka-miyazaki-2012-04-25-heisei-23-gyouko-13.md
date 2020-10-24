@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "福岡高等裁判所宮崎支部"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 福岡高等裁判所宮崎支部　判決　平成24年04月25日　判例地方自治388号79頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -138,4 +141,4 @@ party_name:
 
 
 
-{% include {{ page.footer_file }}  %}
+

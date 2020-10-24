@@ -1,7 +1,8 @@
 ---
-footer_file: footer.md
+header_file: "header_for_jp_cases.md"
 ---
 
+{% include {{ page.header_file }}  %}
 
 ## 行政法
 
@@ -9,7 +10,3 @@ footer_file: footer.md
 
 - [判例一覧（行政法分野）](cases)
 
-
-{% include {{ page.footer_file }}  %}
-
-- [法学資料（日本）](../) > [この分野のまとめページ](./)

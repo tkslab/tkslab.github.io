@@ -1,3 +1,6 @@
+* table
+{:toc}
+
 ### 裁判情報
 
 
@@ -7,7 +10,7 @@
 	<dt>言渡期日</dt><dd>{{ page.judgment_date }}  </dd>
 	<dt>事件番号</dt><dd>{{ page.docket_number | replace:'|','</dd><dd>' }}  </dd>
 	<dt>事件名</dt><dd>{{ page.case_name | replace:'|','</dd><dd>' }}  </dd>
-	<dt>出典</dt><dd>{{ page.citation | replace:'|','</dd><dd>' }}  </dd>
+	<dt>出典</dt><dd>{{ page.citation }}  </dd>
 	
 	{% if page.source_of_commentary_by_research_law_clerk %}
 	<dt>調査官解説の出典</dt><dd>{{ page.source_of_commentary_by_research_law_clerk }}  </dd>

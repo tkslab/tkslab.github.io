@@ -1,8 +1,11 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 ---
 
 |[ホーム](/) | [法学資料（日本）](../../) | [この分野のまとめページ](../) | [判例一覧](./)|
+
+{% include {{ page.header_file }}  %}
 
 ## 判例一覧（行政法分野）
 
@@ -198,5 +201,5 @@ footer_file: "footer.md"
 
 - [福岡高等裁判所宮崎支部　判決　平成24年04月25日　判例地方自治388号79頁](high-court-fukuoka-miyazaki-2012-04-25-heisei-23-gyouko-13)
 
-{% include {{ page.footer_file }}  %}
+
 

@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 東京地方裁判所, 昭和35年（行）第59号, 昭和37�
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　昭和43年12月24日　最高裁判所民事判例集22巻13号3147頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -64,5 +67,5 @@ party_name:
 |裁判官|飯村義美|
 
 
-{% include {{ page.footer_file }}  %}
+
 

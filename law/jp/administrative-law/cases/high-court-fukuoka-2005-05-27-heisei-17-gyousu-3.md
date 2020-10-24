@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "決定"
@@ -13,12 +14,14 @@ step:
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 福岡高等裁判所　決定　平成17年05月27日　判例タイムズ1223号155頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -87,5 +90,5 @@ party_name:
 |裁判官|高宮健二|
 
 
-{% include {{ page.footer_file }}  %}
+
 

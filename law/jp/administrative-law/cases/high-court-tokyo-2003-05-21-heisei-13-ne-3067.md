@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -12,12 +13,14 @@ party_name:
 step: "第一審,東京地方裁判所,平成8年（ワ）第23677号,平成13年5月30日,判決"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 東京高等裁判所　判決　平成15年05月21日　判例時報1835号77頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -305,5 +308,5 @@ DNAパターンが同一であるか、又は近縁性があることは、発�
 裁判長裁判官　江見弘武
 
 
-{% include {{ page.footer_file }}  %}
+
 

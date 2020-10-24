@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials: "行政判例百選7版II-157事件|社会保障判例百選
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　平成15年09月04日　判例時報1841号89頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -70,5 +73,5 @@ party_name:
 |裁判官|島田仁郎|
 
 
-{% include {{ page.footer_file }}  %}
+
 

@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 福島地方裁判所, 昭和33年（行）第4号, 昭和34�
 party_name: "上告人, 渡辺兼太郎|被上告人, 平税務署長, 木須義晴"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　昭和36年03月07日　最高裁判所民事判例集15巻3号381頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -68,5 +71,5 @@ party_name: "上告人, 渡辺兼太郎|被上告人, 平税務署長, 木須義
 |裁判官|石坂修一|
 
 
-{% include {{ page.footer_file }}  %}
+
 

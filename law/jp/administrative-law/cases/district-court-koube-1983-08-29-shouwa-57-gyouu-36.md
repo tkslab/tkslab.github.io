@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "神戸地方裁判所"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name: "原告, 谷英太郎|被告, 兵庫県知事"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 神戸地方裁判所　判決　昭和58年08月29日　判例時報1097号32頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -329,4 +332,4 @@ party_name: "原告, 谷英太郎|被告, 兵庫県知事"
 （裁判官　村上博巳　笠井昇　田中敦）
 
 
-{% include {{ page.footer_file }}  %}
+

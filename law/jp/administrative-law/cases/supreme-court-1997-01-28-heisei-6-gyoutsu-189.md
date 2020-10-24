@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第三小法廷"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name: "上告人, 逢澤邦久, 外二名|被上告人, 川崎市長"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　平成09年01月28日　最高裁判所民事判例集51巻1号250頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -83,4 +86,4 @@ party_name: "上告人, 逢澤邦久, 外二名|被上告人, 川崎市長"
 
 
 
-{% include {{ page.footer_file }}  %}
+

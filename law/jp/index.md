@@ -1,7 +1,8 @@
 ---
-footer_file: footer.md
+header_file: "header_for_various_topics.md"
 ---
 
+{% include {{ page.header_file }}  %}
 
 ## 法学資料（日本）
 
@@ -43,4 +44,3 @@ footer_file: footer.md
   - [事件記録符号一覧 (www.courts.go.jp)](https://www.courts.go.jp/app/picture/hanrei_help.html)
 
 
-{% include {{ page.footer_file }}  %}

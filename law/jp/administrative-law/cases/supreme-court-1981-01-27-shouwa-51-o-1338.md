@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials: "行政判例百選7版I-25事件|地方自治判例百選4�
 party_name: "上告人, 控訴人, 原告, 大蔵興業株式会社|被上告人, 被控訴人, 被告, 宜野座村"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　昭和56年01月27日　最高裁判所民事判例集35巻1号35頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -93,5 +96,5 @@ party_name: "上告人, 控訴人, 原告, 大蔵興業株式会社|被上告人
 |裁判官|寺田治郎|
 
 
-{% include {{ page.footer_file }}  %}
+
 

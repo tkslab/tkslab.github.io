@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials:
 party_name: "控訴人　奈良県知事　柿本善也|被控訴人　吉川家英"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 大阪高等裁判所　判決　平成10年06月17日　判例タイムズ994号143頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 ### 主文
@@ -80,5 +83,5 @@ party_name: "控訴人　奈良県知事　柿本善也|被控訴人　吉川家
 
 
 
-{% include {{ page.footer_file }}  %}
+
 

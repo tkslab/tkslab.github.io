@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 神戸地方裁判所, 昭和51年（ワ）第742号, 昭和61
 party_name: "上告人　眞木美佐子　外七三名|被上告人　国　外一名"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第二小法廷　判決　平成07年07月07日　最高裁判所民事判例集49巻7号2599頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -67,5 +70,5 @@ party_name: "上告人　眞木美佐子　外七三名|被上告人　国　外
 |裁判官|根岸重治|
 
 
-{% include {{ page.footer_file }}  %}
+
 

@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "名古屋高等裁判所金沢支部"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 名古屋高等裁判所金沢支部　判決　昭和52年12月14日　判例時報889号32頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 ### 主文
@@ -281,4 +284,4 @@ party_name:
 
 
 
-{% include {{ page.footer_file }}  %}
+

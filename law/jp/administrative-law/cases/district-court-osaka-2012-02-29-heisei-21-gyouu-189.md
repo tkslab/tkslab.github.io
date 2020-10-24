@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "大阪地方裁判所"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 大阪地方裁判所　判決　平成24年02月29日　判例時報2165号69頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -423,4 +426,4 @@ d　以上からすれば、本件施設から一度に退場してきた多数�
 |裁判官|藤根桃世|
 
 
-{% include {{ page.footer_file }}  %}
+

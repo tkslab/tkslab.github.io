@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "差戻第一審, 水戸地方裁判所, 平成17年（行ウ）第17号, 
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　平成17年10月25日　判例時報1920号32頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -114,5 +117,5 @@ party_name:
 |裁判官|堀籠幸男|
 
 
-{% include {{ page.footer_file }}  %}
+
 

@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 横浜地方裁判所, 昭和51年（ワ）第1411号, 昭和5
 party_name: "上告人　鈴木保　外七一名|被上告人　国"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　平成05年02月25日　最高裁判所民事判例集47巻2号643頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -118,5 +121,5 @@ party_name: "上告人　鈴木保　外七一名|被上告人　国"
 |裁判官|三好達|
 
 
-{% include {{ page.footer_file }}  %}
+
 

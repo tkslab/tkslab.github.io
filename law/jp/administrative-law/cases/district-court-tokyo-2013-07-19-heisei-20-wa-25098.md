@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials:
 party_name: "原告, 浜友観光株式会社|被告, 国分寺市"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 東京地方裁判所　判決　平成25年07月19日　判例地方自治386号46頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -632,5 +635,5 @@ P21議長（以下「P21議長」という。）は、冒頭、代表者会議�
 
 
 
-{% include {{ page.footer_file }}  %}
+
 

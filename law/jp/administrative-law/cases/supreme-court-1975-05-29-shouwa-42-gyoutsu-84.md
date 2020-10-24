@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials: "行政判例百選7版I-118事件"
 party_name: "上告人, 被控訴人, 原告, 群馬中央バス株式会社|被上告人, 控訴人, 被告, 運輸大臣"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　昭和50年05月29日　最高裁判所民事判例集29巻5号662頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -99,5 +102,5 @@ party_name: "上告人, 被控訴人, 原告, 群馬中央バス株式会社|被
 
 
 
-{% include {{ page.footer_file }}  %}
+
 

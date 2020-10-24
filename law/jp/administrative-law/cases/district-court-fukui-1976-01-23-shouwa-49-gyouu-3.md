@@ -1,6 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
-footer_file: "footer.md"
+summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "福井地方裁判所"
 judgment_date: "昭和51年01月23日"
@@ -13,9 +13,11 @@ teaching_materials:
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 福井地方裁判所　判決　昭和51年01月23日　判例時報826号34頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -180,4 +182,4 @@ party_name:
 
 
 
-{% include {{ page.footer_file }}  %}
+

@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ party_name:
 step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年4月21日,判決|控訴審,札幌高等裁判所,平成10年（行コ）第8号,平成11年12月21日,判決"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所大法廷　判決　平成18年03月01日　最高裁判所民事判例集60巻2号587頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -281,5 +284,5 @@ step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年
 
 
 
-{% include {{ page.footer_file }}  %}
+
 

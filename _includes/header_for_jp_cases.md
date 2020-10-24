@@ -1,33 +1,5 @@
-|[ホーム](/) | [法学資料（日本）](../../) | [この分野のまとめページ](../) | [判例一覧](./)|
+<div id="header">
+[ホーム](/) | [授業](/courses/) | [法学資料（日本）](/law/jp/) | [ツール](/tools/)
 
-
-* table
-{:toc}
-
-### 裁判情報
-
-
-<dl>
-	<dt>裁判所</dt><dd>{{ page.types_of_courts }} </dd>
-	<dt>裁判の種類</dt><dd>{{ page.types_of_judgment }}  </dd>
-	<dt>言渡期日</dt><dd>{{ page.judgment_date }}  </dd>
-	<dt>事件番号</dt><dd>{{ page.docket_number | replace:'|','</dd><dd>' }}  </dd>
-	<dt>事件名</dt><dd>{{ page.case_name }}  </dd>
-	<dt>出典</dt><dd>{{ page.citation }}  </dd>
-	
-	{% if page.source_of_commentary_by_research_law_clerk %}
-	<dt>調査官解説の出典</dt><dd>{{ page.source_of_commentary_by_research_law_clerk }}  </dd>
-	{% endif %}
-	
-	{% if page.teaching_materials %}
-	<dt>学習用判例集</dt><dd>{{ page.teaching_materials | replace:'|','</dd><dd>' }}  </dd>
-	{% endif %}
-	
-	{% if page.step %}
-	<dt>審級関係</dt><dd>{{ page.step | replace:'|','</dd><dd>' }}  </dd>
-	{% endif %}
-	
-	{% if page.party_name %}
-	<dt>当事者</dt><dd>{{ page.party_name | replace:'|','</dd><dd>'  }}  </dd>
-	{% endif %}
-</dl>
+[ホーム](/) > [法学資料（日本）](../../) > [この分野のまとめページ](../) > [判例一覧](./)
+</div>

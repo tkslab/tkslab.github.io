@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第二小法廷"
@@ -13,9 +14,11 @@ teaching_materials: "行政判例百選7版II-192事件"
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第二小法廷　判決　平成01年02月17日　最高裁判所民事判例集43巻2号56頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -72,4 +75,4 @@ party_name:
 |裁判官|奥野久之|
 
 
-{% include {{ page.footer_file }}  %}
+

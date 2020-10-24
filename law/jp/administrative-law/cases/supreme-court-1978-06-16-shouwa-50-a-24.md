@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 酒田簡易裁判所, 昭和44年（ろ）第5号, 昭和47�
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第二小法廷　判決　昭和53年06月16日　最高裁判所刑事判例集32巻4号605頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -90,5 +93,5 @@ party_name:
 |裁判官|本林譲|
 
 
-{% include {{ page.footer_file }}  %}
+
 

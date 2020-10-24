@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ teaching_materials: "行政判例百選7版II-152事件|環境法判例百選3�
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所大法廷　判決　平成20年09月10日　最高裁判所民事判例集62巻8号2029頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -246,5 +249,5 @@ party_name:
 
 
 
-{% include {{ page.footer_file }}  %}
+
 

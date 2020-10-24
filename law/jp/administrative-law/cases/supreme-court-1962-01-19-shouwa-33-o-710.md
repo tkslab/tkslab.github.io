@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第二小法廷"
@@ -13,9 +14,11 @@ teaching_materials: "行政判例百選7版II-170事件"
 party_name: "上告人, 控訴人, 原告, 坂本義一, 外一名|被上告人, 被控訴人, 被告, 国, 指定代理人, 青木義人, 外一名"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第二小法廷　判決　昭和37年01月19日　最高裁判所民事判例集16巻1号57頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -71,4 +74,4 @@ party_name: "上告人, 控訴人, 原告, 坂本義一, 外一名|被上告人,
 |裁判官|山田作之助|
 
 
-{% include {{ page.footer_file }}  %}
+

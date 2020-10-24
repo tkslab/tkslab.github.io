@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
@@ -13,9 +14,11 @@ teaching_materials: "行政判例百選7版II-168事件"
 party_name: "上告人, 岩崎善四郎, 上告人, 小谷虎彦, 上告人, 井上善雄|大阪陸運局長訴訟承継人, 被上告人, 近畿運輸局長, 井上徹太郎|被告人, 国, 右代表者法務大臣, 高辻正巳"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　平成01年04月13日　判例時報1313号121頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -59,4 +62,4 @@ party_name: "上告人, 岩崎善四郎, 上告人, 小谷虎彦, 上告人, 井
 |裁判官|大堀誠一|
 
 
-{% include {{ page.footer_file }}  %}
+

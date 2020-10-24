@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "大阪地方裁判所"
@@ -14,9 +15,11 @@ party_name:
 ---
 
 
+{% include {{ page.header_file }}  %}
+
 ## 大阪地方裁判所　判決　平成19年03月14日　判例タイムズ1252号189頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 ### 主文
 
@@ -826,4 +829,4 @@ c　申請に対する処分
   - 5　タクシー事業の情報提供ガイドライン〈省略〉
 
 
-{% include {{ page.footer_file }}  %}
+

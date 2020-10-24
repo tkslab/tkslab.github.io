@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 横浜地方裁判所, 昭和38年（行）第11号, 	昭和40
 party_name: "上告人, 花里広吉|被上告人, 神奈川税務署長, 杉山健太郎"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　昭和48年04月26日　最高裁判所民事判例集27巻3号629頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -108,5 +111,5 @@ party_name: "上告人, 花里広吉|被上告人, 神奈川税務署長, 杉山
 |裁判官|岸盛一|
 
 
-{% include {{ page.footer_file }}  %}
+
 

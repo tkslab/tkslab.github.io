@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審, 旭川地方裁判所, 平成20年（行ウ）第9号, 平成2
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第二小法廷　判決　平成24年02月03日　最高裁判所民事判例集66巻2号148頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -67,5 +70,5 @@ party_name:
 |裁判官|須藤正彦|
 
 
-{% include {{ page.footer_file }}  %}
+
 

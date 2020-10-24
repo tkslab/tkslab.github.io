@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
@@ -13,9 +14,11 @@ teaching_materials: "行政判例百選7版II-167事件|環境法判例百選3�
 party_name:
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第一小法廷　判決　平成21年10月15日　最高裁判所民事判例集63巻8号1711頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -131,4 +134,4 @@ Aが作成した資料によれば、本件施設は、鉄骨造、7階建て、
 
 
 
-{% include {{ page.footer_file }}  %}
+

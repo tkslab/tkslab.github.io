@@ -1,4 +1,5 @@
 ---
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
@@ -13,12 +14,14 @@ step: "第一審,徳島地方裁判所, 昭和44年（わ）第1号, 昭和47年
 
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所大法廷　判決　昭和50年09月10日　最高裁判所刑事判例集29巻8号489頁
 
 
 
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -244,5 +247,5 @@ step: "第一審,徳島地方裁判所, 昭和44年（わ）第1号, 昭和47年
 |裁判官|団藤重光|
 
 
-{% include {{ page.footer_file }}  %}
+
 

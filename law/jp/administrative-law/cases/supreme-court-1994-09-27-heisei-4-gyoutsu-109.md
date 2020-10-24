@@ -1,5 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
+summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第三小法廷"
@@ -13,9 +14,11 @@ teaching_materials:
 party_name: "上告人, 司城重義|被上告人, 神奈川県公安委員会"
 ---
 
+{% include {{ page.header_file }}  %}
+
 ## 最高裁判所第三小法廷　判決　平成06年09月27日　判例時報1518号10頁
 
-{% include {{ page.header_file }}  %}
+{% include {{ page.summary_file }}  %}
 
 
 
@@ -77,4 +80,4 @@ party_name: "上告人, 司城重義|被上告人, 神奈川県公安委員会"
 |裁判官|尾崎行信|
 
 
-{% include {{ page.footer_file }}  %}
+
