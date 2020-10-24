@@ -140,7 +140,7 @@ footer_file: "footer.md"
 
 - [福岡高等裁判所　決定　平成17年05月27日　判例タイムズ1223号155頁](high-court-fukuoka-2005-05-27-heisei-17-gyousu-3)
 
-- [福岡高等裁判所宮崎支部　判決　平成24年04月25日　判例地方自治388号79頁](high-court-fukuoka-2012-04-25-heisei-23-gyouko-13)
+- [福岡高等裁判所宮崎支部　判決　平成24年04月25日　判例地方自治388号79頁](high-court-fukuoka-miyazaki-2012-04-25-heisei-23-gyouko-13)
 
 
 ### 地方裁判所
