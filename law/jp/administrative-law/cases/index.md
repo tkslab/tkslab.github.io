@@ -4,8 +4,6 @@ summary_file: "summary_for_jp_cases.md"
 footer_file: "footer.md"
 ---
 
-|[ホーム](/) | [法学資料（日本）](../../) | [この分野のまとめページ](../) | [判例一覧](./)|
-
 {% include {{ page.header_file }}  %}
 
 ## 判例一覧（行政法分野）
