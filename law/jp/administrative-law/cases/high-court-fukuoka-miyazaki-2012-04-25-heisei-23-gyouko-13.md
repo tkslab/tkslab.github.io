@@ -1,7 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
-footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "福岡高等裁判所宮崎支部"
 judgment_date: "平成24年04月25日"

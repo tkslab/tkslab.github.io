@@ -1,6 +1,5 @@
 ---
 summary_file: "summary_for_jp_cases.md"
-footer_file: "footer.md"
 header_file: "header_for_jp_cases.md"
 types_of_judgment: "決定"
 types_of_courts: "福岡高等裁判所"

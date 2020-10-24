@@ -1,7 +1,6 @@
 ---
 header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
-footer_file: "footer.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
 judgment_date: "平成21年10月15日"
