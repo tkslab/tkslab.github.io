@@ -81,17 +81,17 @@ pre code {
   overflow: auto !important;
 }
 
-nav .breadcrumbs ul {
+nav ul.breadcrumbs {
   display: flex;
   list-style-type: none;
 }
 
-nav .breadcrumbs li::after{
+nav ul.breadcrumbs li::after{
   content: '›';
   display: inline-block;
   padding: 0 10px;
 }
 
-nav .breadcrumbs li:last-child::after{
+nav ul.breadcrumbs li:last-child::after{
   display: none;
 }
