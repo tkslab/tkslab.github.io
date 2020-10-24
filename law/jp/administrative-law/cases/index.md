@@ -192,10 +192,5 @@ footer_file: "footer.md"
 #### 福岡高等裁判所管内
 
 
-### 参考
-
-- [事件記録符号一覧 (www.courts.go.jp)](https://www.courts.go.jp/app/picture/hanrei_help.html)
-
-
 {% include {{ page.footer_file }}  %}
 
