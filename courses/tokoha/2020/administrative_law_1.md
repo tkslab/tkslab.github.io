@@ -1,6 +1,8 @@
 ---
-footer_file: footer.md
+header_file: "header_for_courses.md"
 ---
+
+{% include {{ page.header_file }}  %}
 
 ## 常葉大学　2020年度　行政法1
 
@@ -48,5 +50,3 @@ footer_file: footer.md
 |第14回 |  | |
 |第15回 |  | |
 -->
-
-{% include {{ page.footer_file }}  %}

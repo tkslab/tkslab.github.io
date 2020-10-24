@@ -1,6 +1,8 @@
 ---
-footer_file: footer.md
+header_file: "header_for_courses.md"
 ---
+
+{% include {{ page.header_file }}  %}
 
 ## 成城大学　2020年度　外国法I
 
@@ -17,5 +19,3 @@ footer_file: footer.md
 <!--
 [material]: 
 -->
-
-{% include {{ page.footer_file }}  %}

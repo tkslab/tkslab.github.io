@@ -1,6 +1,8 @@
 ---
-footer_file: footer.md
+header_file: "header_for_courses.md"
 ---
+
+{% include {{ page.header_file }}  %}
 
 ## 常葉大学　2020年度　行政法2
 
@@ -46,4 +48,3 @@ footer_file: footer.md
 [sheet04]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UNFlDMjNMVE1TVlpOTUdKRDlYRTI0VTMwWC4u
 [sheet05]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UNjZTWjgxNDhFWUVMVTBUUE1RM0JXWE4zRS4u
 
-{% include {{ page.footer_file }}  %}
