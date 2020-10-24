@@ -9,5 +9,5 @@ header_file: "header_for_various_topics.md"
 ### About
 
 - [researchmap](https://researchmap.jp/tkswd)
-- [教員情報（連絡先）](https://www.tokoha-u.ac.jp/teachers/law/nomology/wada/) 
+- [連絡先](https://www.tokoha-u.ac.jp/teachers/law/nomology/wada/) 
 
