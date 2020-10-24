@@ -40,6 +40,7 @@ footer_file: footer.md
 
 - [裁判所 - Courts in Japan](https://www.courts.go.jp/index.html)
 - [規則集 / 裁判所](https://www.courts.go.jp/toukei_siryou/kisokusyu/index.html)
+  - [事件記録符号一覧 (www.courts.go.jp)](https://www.courts.go.jp/app/picture/hanrei_help.html)
 
 
 {% include {{ page.footer_file }}  %}
