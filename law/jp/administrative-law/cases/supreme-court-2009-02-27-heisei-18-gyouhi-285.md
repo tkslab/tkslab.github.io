@@ -8,7 +8,7 @@ docket_number: "平成18年（行ヒ）第285号"
 case_name: "優良運転免許証交付等請求事件"
 step: "第一審, 横浜地方裁判所, 平成17年（行ウ）第29号, 平成17年12月21日, 判決|控訴審, 東京高等裁判所, 平成18年（行コ）第23号, 平成18年6月28日, 判決"
 citation: "最高裁判所民事判例集63巻2号299頁"
-source_of_commentary_by_research_law_clerk: "長屋文裕・最高裁判所判例解説民事篇平成21年度106頁"
+source_of_commentary_by_research_law_clerk: "長屋文裕, 最高裁判所判例解説民事篇平成21年度106頁"
 teaching_materials:
 party_name:
 ---

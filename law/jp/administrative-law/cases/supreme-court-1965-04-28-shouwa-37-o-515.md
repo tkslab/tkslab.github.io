@@ -8,7 +8,7 @@ docket_number: "昭和37年（オ）第515号"
 case_name: "免職処分取消請求上告事件"
 step: "第一審, 名古屋地方裁判所, 昭和35年5月30日, 判決|控訴審, 名古屋高等裁判所, 昭和35年（ネ）第365号, 昭和37年1月31日, 判決|上告審, 最高裁判所第三小法廷, 昭和37年（オ）第515号, 昭和40年4月28日, 判決"
 citation: "最高裁判所民事判例集19巻3号721頁"
-source_of_commentary_by_research_law_clerk: "渡部吉隆・最高裁判所判例解説民事篇昭和40年度135頁"
+source_of_commentary_by_research_law_clerk: "渡部吉隆, 最高裁判所判例解説民事篇昭和40年度135頁"
 teaching_materials:
 party_name:
 ---
