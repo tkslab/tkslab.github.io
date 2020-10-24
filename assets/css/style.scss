@@ -81,6 +81,11 @@ pre code {
   overflow: auto !important;
 }
 
+nav .breadcrumbs ul {
+  display: flex;
+  list-style-type: none;
+}
+
 nav .breadcrumbs li::after{
   content: '›';
   display: inline-block;
