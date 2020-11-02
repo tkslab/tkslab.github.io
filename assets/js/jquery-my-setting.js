@@ -49,6 +49,7 @@ const search_pattern_for_using_roman_numbers = [
 ]
 
 
+
 $(function() {
 	// 段落番号の自動割り当て
 	let para_index = 0;
@@ -131,4 +132,11 @@ $(function() {
 		tmpHTML = tmpHTML.replace(/(年)([^法律政令規則条約]{1,2})(第)(.{1,5})(号)/g, `$1（$2）$3$4$5`);
 		$(elem).html(tmpHTML);
 	});
+});
+
+
+$(function() {
+	let text_h2 = $('h2').text();
+	let text_title = $('title').text();
+	$("title").text(text_h2 + " - "+ text_title);
 });
