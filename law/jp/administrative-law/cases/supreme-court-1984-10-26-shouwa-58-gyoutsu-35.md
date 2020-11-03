@@ -9,7 +9,7 @@ case_name: "建築基準法による確認処分取消請求上告事件"
 step: "第一審, 仙台地方裁判所, 昭和55年（行ウ）第2号, 昭和57年4月19日, 判決|控訴審, 仙台高等裁判所, 昭和57年（行コ）第5号, 昭和58年1月18日, 判決"
 citation: "最高裁判所民事判例集38巻10号1169頁"
 source_of_commentary_by_research_law_clerk: "泉徳治, 最高裁判所判例解説民事篇昭和59年度420頁"
-teaching_materials: "行政判例百選7版II-174事件"
+teaching_materials: "行政判例百選7版2-174事件"
 party_name:
 ---
 

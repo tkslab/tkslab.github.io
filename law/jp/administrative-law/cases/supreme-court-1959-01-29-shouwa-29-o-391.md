@@ -8,7 +8,7 @@ docket_number: "昭和29年（オ）第391号"
 case_name: "書類返還損害賠償並びに慰藉料請求上告事件"
 citation: "最高裁判所民事判例集13巻1号32頁"
 source_of_commentary_by_research_law_clerk: "田中真次, 最高裁判所判例解説民事篇昭和34年度8頁"
-teaching_materials: "行政判例百選7版I-20事件"
+teaching_materials: "行政判例百選7版1-20事件"
 step: "第一審, 福岡地方裁判所, 昭和25年（行）第22号, 昭和26年2月28日, 判決|控訴審, 福岡高等裁判所, 昭和26年（ネ）第495号, 昭和29年, 2月26日, 判決"
 party_name:
 ---

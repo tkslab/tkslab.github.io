@@ -9,7 +9,7 @@ case_name: "風俗営業許可処分取消請求事件"
 step: "第一審, 東京地方裁判所, 平成6年（行ウ）第74号, 平成7年11月29日, 判決|控訴審, 東京高等裁判所, 平成7年（行コ）第157号, 平成8年9月25日, 判決"
 citation: "最高裁判所民事判例集52巻9号1821頁"
 source_of_commentary_by_research_law_clerk: "大橋寛明, 最高裁判所判例解説民事篇平成10年度986頁"
-teaching_materials: "行政判例百選7版II-166事件"
+teaching_materials: "行政判例百選7版2-166事件"
 party_name:
 ---
 

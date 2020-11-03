@@ -8,7 +8,7 @@ docket_number: "平成12年（行ツ）第62号, 平成12年（行ヒ）第66号
 case_name: "国民健康保険料賦課処分取消等請求事件"
 citation: "最高裁判所民事判例集60巻2号587頁"
 source_of_commentary_by_research_law_clerk: "阪本勝,最高裁判所判例解説民事篇平成18年度312頁"
-teaching_materials: "行政判例百選7版I-23事件"
+teaching_materials: "行政判例百選7版1-23事件"
 party_name:
 step: "第一審,旭川地方裁判所,平成7年（行ウ）第1号,平成10年4月21日,判決|控訴審,札幌高等裁判所,平成10年（行コ）第8号,平成11年12月21日,判決"
 ---

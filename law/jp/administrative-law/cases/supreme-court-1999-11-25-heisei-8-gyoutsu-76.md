@@ -9,7 +9,7 @@ case_name: "都市計画事業認可処分等取消請求事件"
 step: "第一審, 東京地方裁判所, 平成3年（行ウ）第111号, 平成6年4月14日, 判決|控訴審, 東京高等裁判所, 平成6年（行コ）第76号, 平成7年9月28日, 判決"
 citation: "判例時報1698号66頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版I-56事件"
+teaching_materials: "行政判例百選7版1-56事件"
 party_name:
 ---
 

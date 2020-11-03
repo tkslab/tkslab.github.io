@@ -9,7 +9,7 @@ case_name: "一級建築士免許取消処分等取消請求事件"
 step: "第一審, 札幌地方裁判所, 平成18年（行ウ）第27号, 平成20年2月29日, 判決|控訴審, 札幌高等裁判所, 平成20年（行コ）第9号, 平成20年11月13日, 判決"
 citation: "最高裁判所民事判例集65巻4号2081頁"
 source_of_commentary_by_research_law_clerk: "古田孝夫・最高裁判所判例解説民事篇平成23年度510頁"
-teaching_materials: "行政判例百選7版I-120事件"
+teaching_materials: "行政判例百選7版1-120事件"
 party_name:
 ---
 

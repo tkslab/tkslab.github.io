@@ -8,7 +8,7 @@ docket_number: "昭和58年（オ）第1413号"
 case_name: "建物収去等請求事件"
 citation: "最高裁判所民事判例集43巻8号955頁"
 source_of_commentary_by_research_law_clerk: "塩月秀平,最高裁判所判例解説民事篇平成1年度309頁"
-teaching_materials: "行政判例百選7版I-10事件"
+teaching_materials: "行政判例百選7版1-10事件"
 step: "第一審,大阪地方裁判所,昭和55年（ワ）第7566号,昭和57年8月30日,判決|控訴審,大阪高等裁判所,昭和57年（ネ）第1712号,昭和58年9月6日,判決"
 party_name: "上告人, 栗原嘉右衛門|被上告人, 高杉峯敏"
 ---

@@ -9,7 +9,7 @@ case_name: "公文書一部公開拒否処分取消請求事件"
 step: "第一審, 横浜地方裁判所, 平成5年（行ウ）第1号, 平成6年8月8日, 判決|控訴審, 東京高等裁判所, 平成6年（行コ）第180号, 平成8年7月17日, 判決"
 citation: "最高裁判所民事判例集53巻8号1862頁"
 source_of_commentary_by_research_law_clerk: "大橋寛明, 最高裁判所判例解説民事篇平成11年度812頁|大橋寛明, 法曹時報53巻10号"
-teaching_materials: "行政判例百選7版II-189事件"
+teaching_materials: "行政判例百選7版2-189事件"
 party_name:
 ---
 

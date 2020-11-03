@@ -8,7 +8,7 @@ docket_number: "平成20年（行ヒ）第35号"
 case_name: "住民票不記載処分取消等請求事件"
 citation: "最高裁判所民事判例集63巻4号638頁"
 source_of_commentary_by_research_law_clerk: "清野正彦, 最高裁判所判例解説民事篇平成21年度295頁"
-teaching_materials: "行政判例百選7版I-62事件"
+teaching_materials: "行政判例百選7版1-62事件"
 step: "第一審, 東京地方裁判所, 平成18年（行ウ）第309号, 平成19年5月31日, 判決|控訴審, 東京高等裁判所, 平成19年（行コ）第229号, 平成19年11月5日, 判決"
 party_name:
 ---

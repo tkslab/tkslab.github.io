@@ -8,7 +8,7 @@ docket_number: "昭和39年（行ツ）第87号"
 case_name: "法律解釈指定通達取消請求上告事件"
 citation: "最高裁判所民事判例集22巻13号3147頁"
 source_of_commentary_by_research_law_clerk: "中川哲男, 最高裁判所判例解説民事篇昭和43年度号974頁"
-teaching_materials: "行政判例百選7版I-55事件"
+teaching_materials: "行政判例百選7版1-55事件"
 step: "第一審, 東京地方裁判所, 昭和35年（行）第59号, 昭和37年12月21日, 判決|控訴審, 東京高等裁判所, 昭和37年（ネ）第3077号, 昭和39年7月31日, 判決"
 party_name:
 ---
