@@ -13,7 +13,7 @@
 	<dt>出典</dt><dd>{{ page.citation }}  </dd>
 	
 	{% if page.source_of_commentary_by_research_law_clerk %}
-	<dt>調査官解説の出典</dt><dd>{{ page.source_of_commentary_by_research_law_clerk }}  </dd>
+	<dt>調査官解説の出典</dt><dd>{{ page.source_of_commentary_by_research_law_clerk | replace:'|','</dd><dd>'  }}  </dd>
 	{% endif %}
 	
 	{% if page.teaching_materials %}
