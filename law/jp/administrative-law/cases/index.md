@@ -212,13 +212,16 @@ summary_file: "summary_for_jp_cases.md"
 - [福井地方裁判所　判決　昭和51年01月23日　判例時報826号34頁](district-court-fukui-1976-01-23-shouwa-49-gyouu-3)
 
 ###### 金沢
+- [金沢地方裁判所　判決　平成26年09月29日　判例地方自治396号69頁](district-court-kanazawa-2014-09-29-heisei-24-gyouu-1)
+
+
 ###### 富山
 
 
 ##### 高等裁判所
 
 - [名古屋高等裁判所金沢支部　判決　昭和52年12月14日　判例時報889号32頁](high-court-nagoya-kanazawa-1977-12-14-shouwa-51-gyouko-1)
-
+- [名古屋高等裁判所金沢支部　判決　平成27年06月24日　判例地方自治400号104頁](high-court-nagoya-kanazawa-2015-06-24-heisei-26-gyouko-8)
 
 #### 大阪高等裁判所管内
 ##### 地方裁判所
