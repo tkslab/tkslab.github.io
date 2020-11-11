@@ -175,6 +175,7 @@ summary_file: "summary_for_jp_cases.md"
 
 - [東京地方裁判所　決定　平成18年01月25日　判例時報1931号10頁](district-court-tokyo-2006-01-25-heisei-17-gyouku-277)
 - [東京地方裁判所　判決　平成18年10月25日　判例時報1956号62頁](district-court-tokyo-2006-10-25-heisei-17-gyouu-510)
+- [東京地方裁判所　判決　平成20年01月29日　判例時報2000号27頁](district-court-tokyo-2008-01-29-heisei-16-gyouu-470)
 - [東京地方裁判所　判決　平成25年07月19日　判例地方自治386号46頁](district-court-tokyo-2013-07-19-heisei-20-wa-25098)
 - [東京地方裁判所　判決　平成25年03月26日　判例時報2209号79頁](district-court-tokyo-2013-03-26-heisei-22-gyouu-462)
 - [東京地方裁判所　判決　平成31年04月11日　判例集未登載](district-court-tokyo-2019-04-11-heisei-29-gyouu-232)
