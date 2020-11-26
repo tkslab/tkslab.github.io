@@ -9,7 +9,7 @@ case_name: "輸入禁制品該当通知取消等請求事件"
 step: "第一審, 東京地方裁判所, 平成12年（行ウ）第233号, 平成14年1月29日, 判決|控訴審, 東京高等裁判所, 平成14年（行コ）第59号, 平成15年3月27日, 判決"
 citation: "最高裁判所民事判例集62巻2号445頁"
 source_of_commentary_by_research_law_clerk: "森英明, 最高裁判所判例解説民事篇平成20年度94頁"
-teaching_materials: "メディア判例百選2版事件"
+teaching_materials: "メディア判例百選2版62事件"
 party_name:
 ---
 
