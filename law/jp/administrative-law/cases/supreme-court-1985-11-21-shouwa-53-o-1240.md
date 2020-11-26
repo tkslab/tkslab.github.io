@@ -9,7 +9,7 @@ case_name: "損害賠償請求事件"
 step: "第一審, 札幌地方裁判所小樽支部, 昭和46年（ワ）第91号, 昭和49年12月9日, 判決|控訴審, 札幌高等裁判所, 昭和49年（ネ）第299号, 昭和53年5月24日, 判決"
 citation: "最高裁判所民事判例集39巻7号1512頁"
 source_of_commentary_by_research_law_clerk: "泉徳治, 最高裁判所判例解説民事篇昭和60年度366頁"
-teaching_materials: "憲法判例百選7版2-事件"
+teaching_materials: "憲法判例百選7版2-191事件"
 party_name:
 ---
 
