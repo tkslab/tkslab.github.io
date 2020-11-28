@@ -9,7 +9,7 @@ case_name: "児童扶養手当資格喪失処分取消請求事件"
 step: "第一審, 奈良地方裁判所, 平成6年（行ウ）第1号, 平成6年9月28日, 判決|控訴審, 大阪高等裁判所, 平成6年（行コ）第74号, 平成7年11月21日, 判決"
 citation: "最高裁判所民事判例集56巻1号246頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "社会保障判例百選5版事件|憲法判例百選7版2-事件"
+teaching_materials: "社会保障判例百選5版99事件|憲法判例百選7版2-事206件"
 party_name:
 ---
 
