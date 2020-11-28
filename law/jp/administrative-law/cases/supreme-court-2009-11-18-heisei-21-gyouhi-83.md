@@ -9,7 +9,7 @@ case_name: "解職請求署名簿無効決定異議申立棄却決定取消請�
 step: "第一審, 高知地方裁判所, 平成20年（行ウ）第7号, 平成20年12月5日, 判決"
 citation: "最高裁判所民事判例集63巻9号2033頁"
 source_of_commentary_by_research_law_clerk: "清野正彦, 最高裁判所判例解説民事篇平成21年度822頁"
-teaching_materials: "行政判例百選7版1-49事件|地方自治判例百選4版事件"
+teaching_materials: "行政判例百選7版1-49事件|地方自治判例百選4版22事件"
 party_name:
 ---
 
