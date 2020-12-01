@@ -11,7 +11,7 @@ header_file: "header_for_various_topics.md"
 	</ul>
 </nav>
 
-## セミナー
+## 常葉大学法学部生対象セミナー
 
 - [公務員試験対策講座と資格試験対策講座に関するアンケート](https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UNVpHMElONEY4T0dFMFVNUFkxSEdGVjVITS4u)
 
