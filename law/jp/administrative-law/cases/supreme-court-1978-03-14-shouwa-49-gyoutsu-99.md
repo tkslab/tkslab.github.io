@@ -8,7 +8,7 @@ docket_number: "昭和49年（行ツ）第99号"
 case_name: "審決取消請求上告事件"
 citation: "最高裁判所民事判例集32巻2号211頁"
 source_of_commentary_by_research_law_clerk: "越山安久, 最高裁判所判例解説民事篇昭和53年度75頁"
-teaching_materials: "行政判例百選7版2-132事件|経済法判例・審決百選2版110事件"
+teaching_materials: "行政判例百選2第7版132事件|経済法判例・審決百選第2版110事件"
 step: "第一審,	東京高等裁判所, 昭和48年（行ケ）第34号, 昭和49年7月19日, 判決"
 party_name: "上告人, 原告, 主婦連合会|被上告人, 被告, 公正取引委員会"
 ---

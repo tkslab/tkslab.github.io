@@ -9,7 +9,7 @@ case_name: "損害賠償請求上告事件"
 step: "第一審, 高知地方裁判所, 昭和38年（ワ）第318号, 昭和39年12月3日, 判決|控訴審, 高松高等裁判所, 昭和39年（ネ）第330号, 昭和42年5月12日, 判決"
 citation: "最高裁判所民事判例集24巻9号1268頁"
 source_of_commentary_by_research_law_clerk: "鈴木重信, 最高裁判所判例解説民事篇昭和45年度号308頁"
-teaching_materials: "行政判例百選7版2-235事件"
+teaching_materials: "行政判例百選2第7版235事件"
 party_name:
 ---
 

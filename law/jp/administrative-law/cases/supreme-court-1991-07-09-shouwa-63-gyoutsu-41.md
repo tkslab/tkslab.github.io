@@ -9,7 +9,7 @@ case_name: "面会不許可処分取消等請求事件"
 step: "第一審, 東京地方裁判所, 昭和59年（行ウ）第72号, 昭和61年9月25日, 判決|控訴審, 東京高等裁判所, 昭和61年（行コ）第71号, 昭和62年11月25日, 判決"
 citation: "最高裁判所民事判例集45巻6号1049頁"
 source_of_commentary_by_research_law_clerk: "増井和男, 最高裁判所判例解説民事篇平成3年度350頁"
-teaching_materials: "行政判例百選7版1-48事件"
+teaching_materials: "行政判例百選1第7版48事件"
 party_name:
 ---
 

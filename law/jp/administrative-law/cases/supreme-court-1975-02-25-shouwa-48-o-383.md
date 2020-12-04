@@ -8,7 +8,7 @@ docket_number: "昭和48年（オ）第383号"
 case_name: "損害賠償請求上告事件"
 citation: "最高裁判所民事判例集29巻2号143頁"
 source_of_commentary_by_research_law_clerk: "柴田保幸,最高裁判所判例解説民事篇昭和50年度60頁"
-teaching_materials: "行政判例百選7版1-31事件"
+teaching_materials: "行政判例百選1第7版31事件"
 step: "第一審,東京地方裁判所,昭和44年（ワ）第10838号,昭和46年10月30日,判決|控訴審,東京高等裁判所,昭和46年（ネ）第2901号,昭和48年1月31日,判決"
 party_name:
 ---

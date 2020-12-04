@@ -9,7 +9,7 @@ case_name: "損害賠償請求事件"
 step: "第一審, 東京地方裁判所, 昭和58年（行ウ）第158号, 昭和60年5月23日, 判決|控訴審, 東京高等裁判所, 昭和60年（行コ）第36号, 昭和61年5月29日, 判決"
 citation: "最高裁判所民事判例集46巻9号2753頁"
 source_of_commentary_by_research_law_clerk: "福岡右武, 最高裁判所判例解説民事篇平成4年度525頁"
-teaching_materials: "地方自治判例百選4版105事件"
+teaching_materials: "地方自治判例百選第4版105事件"
 party_name:
 ---
 

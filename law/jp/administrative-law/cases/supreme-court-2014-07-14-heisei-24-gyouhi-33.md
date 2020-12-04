@@ -9,7 +9,7 @@ case_name: "文書不開示決定処分取消等請求事件"
 step: "第一審, 東京地方裁判所, 平成21年（行ウ）第120号, 平成22年4月9日, 判決|控訴審, 東京高等裁判所, 平成22年（行コ）第183号, 平成23年9月29日, 判決"
 citation: "判例時報2242号51頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版2-196事件"
+teaching_materials: "行政判例百選2第7版196事件"
 party_name:
 ---
 

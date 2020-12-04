@@ -9,7 +9,7 @@ case_name: "執行停止決定に対する許可抗告事件"
 step: "控訴審, 東京高等裁判所, 平成19年（行タ）第55号, 平成19年7月19日, 決定"
 citation: "判例時報1994号21頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版2-199事件"
+teaching_materials: "行政判例百選2第7版199事件"
 party_name:
 ---
 

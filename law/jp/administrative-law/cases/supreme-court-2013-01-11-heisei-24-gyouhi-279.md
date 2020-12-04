@@ -9,7 +9,7 @@ case_name: "医薬品ネット販売の権利確認等請求事件"
 step: "第一審, 東京地方裁判所, 平成21年（行ウ）第256号, 平成22年3月30日, 判決|控訴審, 東京高等裁判所, 平成22年（行コ）第168号, 平成24年4月26日, 判決"
 citation: "最高裁判所民事判例集67巻1号1頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版1-50事件|憲法判例百選7版2-A19事件"
+teaching_materials: "行政判例百選1第7版50事件|憲法判例百選第7版2-A19事件"
 party_name:
 ---
 

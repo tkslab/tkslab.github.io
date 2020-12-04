@@ -9,7 +9,7 @@ case_name: "求償金請求事件"
 step: "第一審, 福島地方裁判所, 平成18年（ワ）第32号, 平成19年10月16日, 判決|控訴審, 仙台高等裁判所, 平成19年（ネ）第468号, 平成20年3月19日, 判決"
 citation: "最高裁判所民事判例集63巻8号1849頁"
 source_of_commentary_by_research_law_clerk: "金子直史, 最高裁判所判例解説民事篇平成21年度743頁"
-teaching_materials: "行政判例百選7版2-243事件"
+teaching_materials: "行政判例百選2第7版243事件"
 party_name:
 ---
 

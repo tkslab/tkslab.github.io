@@ -9,7 +9,7 @@ case_name: "損害賠償請求事件"
 step: "第一審, 京都地方裁判所, 昭和53年（ワ）第328号, 昭和58年7月20日, 判決|控訴審, 大阪高等裁判所, 昭和59年（ネ）第71号, 昭和61年7月1日, 判決"
 citation: "最高裁判所民事判例集43巻10号1169頁"
 source_of_commentary_by_research_law_clerk: "篠原勝美, 最高裁判所判例解説民事篇平成1年度404頁"
-teaching_materials: "行政判例百選7版2-222事件"
+teaching_materials: "行政判例百選2第7版222事件"
 party_name:
 ---
 

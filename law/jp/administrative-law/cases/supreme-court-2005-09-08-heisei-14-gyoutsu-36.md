@@ -8,7 +8,7 @@ docket_number: "平成14年（行ツ）第36号, 平成14年（行ヒ）第39号
 case_name: "保険医療機関指定拒否処分取消請求事件"
 citation: "判例時報1920号29頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "社会保障判例百選5版11事件"
+teaching_materials: "社会保障判例百選第5版11事件"
 step: "第一審, 鹿児島地方裁判所, 平成10年（行ウ）第3号, 平成11年6月14日, 判決|控訴審, 福岡高等裁判所宮崎支部, 平成11年（行コ）第5号, 平成13年10月30日, 判決"
 party_name:
 ---

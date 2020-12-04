@@ -9,7 +9,7 @@ case_name: "保育園入園承諾義務付等請求事件"
 step:
 citation: "判例時報1956号62頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "社会保障判例百選5版95事件"
+teaching_materials: "社会保障判例百選第5版95事件"
 party_name:
 ---
 

@@ -9,7 +9,7 @@ case_name: "訴えの変更許可決定に対する抗告棄却決定に対す�
 step: "第一審, 横浜地方裁判所, 平成16年（行ク）第16号, 平成16年6月23日, 決定|抗告審, 東京高等裁判所, 平成16年（行ス）第59号, 平成16年10月5日, 決定"
 citation: "判例時報1904号69頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版1-7事件|地方自治判例百選　第4版67事件"
+teaching_materials: "行政判例百選1第7版7事件|地方自治判例百選第4版67事件"
 party_name:
 ---
 

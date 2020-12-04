@@ -9,7 +9,7 @@ case_name: "行政処分無効確認等請求上告事件"
 step: "第一審, 神戸地方裁判所, 昭和37年（行）第17号, 昭和44年9月24日, 判決|控訴審, 大阪高等裁判所, 昭和44年（行コ）第55号, 昭和47年2月16日, 判決"
 citation: "最高裁判所民事判例集31巻7号1101頁"
 source_of_commentary_by_research_law_clerk: "越山安久, 最高裁判所判例解説民事篇昭和52年度414頁"
-teaching_materials: "行政判例百選7版1-80事件"
+teaching_materials: "行政判例百選1第7版80事件"
 party_name:
 ---
 

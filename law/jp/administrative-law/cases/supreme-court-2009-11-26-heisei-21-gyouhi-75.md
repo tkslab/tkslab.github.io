@@ -9,7 +9,7 @@ case_name: "横浜市立保育園廃止処分取消請求事件"
 step: "第一審, 横浜地方裁判所, 平成16年（行ウ）第4号, 平成18年5月22日, 判決|控訴審, 東京高等裁判所, 平成18年（行コ）第169号, 平成21年1月29日, 判決"
 citation: "最高裁判所民事判例集63巻9号2124頁"
 source_of_commentary_by_research_law_clerk: "古田孝夫, 最高裁判所判例解説民事篇平成21年度855頁"
-teaching_materials: "行政判例百選7版2-204事件"
+teaching_materials: "行政判例百選2第7版204事件"
 party_name:
 ---
 

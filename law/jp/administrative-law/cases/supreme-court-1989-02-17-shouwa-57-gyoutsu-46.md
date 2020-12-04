@@ -9,7 +9,7 @@ case_name: "新潟ー小松ーソウル間の定期航空運送事業免許処�
 step: "第一審, 新潟地方裁判所, 昭和54年（行ウ）第11号, 昭和56年8月10日, 判決|控訴審, 東京高等裁判所, 昭和56年（行コ）第68号, 昭和56年12月21日, 判決"
 citation: "最高裁判所民事判例集43巻2号56頁"
 source_of_commentary_by_research_law_clerk: "岩渕正紀, 最高裁判所判例解説民事篇平成1年度23頁"
-teaching_materials: "行政判例百選7版2-192事件"
+teaching_materials: "行政判例百選2第7版192事件"
 party_name:
 ---
 

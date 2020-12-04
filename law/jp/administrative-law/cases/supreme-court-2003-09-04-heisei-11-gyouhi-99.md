@@ -9,7 +9,7 @@ case_name: "労災就学援護費不支給処分取消請求上告事件"
 step: "第一審, 東京地方裁判所, 平成8年（行ウ）第256号, 平成10年3月4日, 判決|控訴審, 東京高等裁判所, 平成10年（行コ）第54号, 平成11年3月9日, 判決"
 citation: "判例時報1841号89頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版2-157事件|社会保障判例百選5版57事件"
+teaching_materials: "行政判例百選2第7版157事件|社会保障判例百選第5版57事件"
 party_name:
 ---
 

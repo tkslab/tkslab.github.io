@@ -9,7 +9,7 @@ case_name: "損害賠償請求上告事件"
 step: "第一審, 東京地方裁判所, 昭和25年（ワ）第1188号, 昭和28年6月20日, 判決|控訴審, 東京高等裁判所, 昭和28年（ネ）第1797号, 昭和29年7月15日, 判決"
 citation: "最高裁判所民事判例集10巻11号1502頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版2-229事件"
+teaching_materials: "行政判例百選2第7版229事件"
 party_name:
 ---
 

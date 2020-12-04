@@ -9,7 +9,7 @@ case_name: "損害賠償請求事件"
 step: "第一審, 京都地方裁判所, 平成19年（ワ）第2302号, 平成21年10月30日, 判決|控訴審, 大阪高等裁判所, 平成21年（ネ）第3080号, 平成22年7月30日, 判決"
 citation: "裁判所時報1576号8頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版2-221事件"
+teaching_materials: "行政判例百選2第7版221事件"
 party_name:
 ---
 

@@ -9,7 +9,7 @@ case_name: "損害賠償請求事件"
 step: "第一審, 大阪地方裁判所, 昭和51年（ワ）第3329号, 昭和55年12月2日, 判決|控訴審, 大阪高等裁判所, 昭和55年（ネ）第2135号, 昭和58年6月29日, 判決"
 citation: "最高裁判所民事判例集40巻2号472頁"
 source_of_commentary_by_research_law_clerk: "石井彦壽, 最高裁判所判例解説民事篇昭和61年度198頁"
-teaching_materials: "行政判例百選7版2-239事件"
+teaching_materials: "行政判例百選2第7版239事件"
 party_name:
 ---
 

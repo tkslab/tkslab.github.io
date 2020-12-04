@@ -8,7 +8,7 @@ docket_number: "昭和50年（あ）第24号"
 case_name: "風俗営業等取締法違反被告事件"
 citation: "最高裁判所刑事判例集32巻4号605頁"
 source_of_commentary_by_research_law_clerk: "松本光雄, 最高裁判所判例解説刑事篇昭和53年度179頁"
-teaching_materials: "行政判例百選7版1-68事件"
+teaching_materials: "行政判例百選1第7版68事件"
 step: "第一審, 酒田簡易裁判所, 昭和44年（ろ）第5号, 昭和47年10月23日, 判決|控訴審, 仙台高等裁判所秋田支部, 昭和47年（う）第110号, 昭和49年12月10日, 判決"
 party_name:
 ---

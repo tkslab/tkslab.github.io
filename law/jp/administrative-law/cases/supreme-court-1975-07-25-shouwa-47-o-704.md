@@ -9,7 +9,7 @@ case_name: "損害賠償請求上告事件"
 step: "第一審, 和歌山地方裁判所妙寺支部, 昭和41年（ワ）第6号, 昭和45年6月27日, 判決|控訴審, 大阪高等裁判所, 昭和45年（ネ）第1122号, 昭和47年3月28日, 判決"
 citation: "最高裁判所民事判例集29巻6号1136頁"
 source_of_commentary_by_research_law_clerk: "斎藤次郎, 最高裁判所判例解説民事篇昭和50年度366頁"
-teaching_materials: "行政判例百選7版2-236事件"
+teaching_materials: "行政判例百選2第7版236事件"
 party_name:
 ---
 

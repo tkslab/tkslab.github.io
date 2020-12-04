@@ -9,7 +9,7 @@ case_name: "行政処分取消請求上告事件"
 step: "第一審, 東京地方裁判所, 昭和36年（行）第26号, 昭和38年9月18日, 判決|控訴審, 東京高等裁判所, 昭和38年（ネ）第2341号, 昭和40年9月16日, 判決"
 citation: "最高裁判所民事判例集25巻7号1037頁"
 source_of_commentary_by_research_law_clerk: "中川哲男, 最高裁判所判例解説民事篇昭和46年度号619頁"
-teaching_materials: "行政判例百選7版1-117事件"
+teaching_materials: "行政判例百選1第7版117事件"
 party_name:
 ---
 

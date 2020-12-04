@@ -9,7 +9,7 @@ case_name: "措置命令処分等の義務付け請求控訴事件"
 step: "第一審　福岡地方裁判所　平成17年（行ウ）第43号　平成20年2月25日　判決|上告審　最高裁判所第三小法廷　平成23年（行ツ）第348号　平成24年7月3日　決定"
 citation: "判例時報2122号45頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "環境法判例百選3版54事件"
+teaching_materials: "環境法判例百選第3版54事件"
 party_name:
 ---
 

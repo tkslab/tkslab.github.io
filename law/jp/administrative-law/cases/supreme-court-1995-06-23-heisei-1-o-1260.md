@@ -9,7 +9,7 @@ case_name: "損害賠償、民訴法198条2項による返還及び損害賠償�
 step: "第一審, 東京地方裁判所, 昭和50年（ワ）第10797号, 昭和57年2月1日, 判決|控訴審, 東京高等裁判所, 昭和57年（ネ）第184号, 昭和63年3月11日, 判決"
 citation: "最高裁判所民事判例集49巻6号1600頁"
 source_of_commentary_by_research_law_clerk: "山下郁夫, 最高裁判所判例解説民事篇平成7年度583頁"
-teaching_materials: "行政判例百選7版2-223事件"
+teaching_materials: "行政判例百選2第7版223事件"
 party_name:
 ---
 

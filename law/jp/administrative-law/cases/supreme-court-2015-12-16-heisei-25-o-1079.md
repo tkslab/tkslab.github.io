@@ -9,7 +9,7 @@ case_name: "損害賠償請求事件"
 step: "第一審, 岡山地方裁判所, 平成23年（ワ）第1222号, 平成24年10月18日, 判決|控訴審, 広島高等裁判所岡山支部, 平成24年（ネ）第336号, 平成25年4月26日, 判決"
 citation: "最高裁判所民事判例集69巻8号2427頁"
 source_of_commentary_by_research_law_clerk: "加本牧子, 最高裁判所判例解説民事篇平成27年度642頁"
-teaching_materials: "憲法判例百選7版1-28事件"
+teaching_materials: "憲法判例百選第7版1-28事件"
 party_name:
 ---
 

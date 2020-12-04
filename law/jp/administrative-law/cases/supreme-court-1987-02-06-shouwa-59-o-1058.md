@@ -9,7 +9,7 @@ case_name: "損害賠償請求事件"
 step: "第一審, 横浜地方裁判所, 昭和53年（ワ）第1263号, 昭和57年7月16日, 判決|控訴審, 東京高等裁判所, 昭和57年（ネ）第1929号, 昭和59年5月30日, 判決"
 citation: "判例時報1232号100頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版2-215事件"
+teaching_materials: "行政判例百選2第7版215事件"
 party_name:
 ---
 

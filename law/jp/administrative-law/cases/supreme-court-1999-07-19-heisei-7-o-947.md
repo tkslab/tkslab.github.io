@@ -9,7 +9,7 @@ case_name: "損害賠償請求上告事件"
 step: "第一審, 大阪地方裁判所, 平成3年（ワ）第5327号, 平成5年3月2日, 判決|控訴審, 大阪高等裁判所, 平成5年（ネ）第730号, 平成6年12月13日, 判決"
 citation: "判例時報1688号123頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "行政判例百選7版1-72事件"
+teaching_materials: "行政判例百選1第7版72事件"
 party_name:
 ---
 

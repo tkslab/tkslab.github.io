@@ -9,7 +9,7 @@ case_name: "国歌斉唱義務不存在確認等請求事件"
 step: "第一審, 東京地方裁判所, 平成16年（行ウ）第50号, 平成18年9月21日, 判決|控訴審, 東京高等裁判所, 平成18年（行コ）第245号, 平成23年1月28日, 判決"
 citation: "最高裁判所民事判例集66巻2号183頁"
 source_of_commentary_by_research_law_clerk: "岩井伸晃・須賀康太郎, 最高裁判所判例解説民事篇平成24年度107頁"
-teaching_materials: "行政判例百選7版2-207事件"
+teaching_materials: "行政判例百選2第7版207事件"
 party_name:
 ---
 

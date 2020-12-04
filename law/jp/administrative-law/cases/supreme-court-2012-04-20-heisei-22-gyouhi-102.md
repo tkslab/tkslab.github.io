@@ -9,7 +9,7 @@ case_name: "神戸市外郭団体派遣職員への人件費違法支出損害�
 step: "第一審, 神戸地方裁判所, 平成18年（行ウ）第43号, 平成20年4月24日, 判決|控訴審, 大阪高等裁判所, 平成20年（行コ）第88号, 平成21年11月27日, 判決"
 citation: "最高裁判所民事判例集66巻6号2583頁"
 source_of_commentary_by_research_law_clerk: "上村考由, 最高裁判所判例解説民事篇平成24年度496頁"
-teaching_materials: "行政判例百選7版1-5事件"
+teaching_materials: "行政判例百選1第7版5事件"
 party_name:
 ---
 

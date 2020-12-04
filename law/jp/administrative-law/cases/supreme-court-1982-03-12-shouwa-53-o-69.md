@@ -9,7 +9,7 @@ case_name: "損害賠償請求上告事件"
 step: "第一審, 大阪地方裁判所, 昭和47年（ワ）第2027号, 昭和51年10月8日, 判決|控訴審, 大阪高等裁判所, 昭和51年（ネ）第1939号, 昭和52年9月29日, 判決"
 citation: "最高裁判所民事判例集36巻3号329頁"
 source_of_commentary_by_research_law_clerk: "村上敬一, 最高裁判所判例解説民事篇昭和57年度200頁"
-teaching_materials: "行政判例百選7版2-227事件"
+teaching_materials: "行政判例百選2第7版227事件"
 party_name:
 ---
 

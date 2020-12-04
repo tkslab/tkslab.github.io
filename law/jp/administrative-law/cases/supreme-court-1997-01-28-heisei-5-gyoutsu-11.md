@@ -9,7 +9,7 @@ case_name: "収用補償金増額請求事件"
 step: "第一審, 山口地方裁判所, 平成2年（行ウ）第1号, 平成4年1月30日, 判決|控訴審, 広島高等裁判所, 平成4年（行コ）第3号, 平成4年11月6日, 判決"
 citation: "最高裁判所民事判例集51巻1号147頁"
 source_of_commentary_by_research_law_clerk: "川神裕, 最高裁判所判例解説民事篇平成9年度92頁"
-teaching_materials: "行政判例百選7版2-209事件"
+teaching_materials: "行政判例百選2第7版209事件"
 party_name:
 ---
 

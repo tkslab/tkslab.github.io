@@ -9,7 +9,7 @@ case_name: "事業の認定、土地細目の公告及び土地収用裁決取�
 step: "第一審, 宇都宮地方裁判所, 昭和39年（行ウ）第4号, 昭和44年4月9日, 判決"
 citation: "行政事件裁判例集24巻6・7号533頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "環境法判例百選3版77事件"
+teaching_materials: "環境法判例百選第3版77事件"
 party_name: "控訴人, 被告, 建設大臣・栃木県知事・栃木県収用委員会|被控訴人, 原告, 宗教法人東照宮"
 ---
 

@@ -9,7 +9,7 @@ case_name: "埋立免許差止請求事件"
 step:
 citation: "判例時報2060号3頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "環境法判例百選3版64事件"
+teaching_materials: "環境法判例百選第3版64事件"
 party_name:
 ---
 

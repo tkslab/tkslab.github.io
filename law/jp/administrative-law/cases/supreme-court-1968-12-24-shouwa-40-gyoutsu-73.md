@@ -9,7 +9,7 @@ case_name: "テレビジョン放送局の開設に関する予備免許処分�
 step: "第一審, 東京高等裁判所, 昭和39年（行ケ）第7号, 昭和40年6月1日, 判決"
 citation: "最高裁判所民事判例集22巻13号3254頁"
 source_of_commentary_by_research_law_clerk: "可部恒雄, 最高裁判所判例解説民事篇昭和43年度号1476頁"
-teaching_materials: "行政判例百選7版2-173事件"
+teaching_materials: "行政判例百選2第7版173事件"
 party_name: "上告人, 被告, 郵政大臣|被上告人, 原告, 中央教育放送株式会社（設立中）"
 ---
 

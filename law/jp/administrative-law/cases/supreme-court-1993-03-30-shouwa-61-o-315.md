@@ -9,7 +9,7 @@ case_name: "損害賠償請求事件"
 step: "第一審, 仙台地方裁判所, 昭和57年（ワ）第34号, 昭和59年9月18日, 判決|控訴審, 仙台高等裁判所, 昭和59年（ネ）第454号, 昭和60年11月20日, 判決"
 citation: "最高裁判所民事判例集47巻4号3226頁"
 source_of_commentary_by_research_law_clerk: "滝澤孝臣, 最高裁判所判例解説民事篇平成5年度533頁"
-teaching_materials: "行政判例百選7版2-240事件"
+teaching_materials: "行政判例百選2第7版240事件"
 party_name:
 ---
 

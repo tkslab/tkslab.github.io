@@ -9,7 +9,7 @@ case_name: "農地委員会解散命令無効確認並びに慰藉料請求上�
 step: "第一審, 熊本地方裁判所, 昭和23年（行）第14号, 昭和27年6月16日, 判決|控訴審, 福岡高等裁判所, 昭和28年4月15日, 判決"
 citation: "最高裁判所民事判例集9巻5号534頁"
 source_of_commentary_by_research_law_clerk: "白石健三, 最高裁判所判例解説民事篇昭和30年度45頁"
-teaching_materials: "行政判例百選7版2-234事件"
+teaching_materials: "行政判例百選2第7版234事件"
 party_name:
 ---
 

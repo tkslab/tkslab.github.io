@@ -9,7 +9,7 @@ case_name: "国道43号・阪神高速道路騒音排気ガス規制等請求事
 step: "第一審, 神戸地方裁判所, 昭和51年（ワ）第742号, 昭和61年7月17日, 判決|控訴審, 大阪高等裁判所, 昭和61年（ネ）第1599号, 平成4年2月20日, 判決"
 citation: "最高裁判所民事判例集49巻7号1870頁"
 source_of_commentary_by_research_law_clerk: "田中豊, 最高裁判所判例解説民事篇平成7年度708頁"
-teaching_materials: "環境法判例百選3版25事件"
+teaching_materials: "環境法判例百選第3版25事件"
 party_name:
 ---
 

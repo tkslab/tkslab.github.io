@@ -9,7 +9,7 @@ case_name: "国家賠償請求上告事件"
 step: "第一審, 札幌地方裁判所, 昭和40年（ワ）第536号, 昭和46年12月24日, 判決|控訴審, 札幌高等裁判所, 昭和47年（ネ）第10号, 昭和48年8月10日, 判決"
 citation: "最高裁判所民事判例集32巻7号1367頁"
 source_of_commentary_by_research_law_clerk: "篠田省二, 最高裁判所判例解説民事篇昭和53年度470頁"
-teaching_materials: "行政判例百選7版2-228事件"
+teaching_materials: "行政判例百選2第7版228事件"
 party_name:
 ---
 

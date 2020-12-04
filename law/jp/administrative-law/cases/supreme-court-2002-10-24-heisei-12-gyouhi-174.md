@@ -8,7 +8,7 @@ docket_number: "平成12年（行ヒ）第174号"
 case_name: "裁決取消請求事件"
 citation: "最高裁判所民事判例集56巻8号1903頁"
 source_of_commentary_by_research_law_clerk: "大橋寛明, 最高裁判所判例解説民事篇平成14年度878頁"
-teaching_materials: "行政判例百選7版2-131事件"
+teaching_materials: "行政判例百選2第7版131事件"
 step: "第一審, 東京地方裁判所, 平成11年（行ウ）第17号, 平成11年8月27日, 判決|控訴審, 東京高等裁判所, 平成11年（行コ）第205号, 平成12年3月23日, 判決"
 party_name:
 ---
