@@ -9,7 +9,7 @@ case_name: "河川附近地制限令違反被告事件"
 step: "第一審, 仙台簡易裁判所, 昭和37年8月31日, 判決|控訴審, 仙台高等裁判所, 昭和37年11月30日, 判決"
 citation: "最高裁判所刑事判例集22巻12号1402頁"
 source_of_commentary_by_research_law_clerk: "桑田連平, 最高裁判所判例解説刑事篇昭和43年度号404頁"
-teaching_materials: "行政判例百選2第7版252事件|〔憲法判例百選1第7版〕220頁"
+teaching_materials: "行政判例百選2第7版252事件|憲法判例百選1第7版102事件"
 party_name:
 ---
 
