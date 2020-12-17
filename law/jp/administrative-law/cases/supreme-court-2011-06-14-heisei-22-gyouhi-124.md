@@ -9,7 +9,7 @@ case_name: "行政処分取消等請求事件"
 step: "第一審, 旭川地方裁判所, 平成20年（行ウ）第10号, 平成21年6月9日, 判決|控訴審, 札幌高等裁判所, 平成21年（行コ）第12号, 平成21年11月27日, 判決"
 citation: "裁判所時報1533号24頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "〔地方自治判例百選第4版〕112頁"
+teaching_materials: "地方自治判例百選第4版65事件"
 party_name:
 ---
 
