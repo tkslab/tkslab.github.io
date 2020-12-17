@@ -19,6 +19,5 @@ header_file: "header_for_courses.md"
 [erratta]: https://www.nippyo.co.jp/shop/book/7687.html#errataDetail
 [syllabus]: https://portal.sz.tokoha-u.ac.jp/sz/slbssbdr.do?value(risyunen)=2020&value(semekikn)=1&value(kougicd)=441HH31A&value(crclumcd)=1814141000
 [onedrive]: https://tumail-my.sharepoint.com/:f:/g/personal/tks-tks_sz_tokoha-u_ac_jp/Euy--V3jPy9KgCPCbvmUKSwB2qloqTlmiPTyv225yuavqQ
-[teams]: https://teams.microsoft.com/l/team/19%3a0bbd79cf76c144b5b7155b6faac7d34a%40thread.tacv2/conversations?groupId=8f29e8d7-c241-417f-9505-5dd68909fc90&tenantId=55b23e3f-dc44-4134-9890-17dd230c60cf
 [ask]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UQkc1WFhONTQwOVlKR0Y5QzU1TEoyUks0SS4u
 
