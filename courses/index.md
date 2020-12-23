@@ -13,9 +13,7 @@ header_file: "header_for_courses.md"
 - [講義　行政法1](tokoha/2020/administrative_law_1)
 - [講義　行政法2](tokoha/2020/administrative_law_2)
 - [講義　行政法4](tokoha/2020/administrative_law_4)
-
 - [課外講座　手続法入門](tokoha/2020/introduction_to_procedural_law)
-
 
 
 #### 青山学院大学
