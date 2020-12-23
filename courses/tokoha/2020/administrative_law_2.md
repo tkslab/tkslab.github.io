@@ -4,7 +4,7 @@ header_file: "header_for_courses.md"
 
 {% include {{ page.header_file }}  %}
 
-## 常葉大学　2020年度　行政法2
+## 常葉大学　2020年度　講義　行政法2
 
 ### 講義関連情報
 
