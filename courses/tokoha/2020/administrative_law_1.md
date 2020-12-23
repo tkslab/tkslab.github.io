@@ -11,7 +11,7 @@ header_file: "header_for_courses.md"
 |内容|ウェブページへのリンク|備考|
 |--|--|--|
 |シラバス|[講義内容詳細：行政法1][syllabus]| |
-|教科書|[板垣勝彦『公務員をめざす人に贈る　行政法教科書』（法律文化社、2018）][textbook]|[出版社のウェブページ][erratta]にて補遺（正誤情報）が公表されています  |
+|教科書|[板垣勝彦『公務員をめざす人に贈る　行政法教科書』（法律文化社、2018）][textbook]|[出版社のウェブページ][erratta]にて補遺（正誤情報）が公表されています。[板垣先生の公式ウェブサイト][itagaki_lecture]では計30回の講義に相当する動画が公開されています。 |
 |教材|[行政法1フォルダ][material]|アクセスするには大学メールアドレスとそのパスワードを使用してください|
 |定期試験の講評等|[行政法1フォルダ][material]|アクセスするには大学メールアドレスとそのパスワードを使用してください|
 
@@ -20,6 +20,8 @@ header_file: "header_for_courses.md"
 [textbook]: https://www.hou-bun.com/cgi-bin/search/detail.cgi?c=ISBN978-4-589-03951-4
 [erratta]: https://www.hou-bun.com/cgi-bin/search/detail.cgi?c=ISBN978-4-589-03951-4
 [material]: https://tumail-my.sharepoint.com/:f:/g/personal/tks-tks_sz_tokoha-u_ac_jp/Erah51RQx89HpFRGCy0CP7kBykv2kgls_Y-wOMaKuJoqvQ
+[itagaki_lecture]: https://kibatai2004.com/lecture/
+
 
 <!--
 [erratta]: 
