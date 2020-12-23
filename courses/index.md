@@ -4,24 +4,25 @@ header_file: "header_for_courses.md"
 
 {% include {{ page.header_file }}  %}
 
-## 授業・講座
+## 講義・演習・課外講座
 
 ### 2020年度分
 
 #### 常葉大学
 
-- [行政法1](tokoha/2020/administrative_law_1)
-- [行政法2](tokoha/2020/administrative_law_2)
-- [行政法4](tokoha/2020/administrative_law_4)
+- [講義　行政法1](tokoha/2020/administrative_law_1)
+- [講義　行政法2](tokoha/2020/administrative_law_2)
+- [講義　行政法4](tokoha/2020/administrative_law_4)
 
-- [公務員試験対策講座](https://sites.google.com/view/tokoha-law-courses-for-tests/)
+- [課外講座　手続法入門](tokoha/2020/introduction_to_procedural_law)
+
 
 
 #### 青山学院大学
 
-- [イギリス法A](aoyama/2020/english_law_a)
+- [講義　イギリス法A](aoyama/2020/english_law_a)
 
 
 #### 成城大学
 
-- [外国法I](seijo/2020/foregin_law_1)
+- [講義　外国法I](seijo/2020/foregin_law_1)
