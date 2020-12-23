@@ -13,11 +13,10 @@ header_file: "header_for_courses.md"
 |シラバス|[講義内容詳細：行政法2][syllabus]| |
 |教科書|[中原茂樹『基本行政法［第３版］』（日本評論社、2018）][textbook]|[出版社のウェブページ][erratta]にて正誤情報が公表されています |
 |教材|[行政法2フォルダ][onedrive] (Microsoft OneDrive) |アクセスするには大学メールアドレスとそのパスワードを使用してください|
-|問い合わせ先|[「行政法2」問い合わせフォーム][ask]|アクセスするには大学メールアドレスとそのパスワードを使用してください|
+
 
 [textbook]: https://www.nippyo.co.jp/shop/book/7687.html
 [erratta]: https://www.nippyo.co.jp/shop/book/7687.html#errataDetail
 [syllabus]: https://portal.sz.tokoha-u.ac.jp/sz/slbssbdr.do?value(risyunen)=2020&value(semekikn)=1&value(kougicd)=441HH31A&value(crclumcd)=1814141000
 [onedrive]: https://tumail-my.sharepoint.com/:f:/g/personal/tks-tks_sz_tokoha-u_ac_jp/Euy--V3jPy9KgCPCbvmUKSwB2qloqTlmiPTyv225yuavqQ
-[ask]: https://forms.office.com/Pages/ResponsePage.aspx?id=Pz6yVUTcNEGYkBfdIwxgz3rFM9EfHGZDtaWbHX2D5G9UQkc1WFhONTQwOVlKR0Y5QzU1TEoyUks0SS4u
 
