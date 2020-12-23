@@ -7,7 +7,7 @@ judgment_date: "平成29年12月19日"
 docket_number: "平成29年（行フ）第3号"
 case_name: "執行停止決定に対する抗告棄却決定に対する許可抗告事件"
 step: "第一審, 札幌地方裁判所, 平成29年（行ク）第3号, 平成29年3月23日, 決定|抗告審, 札幌高等裁判所, 平成29年（行ス）第1号, 平成29年5月29日, 決定"
-citation: "判例時報2375＝2376号176頁"
+citation: "判例時報2375=2376号176頁"
 source_of_commentary_by_research_law_clerk:
 teaching_materials:
 party_name:
