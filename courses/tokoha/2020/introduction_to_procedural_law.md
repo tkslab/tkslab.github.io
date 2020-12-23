@@ -8,6 +8,7 @@ header_file: "header_for_courses.md"
 
 ### 講座関連情報
 
+[常葉大学法学部主催　公務員試験対策講座](https://sites.google.com/view/tokoha-law-courses-for-tests/)　に関するページです。
 
 
 |回数|日時|場所|内容|講義録|
