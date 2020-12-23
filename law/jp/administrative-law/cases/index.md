@@ -292,7 +292,7 @@ summary_file: "summary_for_jp_cases.md"
 ###### 長野
 ###### 新潟
 
-- [新潟地方裁判所　判決　平成06年03月24日　行政事件裁判例集45巻3号304頁](district-court-niigata-1994-03-24-shouwa-54-gyouu-6)
+- [新潟地方裁判所　判決　平成06年03月24日　行政事件裁判例集45巻3号304頁](district-court-niigata-1994-03-24-shouwa-54-gyouu-6)　柏崎・刈羽原発
 
 ##### 高等裁判所
 
