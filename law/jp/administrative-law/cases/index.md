@@ -390,7 +390,7 @@ summary_file: "summary_for_jp_cases.md"
 
 ##### 高等裁判所
 
-- [高松高等裁判所　判決　昭和59年12月14日　行政事件裁判例集35巻12号2078頁](high-court-takamatsu-1984-12-14-shouwa-53-gyouko-4)
+- [高松高等裁判所　判決　昭和59年12月14日　行政事件裁判例集35巻12号2078頁](high-court-takamatsu-1984-12-14-shouwa-53-gyouko-4)　伊方原発
 
 
 #### 福岡高等裁判所管内
