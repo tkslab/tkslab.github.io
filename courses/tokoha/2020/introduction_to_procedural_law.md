@@ -13,7 +13,7 @@ header_file: "header_for_courses.md"
 
 |回数|日程|内容|講義録|
 |--|--|--|--|--|
-|第01回|02月10日（水曜日）|概論（民事系・刑事系・公法系）|未公開|
+|第01回|02月10日（水曜日）|概論（公法・民事法・刑事法）|[PDF](https://tumail-my.sharepoint.com/:f:/g/personal/tks-tks_sz_tokoha-u_ac_jp/EmONkNn7HsBIg00E4byiHvIBF_1SGyoZyNmq3SXQ4Hg3KA?e=f2VQey)|
 |第02回|02月17日（水曜日）|民事系（民事訴訟法）|未公開|
 |第03回|02月24日（水曜日）|民事系（民事執行法）|未公開|
 |第04回|03月03日（水曜日）|民事系（民事保全法）|未公開|
