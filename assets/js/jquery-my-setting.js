@@ -133,10 +133,3 @@ $(function() {
 		$(elem).html(tmpHTML);
 	});
 });
-
-
-$(function() {
-	let text_h2 = $('h2').text();
-	let text_title = $('title').text();
-	$("title").text(text_h2 + " - "+ text_title);
-});
