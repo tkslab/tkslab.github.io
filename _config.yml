@@ -41,7 +41,7 @@ minimal_mistakes_skin: "contrast"
 atom_feed:
   hide: true
 
-head_scripts:
+footer_scripts:
   - "https://code.jquery.com/jquery-3.5.1.min.js"
   - "/assets/js/jquery-my-setting.js"
   - "https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"
