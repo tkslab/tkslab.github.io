@@ -14,7 +14,10 @@ highlighter: rouge
 plugins:
   - github-pages
   - jekyll-coffeescript
+  - jekyll-include-cache
 
 sass:
   sass_dir: _sass
   style: compressed
+
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
