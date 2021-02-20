@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 title: "講義・演習・課外講座"
 ---
 
