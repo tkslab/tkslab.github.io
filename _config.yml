@@ -14,3 +14,7 @@ highlighter: rouge
 plugins:
   - github-pages
   - jekyll-coffeescript
+
+sass:
+  sass_dir: _sass
+  style: compressed
