@@ -1,14 +1,11 @@
 ---
-header_file: "header_for_courses.md"
+layout: splash
+title: "講義・演習・課外講座"
 ---
 
-{% include {{ page.header_file }}  %}
+## 2020年度分
 
-## 講義・演習・課外講座
-
-### 2020年度分
-
-#### 常葉大学
+### 常葉大学
 
 - [講義　行政法1](tokoha/2020/administrative_law_1)
 - [講義　行政法2](tokoha/2020/administrative_law_2)
@@ -16,11 +13,11 @@ header_file: "header_for_courses.md"
 - [課外講座　手続法入門](tokoha/2020/introduction_to_procedural_law)
 
 
-#### 青山学院大学
+### 青山学院大学
 
 - [講義　イギリス法A](aoyama/2020/english_law_a)
 
 
-#### 成城大学
+### 成城大学
 
 - [講義　外国法I](seijo/2020/foregin_law_1)
