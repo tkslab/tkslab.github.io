@@ -21,3 +21,5 @@ sass:
   style: compressed
 
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+
+minimal_mistakes_skin: "contrast" # "dark", "dirt", "neon", "mint", "plum" "sunrise"
