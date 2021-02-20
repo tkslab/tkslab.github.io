@@ -1,16 +1,7 @@
 ---
-header_file: "header_for_various_topics.md"
+toc: true
+toc_sticky: true
 ---
-
-{% include {{ page.header_file }}  %}
-
-<nav>
-	<ul class="breadcrumbs">
-		<li><a href="/">ホーム</a></li>
-		<li><a href="/law/jp/">法学資料（日本）</a></li>
-	</ul>
-</nav>
-
 
 ## 法学資料（日本）
 
