@@ -1,6 +1,5 @@
 ---
 title: "Home"
-toc: true
 ---
 
 ## About
