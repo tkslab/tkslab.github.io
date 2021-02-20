@@ -30,7 +30,7 @@ atom_feed:
 
 search: true
 
-head_scripts:
+footer_scripts:
   - "/assets/js/lunr-languages/lunr.stemmer.support.js"
   - "/assets/js/lunr-languages/tinyseg.js"
   - "/assets/js/lunr-languages/lunr.jp.js"
