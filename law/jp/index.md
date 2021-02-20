@@ -1,21 +1,21 @@
 ---
+title: 法学資料（日本）
 toc: true
 toc_sticky: true
 ---
 
-## 法学資料（日本）
 
-### 一般
+## 一般
 
 
 - [公布済み現行法令件数とその調べ方](general/primary-and-secondary-legislation)
 
 
-### 分野
+## 分野
 
 - [行政法](administrative-law)
 
-### リンク集
+## リンク集
 
 
 - [e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/)
