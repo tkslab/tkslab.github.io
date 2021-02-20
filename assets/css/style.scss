@@ -1,7 +1,9 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+// @import "{{ site.theme }}";
+@import "minimal-mistakes/skins/default"; // skin
+
 h3 {
   margin-left: 1em;
   padding: 0.5em;
