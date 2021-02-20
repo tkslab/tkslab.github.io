@@ -1,12 +1,6 @@
----
-header_file: "header_for_various_topics.md"
----
+# Home
 
-{% include {{ page.header_file }}  %}
-
-## Home
-
-### About
+## About
 
 - [researchmap](https://researchmap.jp/tkswd)
 - [連絡先](https://www.tokoha-u.ac.jp/teachers/law/nomology/wada/) 
