@@ -29,6 +29,7 @@ plugins:
   - github-pages
   - jekyll-coffeescript
   - jekyll-include-cache
+  - jekyll-titles-from-headings
 
 sass:
   sass_dir: _sass
@@ -53,3 +54,9 @@ footer_scripts:
   - "/assets/js/jquery-my-setting.js"
   - "https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.2/anchor.min.js"
   - "/assets/js/anchor-my-setting.js"
+
+
+titles_from_headings:
+  enabled:     true
+  strip_title: false
+  collections: false
