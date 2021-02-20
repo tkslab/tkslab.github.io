@@ -1,0 +1,8 @@
+main:
+  - title: "講義・演習・課外講座"
+    url: /courses/
+  - title: "法学資料（日本）"
+    url: /law/jp/
+  - title: "ツール"
+    url: /tools/
+  
