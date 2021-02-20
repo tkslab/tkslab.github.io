@@ -33,5 +33,5 @@ search: true
 head_scripts:
   - /assets/js/lunr-languages/lunr.stemmer.support.js
   - /assets/js/lunr-languages/tinyseg.js
-  - /assets/js/lunr-languages/lunr.ja.js
+  - /assets/js/lunr-languages/lunr.jp.js
   - /assets/js/lunr-languages/my-setting.js
