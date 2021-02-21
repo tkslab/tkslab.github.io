@@ -48,6 +48,7 @@ defaults:
       layout: single
       classes: wide
       toc: true
+      toc_label: "table of contents"
 
 
 footer_scripts:
