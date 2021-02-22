@@ -21,8 +21,8 @@ toc_sticky: true
 - [e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/)
 - [日本法令索引](https://hourei.ndl.go.jp/#/)
 - [日本法令外国語訳データベースシステム](http://www.japaneselawtranslation.go.jp/?re=01)
-- [最近の法律・条約 / 内閣法制局](https://www.clb.go.jp/contents/)
-- [所管の法令・告示・通達等｜電子政府の総合窓口e-Gov イーガブ](https://www.e-gov.go.jp/law/ordinance.html)
+- [最近の法律・条約 | 内閣法制局](https://www.clb.go.jp/recent-laws/)
+- [所管法令・告示・通達 | e-Govポータル](https://www.e-gov.go.jp/laws-and-secure-life/law-in-force.html)
 
 
 - [衆議院規則](http://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-rules.htm)
