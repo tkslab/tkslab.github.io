@@ -18,7 +18,7 @@ header_file: "header_for_various_topics.md"
 
 以下のページで公表されるようになりました。
 
-- [DB登録法令数 e-Gov法令検索](https://elaws.e-gov.go.jp/registdb/)
+- [DB登録法令数 \| e-Gov法令検索](https://elaws.e-gov.go.jp/registdb/)
 
 
 ### 公布済み現行法令件数　（2020年09月20日現在）
