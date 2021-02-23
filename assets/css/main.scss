@@ -254,11 +254,13 @@ nav ul.breadcrumbs li:last-child::after{
     :not(:target) {
         font-weight: italic;
     }
+  /*
     > ul > li {
         font-size: $type-size-8;
         > ul > li {
             font-size: $type-size-5;
         }
     }
+  */
 }
 
