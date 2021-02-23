@@ -1,5 +1,5 @@
 ---
-header_file: "header_for_jp_cases.md"
+title: "最高裁判所第二小法廷　決定　平成01年11月08日　判例時報1328号16頁"
 summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "決定"
 types_of_courts: "最高裁判所第二小法廷"
@@ -13,9 +13,7 @@ teaching_materials:
 party_name:
 ---
 
-{% include {{ page.header_file }}  %}
 
-## 最高裁判所第二小法廷　決定　平成01年11月08日　判例時報1328号16頁
 
 {% include {{ page.summary_file }}  %}
 
@@ -24,7 +22,7 @@ party_name:
 
 
 
-### 主文
+## 主文
 
 
 
@@ -34,7 +32,7 @@ party_name:
 
 
 
-### 理由
+## 理由
 
 
 
@@ -49,7 +47,7 @@ party_name:
 平成元年一一月七日
 
 
-### 裁判官一覧
+## 裁判官一覧
 
 最高裁判所第二小法廷
 

@@ -1,29 +1,21 @@
 ---
-header_file: "header_for_various_topics.md"
+title: "公布済み現行法令件数とその調べ方"
 ---
 
-{% include {{ page.header_file }}  %}
-
-<nav>
-	<ul class="breadcrumbs">
-		<li><a href="/">ホーム</a></li>
-		<li><a href="../../">法学資料（日本）</a></li>
-	</ul>
-</nav>
 
 
-## 公布済み現行法令件数とその調べ方
 
-### 最新情報
+
+## 最新情報
 
 以下のページで公表されるようになりました。
 
 - [DB登録法令数 \| e-Gov法令検索](https://elaws.e-gov.go.jp/registdb/)
 
 
-### 公布済み現行法令件数　（2020年09月20日現在）
+## 公布済み現行法令件数　（2020年09月20日現在）
 
-#### 公布済み現行法令件数の内訳
+### 公布済み現行法令件数の内訳
 
 
 | 種類 | 数 |
@@ -58,7 +50,7 @@ header_file: "header_for_various_topics.md"
 |内閣総理大臣決定|  11|
 
 
-#### 憲法・法律、政令・勅令、府省令の一覧
+### 憲法・法律、政令・勅令、府省令の一覧
 
 csv 形式にまとめました。公布年月日、法令の種類、法令番号、法令名称の順に記述しています。
 これらは、[e-Gov法令検索](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0100/) の法令API を用いて取得したものです。
@@ -71,13 +63,13 @@ csv 形式にまとめました。公布年月日、法令の種類、法令番�
  
 
  
-### 公布済み現行法令件数の調べ方
+## 公布済み現行法令件数の調べ方
 
 e-Gov の法令APIを利用します。次のページで配布されている「法令API仕様書（Version1）」の説明に従ってください。
 
 -  [法令APIについて｜電子政府の総合窓口e-Gov イーガブ](https://www.e-gov.go.jp/elaws/interface_api/index.html)
  
-### ソースコード
+## ソースコード
 
 - [get_list_of_primary_and_secondary_legislation.py](https://github.com/tkslab/tkslab.github.io/blob/master/law/jp/general/primary-and-secondary-legislation/get_list_of_primary_and_secondary_legislation.py)
 

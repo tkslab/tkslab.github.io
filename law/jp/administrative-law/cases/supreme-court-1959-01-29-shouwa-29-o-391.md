@@ -1,6 +1,6 @@
 ---
+title: "最高裁判所第一小法廷　判決　昭和34年01月29日　最高裁判所民事判例集13巻1号32頁"
 summary_file: "summary_for_jp_cases.md"
-header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
 judgment_date: "昭和34年01月29日"
@@ -13,9 +13,7 @@ step: "第一審, 福岡地方裁判所, 昭和25年（行）第22号, 昭和26�
 party_name:
 ---
 
-{% include {{ page.header_file }}  %}
 
-## 最高裁判所第一小法廷　判決　昭和34年01月29日　最高裁判所民事判例集13巻1号32頁
 
 
 
@@ -36,7 +34,7 @@ party_name:
 
 
 
-### 主文
+## 主文
 
 
 
@@ -48,7 +46,7 @@ party_name:
 
 
 
-### 理由
+## 理由
 
 
 
@@ -58,7 +56,7 @@ party_name:
 
 よつて、民訴四〇一条、九五条、八九条に従い、裁判官全員の一致で、主文のとおり判決する。
 
-### 裁判官一覧
+## 裁判官一覧
 
 |裁判長裁判官|入江俊郎|
 |裁判官|斎藤悠輔|

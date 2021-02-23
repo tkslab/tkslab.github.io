@@ -1,12 +1,10 @@
 ---
-header_file: "header_for_courses.md"
+title: "常葉大学　2020年度　課外講座　手続法入門"
 ---
 
-{% include {{ page.header_file }}  %}
 
-## 常葉大学　2020年度　課外講座　手続法入門
 
-### 課外講座関連情報
+## 課外講座関連情報
 
 [常葉大学法学部主催　課外講座](https://sites.google.com/view/tokoha-law-courses-for-tests/)　に関するページです。
 

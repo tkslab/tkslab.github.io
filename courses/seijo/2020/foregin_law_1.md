@@ -1,12 +1,10 @@
 ---
-header_file: "header_for_courses.md"
+title: "成城大学　2020年度　外国法I"
 ---
 
-{% include {{ page.header_file }}  %}
 
-## 成城大学　2020年度　外国法I
 
-### 講義関連情報
+## 講義関連情報
 
 |内容|ウェブページへのリンク|備考|
 |--|--|--|

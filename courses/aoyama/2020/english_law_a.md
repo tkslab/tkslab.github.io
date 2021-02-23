@@ -1,12 +1,10 @@
 ---
-header_file: "header_for_courses.md"
+title: "青山学院大学　2020年度　イギリス法A"
 ---
 
-{% include {{ page.header_file }}  %}
 
-## 青山学院大学　2020年度　イギリス法A
 
-### 講義関連情報
+## 講義関連情報
 
 |内容|ウェブページへのリンク|備考|
 |--|--|--|

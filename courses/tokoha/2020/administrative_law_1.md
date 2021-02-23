@@ -1,12 +1,10 @@
 ---
-header_file: "header_for_courses.md"
+title: "常葉大学　2020年度　講義　行政法1"
 ---
 
-{% include {{ page.header_file }}  %}
 
-## 常葉大学　2020年度　講義　行政法1
 
-### 講義関連情報
+## 講義関連情報
 
 |内容|ウェブページへのリンク|備考|
 |--|--|--|
@@ -28,7 +26,7 @@ header_file: "header_for_courses.md"
 [ask]: 
 -->
 
-### コメントシート
+## コメントシート
 
 受付を終了しました。
 

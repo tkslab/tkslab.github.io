@@ -1,6 +1,6 @@
 ---
+title: "最高裁判所第三小法廷　判決　昭和43年12月24日　最高裁判所民事判例集22巻13号3147頁"
 summary_file: "summary_for_jp_cases.md"
-header_file: "header_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第三小法廷"
 judgment_date: "昭和43年12月24日"
@@ -13,9 +13,7 @@ step: "第一審, 東京地方裁判所, 昭和35年（行）第59号, 昭和37�
 party_name:
 ---
 
-{% include {{ page.header_file }}  %}
 
-## 最高裁判所第三小法廷　判決　昭和43年12月24日　最高裁判所民事判例集22巻13号3147頁
 
 
 
@@ -25,7 +23,7 @@ party_name:
 
 
 
-### 主文
+## 主文
 
 
 
@@ -37,7 +35,7 @@ party_name:
 
 
 
-### 理由
+## 理由
 
 
 
@@ -57,7 +55,7 @@ party_name:
 
 よつて、民訴法四〇一条、九五条、八九条に従い、裁判官全員の一致で、主文のとおり判決する。
 
-### 裁判官一覧
+## 裁判官一覧
 
 |裁判長裁判官|横田正俊|
 |裁判官|田中二郎|

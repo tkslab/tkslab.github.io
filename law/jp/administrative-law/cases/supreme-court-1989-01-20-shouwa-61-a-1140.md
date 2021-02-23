@@ -1,5 +1,5 @@
 ---
-header_file: "header_for_jp_cases.md"
+title: "最高裁判所第二小法廷　判決　平成01年01月20日　最高裁判所刑事判例集43巻1号1頁"
 summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第二小法廷"
@@ -13,9 +13,7 @@ teaching_materials:
 party_name:
 ---
 
-{% include {{ page.header_file }}  %}
 
-## 最高裁判所第二小法廷　判決　平成01年01月20日　最高裁判所刑事判例集43巻1号1頁
 
 {% include {{ page.summary_file }}  %}
 
@@ -28,7 +26,7 @@ party_name:
 
 
 
-### 主文
+## 主文
 
 
 
@@ -38,7 +36,7 @@ party_name:
 
 
 
-### 理由
+## 理由
 
 
 
@@ -48,7 +46,7 @@ party_name:
 
 よつて、刑訴法四〇八条により、裁判官全員一致の意見で、主文のとおり判決する。
 
-### 裁判官一覧
+## 裁判官一覧
 
 |裁判長裁判官|藤島昭|
 |裁判官|牧圭次|
