@@ -14,7 +14,7 @@
 	{% endif %}
 	
 	{% if page.teaching_materials %}
-	<dt>学習用判例集</dt><dd>{{ page.teaching_materials | replace:'|','</dd><dd>' }}  </dd>
+	<dt>教材</dt><dd>{{ page.teaching_materials | replace:'|','</dd><dd>' }}  </dd>
 	{% endif %}
 	
 	{% if page.step %}
