@@ -5,10 +5,6 @@ summary_file: "summary_for_jp_cases.md"
 
 
 
-* table
-{:toc}
-
-
 ## 最高裁判所
 
 ### 昭和01年～
