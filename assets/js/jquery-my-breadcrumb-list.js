@@ -40,6 +40,6 @@ text_and_url_list = text_and_url_list.map((value) => {
 });
 
 
-$("h1#page-title").insertBefore(`<nav><ul class="breadcrumbs">${text_and_url_list.join("\n")}</ul></nav>`);
+$("h1#page-title").before(`<nav><ul class="breadcrumbs">${text_and_url_list.join("\n")}</ul></nav>`);
 
 });
