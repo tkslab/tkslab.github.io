@@ -68,15 +68,6 @@ _:lang(x)::-ms-backdrop, .selector {
   }
 }
 
-/*
-#markdown-toc {
-  background-color: #fff;
-  margin: 5px 0;
-  padding: 10px 30px;
-  border: 1px solid #e8e8e8;
-  border-radius: 3px;
-}
-*/
 
 pre code {
   white-space: pre-wrap !important;
@@ -125,7 +116,9 @@ nav ul.breadcrumbs li:last-child::after{
             display: inline-block;
             padding: 0.5em 2.5em 0.5em 1em;
             color: $gray;
+          /*
             font-size: $type-size-6;
+          */
             font-weight: bold;
             border: 1px solid $light-gray;
             border-radius: $border-radius;
@@ -238,7 +231,9 @@ nav ul.breadcrumbs li:last-child::after{
     margin: 0;
     padding: 0.25rem 0.75rem;
     font-family: $sans-serif-narrow;
+  /*
     font-size: $type-size-5;
+  */
     font-weight: bold;
 }
 
