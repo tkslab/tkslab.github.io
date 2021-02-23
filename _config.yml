@@ -55,6 +55,7 @@ footer_scripts:
   - "https://code.jquery.com/jquery-3.5.1.min.js"
   - "/assets/js/jquery-my-law-reports.js"
   - "/assets/js/jquery-my-sidebar.js"
+  - "/assets/js/jquery-my-breadcrumb-list.js"
 
 
 titles_from_headings:
