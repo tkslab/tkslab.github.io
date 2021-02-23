@@ -92,6 +92,11 @@ nav ul.breadcrumbs li:last-child::after{
 }
 
 
+
+.sidebar p, .sidebar li {
+  font-size: 0.9em;
+}
+
 // Customize Minimal Mistakes - K’s website
 // https://www.treetop.to/githubpages/minimal-mistakes/
 
@@ -231,9 +236,6 @@ nav ul.breadcrumbs li:last-child::after{
     margin: 0;
     padding: 0.25rem 0.75rem;
     font-family: $sans-serif-narrow;
-  /*
-    font-size: $type-size-5;
-  */
     font-weight: bold;
 }
 
@@ -249,13 +251,5 @@ nav ul.breadcrumbs li:last-child::after{
     :not(:target) {
         font-weight: italic;
     }
-  /*
-    > ul > li {
-        font-size: $type-size-8;
-        > ul > li {
-            font-size: $type-size-5;
-        }
-    }
-  */
 }
 
