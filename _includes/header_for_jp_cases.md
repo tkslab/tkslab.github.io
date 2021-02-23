@@ -1,8 +1,0 @@
-<nav>
-	<ul class="breadcrumbs">
-		<li><a href="/">ホーム</a></li>
-		<li><a href="../../">法学資料（日本）</a></li>
-		<li><a href="../">この分野のまとめページ</a></li>
-		<li><a href="./">判例一覧</a></li>
-	</ul>
-</nav>
