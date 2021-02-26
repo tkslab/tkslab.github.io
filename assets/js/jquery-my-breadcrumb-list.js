@@ -29,13 +29,14 @@ $(function() {
         return [dir_list[index], value.join("/").replace("law@jp", "law/jp")]
     });
 
-    // text が空白のときには対応する url を除去
+    // 特定の text がある場合には対応する url を除去
+    var  hidden_items = ["", "tokoha"];
     text_and_url_list = text_and_url_list.filter((value) => {
-        return value[0] != "";
+        return hidden_items.includes(value[0]);
     });
 
     // 末尾の項目を除去
-    text_and_url_list.pop();
+    // text_and_url_list.pop();
 
     // html として出力するよう整形
     text_and_url_list = text_and_url_list.map((value) => {
