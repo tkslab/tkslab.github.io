@@ -46,6 +46,6 @@ $(function() {
 
 
     // $("div.sidebar").before(`<nav class="notice--info"><ul class="breadcrumbs">${text_and_url_list.join("\n")}</ul></nav>`);
-    $("div.notice--info ul.breadcrumbs").append(text_and_url_list.join("\n"));
+    $("ul#breadcrumbs").append(text_and_url_list.join("\n"));
 
 });
