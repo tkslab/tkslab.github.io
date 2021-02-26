@@ -8,19 +8,18 @@ $(function() {
         $('p').each(function(_, elem) {
             $(elem).prepend(`　`);
         });
+    } else {
 
-        return false
+        let para_index = 0;
+        $('p').each(function(_, elem) {
+            if ($(elem).closest("li").length > 0) {
+                return true
+            }
+
+            para_index += 1;
+            $(elem).prepend(
+                `[<a href="#id_${para_index}">${para_index}</a>]<a id="id_${para_index}"></a>　`
+            );
+        });
     }
-
-    let para_index = 0;
-    $('p').each(function(_, elem) {
-        if ($(elem).closest("li").length > 0) {
-            return true
-        }
-
-        para_index += 1;
-        $(elem).prepend(
-            `[<a href="#id_${para_index}">${para_index}</a>]<a id="id_${para_index}"></a>　`
-        );
-    });
 });
