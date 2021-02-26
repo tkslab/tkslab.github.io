@@ -59,7 +59,6 @@ footer_scripts:
   - "/assets/js/jquery-my-paragraph-numbers.js"
 
 
-
 titles_from_headings:
   enabled:     true
   strip_title: false
