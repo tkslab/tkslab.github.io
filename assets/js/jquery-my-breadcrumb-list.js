@@ -30,7 +30,7 @@ $(function() {
     });
 
     // 特定の text がある場合には対応する url を除去
-    var  hidden_items = ["", "tokoha", "aoyama", "seijo"];
+    var  hidden_items = ["", "tokoha", "aoyama", "seijo", "general"];
     text_and_url_list = text_and_url_list.filter((value) => {
         return hidden_items.includes(value[0])? false : value[0]
     });
