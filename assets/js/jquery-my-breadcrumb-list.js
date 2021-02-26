@@ -35,10 +35,11 @@ $(function() {
         return hidden_items.includes(value[0])? false : value[0]
     });
 
+    // 末尾の項目はそのページ自体となることから
     // 末尾の項目を除去
     text_and_url_list.pop();
 
-    // html として出力するよう整形
+    // html のリスト要素として出力するよう整形
     text_and_url_list = text_and_url_list.map((value) => {
         return `<li><a href='${value[1]}/'>${value[0]}</a></li>`
     });
