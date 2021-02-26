@@ -1,6 +1,7 @@
 ## 裁判情報
 
-<dl class="notice">
+<nav class="notice">
+	<dl>
 	<dt>裁判所</dt><dd>{{ page.types_of_courts }} </dd>
 	<dt>裁判の種類</dt><dd>{{ page.types_of_judgment }}  </dd>
 	<dt>裁判日</dt><dd>{{ page.judgment_date }}  </dd>
@@ -24,3 +25,4 @@
 	<dt>当事者</dt><dd>{{ page.party_name | replace:'|','</dd><dd>'  }}  </dd>
 	{% endif %}
 </dl>
+</nav>
