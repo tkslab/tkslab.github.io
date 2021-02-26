@@ -44,6 +44,7 @@ $(function() {
     });
 
 
-    $("div.sidebar").before(`<nav class="notice--info"><ul class="breadcrumbs">${text_and_url_list.join("\n")}</ul></nav>`);
+    // $("div.sidebar").before(`<nav class="notice--info"><ul class="breadcrumbs">${text_and_url_list.join("\n")}</ul></nav>`);
+    $("div.notice--info ul").append(text_and_url_list.join("\n"));
 
 });
