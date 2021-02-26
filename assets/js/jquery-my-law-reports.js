@@ -51,20 +51,6 @@ const search_pattern_for_using_roman_numbers = [
 
 
 $(function() {
-	// 段落番号の自動割り当て
-	let para_index = 0;
-	$('p').each(function(_, elem) {
-		if ($(elem).closest("li").length > 0) {
-			return true
-		}
-
-		para_index += 1;
-		$(elem).prepend(
-			`[<a href="#id_${para_index}">${para_index}</a>]<a id="id_${para_index}"></a>　`
-		);
-	});
-
-
 	let depthJapaneseStyleQuotationMark = 0;
 	let depthJapaneseRoundBrackets = 0;
 
