@@ -4,8 +4,7 @@ $(function() {
     // それ以外のディレクトリ以下のファイルに対しては
     // 冒頭に一文字分の空白を挿入
 
-    var under_cases_directory = location.pathname.split("/").some(function(elem) {
-        return (elem == "cases");
+    var under_cases_directory = location.pathname.split("/").includes("cases");
     });
 
 
