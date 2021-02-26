@@ -56,7 +56,7 @@ footer_scripts:
   - "/assets/js/jquery-my-law-reports.js"
   - "/assets/js/jquery-my-sidebar.js"
   - "/assets/js/jquery-my-breadcrumb-list.js"
-  - "/assets/js/jquery-my-paragraph-numbers.js"
+  - "/assets/js/jquery-my-paragraph-numbers-and-indent.js"
 
 
 titles_from_headings:
