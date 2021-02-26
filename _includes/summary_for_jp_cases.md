@@ -1,7 +1,6 @@
 ## 裁判情報
 
-
-<dl>
+<dl class="notice">
 	<dt>裁判所</dt><dd>{{ page.types_of_courts }} </dd>
 	<dt>裁判の種類</dt><dd>{{ page.types_of_judgment }}  </dd>
 	<dt>裁判日</dt><dd>{{ page.judgment_date }}  </dd>
