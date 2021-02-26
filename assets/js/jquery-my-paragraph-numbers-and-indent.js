@@ -13,7 +13,7 @@ $(function() {
             $(elem).prepend(`　`);
         });
 
-        return False
+        return false
     }
 
     let para_index = 0;
