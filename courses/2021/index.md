@@ -5,9 +5,7 @@ title: "2021年度"
 
 ## 常葉大学
 
-{% comment %}
 - [講義　行政法1](tokoha/administrative_law_1)
-{% endcomment %}
 
 
 {% comment %}
