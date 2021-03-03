@@ -9,28 +9,27 @@ title: "常葉大学　2021年度　講義　行政法1"
 |内容|ウェブページへのリンク|備考|
 |--|--|--|
 |シラバス|[講義内容詳細：行政法1][syllabus]| |
-|教科書|[板垣勝彦『公務員をめざす人に贈る　行政法教科書』（法律文化社、2018）][textbook]|[出版社のウェブページ][erratta]にて補遺（正誤情報）が公表されています。[板垣先生の公式ウェブサイト][itagaki_lecture]では計30回分の講義動画が公開されています。 |
+|教科書|[板垣勝彦『公務員をめざす人に贈る　行政法教科書』（法律文化社、2018）][textbook]|第2刷（2021年刊行）では、第1刷（2018年刊行）の内容に補足・訂正が行われています。第1刷をお持ちの方は、[出版社のウェブページ][textbook]の「本の説明」にある「補遺」を参照してください。そして、第2刷「はしがき」にあるとおり、[板垣先生の公式ウェブサイト][itagaki_lecture]では計30回分の講義動画が公開されています。ご覧ください。 |
+
+<!--
 |教材|[行政法1フォルダ][material]|アクセスするには大学メールアドレスとそのパスワードを使用してください|
 |定期試験の講評等|[行政法1フォルダ][material]|アクセスするには大学メールアドレスとそのパスワードを使用してください|
 
-
-[syllabus]: https://portal.sz.tokoha-u.ac.jp/sz/slbssbdr.do?value(risyunen)=2020&value(semekikn)=1&value(kougicd)=441HH30A&value(crclumcd)=1814141000
-[textbook]: https://www.hou-bun.com/cgi-bin/search/detail.cgi?c=ISBN978-4-589-03951-4
-[erratta]: https://www.hou-bun.com/cgi-bin/search/detail.cgi?c=ISBN978-4-589-03951-4
 [material]: https://tumail-my.sharepoint.com/:f:/g/personal/tks-tks_sz_tokoha-u_ac_jp/Erah51RQx89HpFRGCy0CP7kBykv2kgls_Y-wOMaKuJoqvQ
+-->
+
+
+[syllabus]: https://portal.sz.tokoha-u.ac.jp/sz/
+[textbook]: https://www.hou-bun.com/cgi-bin/search/detail.cgi?c=ISBN978-4-589-03951-4
 [itagaki_lecture]: https://kibatai2004.com/lecture/
 
 
-<!--
-[erratta]: 
-[ask]: 
--->
 
+<!--
 ## コメントシート
 
 受付を終了しました。
 
-<!--
 
 |講義回|コメントシート|入力期限|
 | -- | -- | -- |
