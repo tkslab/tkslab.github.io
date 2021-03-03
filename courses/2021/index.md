@@ -7,6 +7,10 @@ title: "2021年度"
 
 {% comment %}
 - [講義　行政法1](tokoha/administrative_law_1)
+{% endcomment %}
+
+
+{% comment %}
 - [講義　行政法2](tokoha/administrative_law_2)
 - [講義　行政法4](tokoha/administrative_law_4)
 - [課外講座　手続法入門](tokoha/introduction_to_procedural_law)
