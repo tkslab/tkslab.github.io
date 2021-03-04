@@ -51,9 +51,6 @@ defaults:
       toc_label: "table of contents"
 
 
-head_scripts:
-  #- "/assets/css/material-icons.css"
-  #- "https://fonts.googleapis.com/icon?family=Material+Icons"
 
 footer_scripts:
   - "https://code.jquery.com/jquery-3.5.1.min.js"
