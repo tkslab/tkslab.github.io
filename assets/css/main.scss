@@ -81,7 +81,7 @@ nav ul.breadcrumbs {
 }
 
 nav ul.breadcrumbs li::after{
-  content: '/';
+  content: '<span class="material-icons-outlined">&#xe5cc;</span>';
   display: inline-block;
   padding: 0 10px;
 }
