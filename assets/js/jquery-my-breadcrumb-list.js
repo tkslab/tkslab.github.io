@@ -16,7 +16,7 @@ $(function() {
     , ["cases", "判例一覧"]];
 
 
-    dir_list[0] = "Home";
+    dir_list[0] = "<span class="material-icons-outlined">&#xe88a;</span>";
     dir_list = dir_list.map((value) => {
         replace_pattern.forEach((elem) => {
             value = value.replace(elem[0], elem[1]);
