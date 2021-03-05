@@ -5,6 +5,8 @@ title: "2021年度"
 
 ## 常葉大学
 
+- [演習　法学・政策学基礎演習](tokoha/basic-seminar)
+
 - [講義　行政法1](tokoha/administrative_law_1)
 
 
