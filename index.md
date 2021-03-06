@@ -1,7 +1,7 @@
 ---
 title: "Home"
 toc: true
-toc_label: "Table of Contents"
+toc_label: "table of contents"
 ---
 
 ## About
