@@ -1,11 +1,11 @@
 ---
-title: "N人を2～3人のグループにまとめる"
+title: "N人を3人のグループにまとめる"
 ---
 
 
 ## このページについて
 
-N人を3人ずつのグループにまとめます（人数によっては2人だけのグループが現れます）。演習内でのグループ分けを念頭に置いています。
+N人を3人ずつのグループにまとめます（人数によっては2人だけのグループが現れます）。演習でのグループ分けに用いることを念頭に置いています。
 
 N が 10 以下の結果を示します。
 
@@ -150,7 +150,8 @@ N が 10 以下の結果を示します。
 
 ## ソースコード
 
-[Using the compiler - Crystal](https://crystal-lang.org/reference/using_the_compiler/index.html) の Release Build を使います。
+- [Using the compiler - Crystal](https://crystal-lang.org/reference/using_the_compiler/index.html) の `Release Build` を使うことをおすすめします。
+- [Compile & run code in Crystal](https://play.crystal-lang.org/#/cr) を使用すると、あまり速度が出ません。
 
 ```crystal
 class Array
