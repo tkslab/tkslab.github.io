@@ -151,8 +151,7 @@ N が 10 以下の結果を示します。
 ## ソースコード
 
 - [ソースコード](https://raw.githubusercontent.com/tkslab/tkslab.github.io/master/tools/grouping-3.cr)
-
-- [Using the compiler - Crystal](https://crystal-lang.org/reference/using_the_compiler/index.html) の `Release Build` を使うことをおすすめします。[Compile & run code in Crystal](https://play.crystal-lang.org/#/cr) を使用するとあまり速度が出ません。
+- [Parallelism in Crystal - The Crystal Programming Language](https://crystal-lang.org/2019/09/06/parallelism-in-crystal.html)
 
 ```sh
 $ time crystal grouping_3.cr 7 | grep "s"
@@ -163,18 +162,17 @@ sys     0m0.377s
 ```
 
 ```sh
-$ crystal build --release grouping_3.cr
-$ time ./grouping_3 7 | grep "s"
+$ crystal build -Dpreview_mt grouping_3.cr
+$ time CRYSTAL_WORKERS=8 ./grouping_3 7 | grep "s"
 
-real    0m0.037s
-user    0m0.011s
-sys     0m0.022s
+real    0m0.061s
+user    0m0.031s
+sys     0m0.001s
 
 
+$ time CRYSTAL_WORKERS=8 ./grouping_3 10 | grep "s"
 
-$ time ./grouping_3 10 | grep "s"
-
-real    0m12.457s
-user    0m24.737s
-sys     0m1.655s
+real    0m6.692s
+user    0m11.473s
+sys     0m1.110s
 ```
