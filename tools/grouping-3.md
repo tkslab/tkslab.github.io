@@ -162,17 +162,17 @@ sys     0m0.377s
 ```
 
 ```sh
-$ crystal build -Dpreview_mt grouping_3.cr
+$ crystal build -Dpreview_mt --release grouping_3.cr
 $ time CRYSTAL_WORKERS=8 ./grouping_3 7 | grep "s"
 
-real    0m0.078s
-user    0m0.044s
-sys     0m0.023s
+real    0m0.040s
+user    0m0.021s
+sys     0m0.020s
 
 
 $ time CRYSTAL_WORKERS=8 ./grouping_3 10 | grep "s"
 
-real    0m33.093s
-user    0m44.383s
-sys     0m2.445s
+real    0m15.000s
+user    0m27.009s
+sys     0m1.692s
 ```
