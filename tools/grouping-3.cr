@@ -18,6 +18,7 @@ class Array
     end
   end
 
+  # ダミー文字列を除去
   def remove_filler
     result = self.map { |group| group.reject("dummy") }
     self.replace(result)
@@ -34,7 +35,6 @@ class Array
 end
 
 ARGV.each do |max_number|
-  # max_number = 5
   max_number = max_number.to_i
 
   source = ("A".."Z").to_a.delete_at(0, max_number)
@@ -42,7 +42,7 @@ ARGV.each do |max_number|
   # 1グループあたりの要素
   number_of_elements_in_one_group = 3
 
-  # グループ分けしやすいようダミー文字列を要素として挿入する
+  # グループ分けしやすいようダミー文字列を要素として挿入
   source.set_number_of_elements_in_one_group(number_of_elements_in_one_group)
   source.my_fill_with_string
 
@@ -58,27 +58,32 @@ ARGV.each do |max_number|
 
   pattern_of_groups_length_valid = [] of Array(Array(String))
 
-  # 全要素が出現していて、かつ
-  # ある1つの要素が複数のグループに出現していない場合を抽出する
+  # 全員が出現すると同時に
+  # 1人が同時に複数のグループに属していない場合を抽出
+
   pattern_of_groups.each { |item|
     size = item.flatten.size
     if (size == max_number && (size - item.flatten.uniq.size) == 0)
       pattern_of_groups_length_valid.push(item)
     end
   }
-  
-  # 既に出現したグループが一部に見つかったら除去する
-  uniq_groups = Array(Array(String)).new
 
-  pattern_of_groups_length_valid.select! {|groups|
-    result = groups.each.all? {|group|
-      !uniq_groups.find {|uniq_pattern| group == uniq_pattern }
+  spawn same_thread: true do
+    # 既に出現したグループが一部に見つかったら除去
+    uniq_groups = Array(Array(String)).new
+
+    pattern_of_groups_length_valid.select! { |groups|
+      result = groups.each.all? { |group|
+        !uniq_groups.find { |uniq_pattern| group == uniq_pattern }
+      }
+
+      groups.each { |group| uniq_groups.push(group) } if result
+
+      result
     }
+  end
 
-    groups.each {|group| uniq_groups.push(group) } if result
-
-    result
-  }
+  Fiber.yield
 
   pattern_of_groups_length_valid.each.with_index(1) do |element, index|
     puts "#{sprintf("%02d", index)}：#{element.join(", ")}"
