@@ -155,7 +155,7 @@ N が 10 以下の結果を示します。
 - [Using the compiler - Crystal](https://crystal-lang.org/reference/using_the_compiler/index.html) の `Release Build` を使うことをおすすめします。[Compile & run code in Crystal](https://play.crystal-lang.org/#/cr) を使用するとあまり速度が出ません。
 
 ```sh
-$ time crystal grouping_3.cr 7
+$ time crystal grouping_3.cr 7 | grep "s"
 
 real    0m1.247s
 user    0m1.486s
@@ -164,7 +164,7 @@ sys     0m0.377s
 
 ```sh
 $ crystal build --release grouping_3.cr
-$ time ./grouping_3 7
+$ time ./grouping_3 7 | grep "s"
 
 real    0m0.037s
 user    0m0.011s
@@ -172,7 +172,7 @@ sys     0m0.022s
 
 
 
-$ time ./grouping_3 10
+$ time ./grouping_3 10 | grep "s"
 
 real    0m12.457s
 user    0m24.737s
