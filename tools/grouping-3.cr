@@ -12,7 +12,7 @@ class Array
   def my_fill_with_string
     number = @number_of_elements_in_one_group
     if self.size.modulo(number) > 0
-      (number - self.size.modulo(number)).times { |_|
+      (number - self.size.modulo(number)).times {
         self.push("dummy")
       }
     end
@@ -20,8 +20,7 @@ class Array
 
   # ダミー文字列を除去
   def remove_filler
-    result = self.map { |group| group.reject("dummy") }
-    self.replace(result)
+    self.replace(self.map { |group| group.reject("dummy") })
   end
 
   # グループに1人しかいないパターンを除外
@@ -35,6 +34,7 @@ class Array
 end
 
 ARGV.each do |max_number|
+  # max_number = 8
   max_number = max_number.to_i
 
   source = ("A".."Z").to_a.delete_at(0, max_number)
@@ -56,23 +56,20 @@ ARGV.each do |max_number|
   # グループの組み合わせをすべて求める
   pattern_of_groups = pattern_of_elements.combinations(source.number_of_groups)
 
-  pattern_of_groups_length_valid = [] of Array(Array(String))
-
-  # 全員が出現すると同時に
-  # 1人が同時に複数のグループに属していない場合を抽出
-
-  pattern_of_groups.each { |item|
-    size = item.flatten.size
-    if (size == max_number && (size - item.flatten.uniq.size) == 0)
-      pattern_of_groups_length_valid.push(item)
-    end
+  pattern_of_groups.select! { |item|
+    # 2人以上のグループ
+    item.all? { |elem| elem.size > 1 } && \
+            # 全員が出現
+ item.flatten.size == max_number && \
+            # 1人が同時に複数のグループに属していない
+ item.flatten.size == item.flatten.uniq.size
   }
 
   spawn same_thread: true do
     # 既に出現したグループが一部に見つかったら除去
     uniq_groups = Array(Array(String)).new
 
-    pattern_of_groups_length_valid.select! { |groups|
+    pattern_of_groups.select! { |groups|
       result = groups.each.all? { |group|
         !uniq_groups.find { |uniq_pattern| group == uniq_pattern }
       }
@@ -85,7 +82,7 @@ ARGV.each do |max_number|
 
   Fiber.yield
 
-  pattern_of_groups_length_valid.each.with_index(1) do |element, index|
-    puts "#{sprintf("%02d", index)}：#{element.join(", ")}"
+  pattern_of_groups.each.with_index(1) do |group, index|
+    puts "#{sprintf("%02d", index)}：#{group.join(", ")}"
   end
 end
