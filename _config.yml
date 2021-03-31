@@ -3,36 +3,6 @@ title: "tks lab"
 locale                   : "ja-JP"
 lang: "ja-JP"
 
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-  
   
 # Conversion
 markdown: kramdown
@@ -69,13 +39,13 @@ remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 minimal_mistakes_skin: "contrast"
 
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
+search                   : false # true, false (default)
+search_full_content      : false # true, false (default)
 search_provider          : "lunr" # lunr (default), algolia, google
 
 google:
-  search_engine_id: 'b42ee73966df1162c'
-  instant_search         : true # false (default), true
+  search_engine_id: ''
+  instant_search         : false # false (default), true
 
 atom_feed:
   hide: true
