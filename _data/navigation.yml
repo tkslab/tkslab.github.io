@@ -5,4 +5,6 @@ main:
     url: /law/jp/
   - title: "ツール"
     url: /tools/
+  - title: "検索"
+    url: /search/
   
