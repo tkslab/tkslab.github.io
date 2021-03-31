@@ -39,7 +39,10 @@ remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 minimal_mistakes_skin: "contrast"
 
-search: true
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : "google" # lunr (default), algolia, google
+
 google:
   search_engine_id: 'b42ee73966df1162c'
 
