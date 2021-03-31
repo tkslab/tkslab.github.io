@@ -3,13 +3,8 @@
 
 @import "{{ site.theme }}";
 
-.search-content {
-    .archive__item {
-        width: 100% !important;
-    }
-}
-
-
+nav.toc__list { display: none; }
+    
 article.page h3 {
   margin-left: 1em;
   padding: 0.5em;
