@@ -44,6 +44,6 @@ $(function() {
         return `<li><a href='${value[1]}/'>${value[0]}</a></li>`
     });
 
-
-    $("div.sidebar").before(`<nav class="notice--info"><ul class="breadcrumbs">${text_and_url_list.join("\n")}</ul></nav>`);
+$('ul.breadcrumbs')$.append(text_and_url_list.join("\n"));
+//    $("div.sidebar").before(`<nav class="notice--info"><ul class="breadcrumbs">${text_and_url_list.join("\n")}</ul></nav>`);
 });
