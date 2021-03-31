@@ -4,7 +4,8 @@
 @import "{{ site.theme }}";
 
 nav.toc__list { display: none; }
-    
+ul.breadcrumbs { display: none; }
+
 article.page h3 {
   margin-left: 1em;
   padding: 0.5em;
