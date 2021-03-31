@@ -3,6 +3,13 @@
 
 @import "{{ site.theme }}";
 
+.search-content {
+    .archive__item {
+        width: 100% !important;
+    }
+}
+
+
 article.page h3 {
   margin-left: 1em;
   padding: 0.5em;
