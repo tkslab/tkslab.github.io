@@ -43,7 +43,6 @@ $(function() {
     text_and_url_list = text_and_url_list.map((value) => {
         return `<li><a href='${value[1]}/'>${value[0]}</a></li>`
     });
-
-$('ul.breadcrumbs')$.append(text_and_url_list.join("\n"));
-//    $("div.sidebar").before(`<nav class="notice--info"><ul class="breadcrumbs">${text_and_url_list.join("\n")}</ul></nav>`);
+    
+    $('ul.breadcrumbs').append(text_and_url_list.join("\n"));
 });
