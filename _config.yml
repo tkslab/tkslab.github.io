@@ -39,6 +39,8 @@ remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 minimal_mistakes_skin: "contrast"
 
+search: true
+
 atom_feed:
   hide: true
 
