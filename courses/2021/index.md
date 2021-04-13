@@ -18,9 +18,7 @@ title: "2021年度"
 
 ## 青山学院大学
 
-{% comment %}
 - [講義　イギリス法A](aoyama/english-law-a)
-{% endcomment %}
 
 ## 成城大学
 
