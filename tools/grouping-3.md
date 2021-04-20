@@ -151,7 +151,6 @@ N が 10 以下の結果を示します。
 ## ソースコード
 
 - [ソースコード](https://raw.githubusercontent.com/tkslab/tkslab.github.io/master/tools/grouping-3.cr)
-- [Parallelism in Crystal - The Crystal Programming Language](https://crystal-lang.org/2019/09/06/parallelism-in-crystal.html)
 
 ```sh
 $ time crystal grouping_3.cr 7 | grep "s"
