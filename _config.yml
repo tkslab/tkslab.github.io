@@ -24,9 +24,11 @@ kramdown:
   enable_coderay: false
 
 
+url: "https://tkslab.github.io"
 
 plugins:
   - github-pages
+  - jekyll-sitemap
   - jekyll-coffeescript
   - jekyll-include-cache
   - jekyll-titles-from-headings
