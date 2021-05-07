@@ -607,11 +607,7 @@ summary_file: "summary_for_jp_cases.md"
 	      // Front Formatter 終了処理
 	      isFrontFormatter = false;
 
-	      buffer += `
-## ${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}
-
-{% include {{ page.summary_file }}  %}
-`;
+	      buffer += `{% include {{ page.summary_file }}  %}`;
 
 	    }
 	  });
