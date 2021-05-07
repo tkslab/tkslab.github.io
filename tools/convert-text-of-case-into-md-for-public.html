@@ -599,7 +599,8 @@
 	    // Front Formatter 開始処理
 	    if (isFrontFormatter == false && txt == "---") {
 	      isFrontFormatter = true;
-	      buffer += `header_file: "header_for_jp_cases.md"
+	      buffer += `title: "${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}"
+header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
 `;
 
