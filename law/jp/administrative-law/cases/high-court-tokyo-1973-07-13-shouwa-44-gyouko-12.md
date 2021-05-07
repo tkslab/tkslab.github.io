@@ -7,7 +7,7 @@ judgment_date: "昭和48年07月13日"
 docket_number: "昭和44年（行コ）第12号"
 case_name: "事業の認定、土地細目の公告及び土地収用裁決取消請求控訴事件"
 step: "第一審, 宇都宮地方裁判所, 昭和39年（行ウ）第4号, 昭和44年4月9日, 判決"
-citation: "行政事件裁判例集24巻6・7号533頁"
+citation: "行政事件裁判例集24巻6・7号533頁|判例時報710号23頁"
 source_of_commentary_by_research_law_clerk:
 teaching_materials: "環境法判例百選第3版77事件"
 party_name: "控訴人, 被告, 建設大臣・栃木県知事・栃木県収用委員会|被控訴人, 原告, 宗教法人東照宮"
