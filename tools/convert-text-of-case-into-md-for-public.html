@@ -599,8 +599,7 @@
 	    // Front Formatter 開始処理
 	    if (isFrontFormatter == false && txt == "---") {
 	      isFrontFormatter = true;
-	      buffer += `title: "${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}"
-header_file: "header_for_jp_cases.md"
+	      buffer += `header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
 `;
 
@@ -608,7 +607,9 @@ summary_file: "summary_for_jp_cases.md"
 	      // Front Formatter 終了処理
 	      isFrontFormatter = false;
 
-	      buffer += `{% include {{ page.summary_file }}  %}`;
+	      buffer += `title: "${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}"
+
+{% include {{ page.summary_file }}  %}`;
 
 	    }
 	  });
