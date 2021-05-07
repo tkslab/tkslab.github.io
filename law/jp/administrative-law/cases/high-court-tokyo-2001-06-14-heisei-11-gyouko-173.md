@@ -8,15 +8,13 @@ judgment_date: "平成13年06月14日"
 docket_number: "平成11年（行コ）第173号"
 case_name: "医師国家試験予備試験受験資格認定処分取消等請求控訴事件"
 step: "第一審, 東京地方裁判所, 平成8年（行ウ）第252号, 平成11年6月30日, 判決"
-citation: "判例時報1757号51頁"
+citation: "判例時報1757号51頁|訟務月報48巻9号2268頁"
 source_of_commentary_by_research_law_clerk:
 teaching_materials:
-party_name: "|訟務月報48巻9号2268頁"
+party_name: 
 ---
 
 {% include {{ page.summary_file }}  %}
-
-
 
 
 
