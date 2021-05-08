@@ -540,10 +540,10 @@
 	      [_1, _2, citationForCase] = txt.match(/^(.+?):(.+)$/);
 	    }
 	    
-	    txt = txt.replace(/^主　+文$/, '### 主文');
-	    txt = txt.replace(/^事　+実$/, '### 事実');
-	    txt = txt.replace(/^理　+由$/, '### 理由');
-	    txt = txt.replace(/^事実及び理由$/, '### 事実及び理由');
+	    txt = txt.replace(/^主　+文$/, '## 主文');
+	    txt = txt.replace(/^事　+実$/, '## 事実');
+	    txt = txt.replace(/^理　+由$/, '## 理由');
+	    txt = txt.replace(/^事実及び理由$/, '## 事実及び理由');
 
 	　　　 // 見出しの場合には冒頭のスペースを除去
 	    if (txt.match(/^#{3,} /)) {
@@ -553,7 +553,7 @@
    	    // 「裁判官一覧」という見出しもつける
    	    // 裁判官一覧を表形式に変換する
 	    if (txt.match(/^（裁判長裁判官/)) {
-	      	buffer += "### 裁判官一覧\n\n";
+	      	buffer += "## 裁判官一覧\n\n";
 
 		    [_, body] = txt.match(/^（(.+)）$/);
 		    body = `|${body.replace(/　/g, "|")}|`;
