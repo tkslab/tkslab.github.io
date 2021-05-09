@@ -41,7 +41,7 @@ function getQuery()
 
 function condenseContent(content)
 {
-  // content = content.replace(/{%.*?%}/g, " ");
+  content = content.replace(/{%.*?%}/g, " ");
   content = content.replace(/#+/g, " ");
   
   // マークアップしている箇所を探し出す
