@@ -106,4 +106,4 @@ window.onload = function(){
     }
     else $('#matchedList').append('<p>no search result.</p>');
   });
-});
+};
