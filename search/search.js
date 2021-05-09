@@ -87,20 +87,7 @@ window.onload = function(){
       matchedPosts.forEach(function(postInfo) {
         if(!postInfo.title.length) postInfo.title = 'untitled';
         dl.append('<dt><a href="' + postInfo.url + '">' + postInfo.title + '</a></dt>');
-        if(postInfo.date) {
-          dl.append('<dd>' + postInfo.date.year + '年' + postInfo.date.month + '月' + postInfo.date.day + '日' + '</dd>');
-        }
-        if(postInfo.tags.length) {
-          var dd = '<dd>tags: ';
-          var tagList = '';
-          postInfo.tags.forEach(function(tag, tagIndex, tags) {
-            tagList += '<a href="/search.html?q=%5B' + tag['tagName'] + '%5D">' + tag['tagName'] + '<span>[' + tag['count'] + ']</span></a>';
-            if(tagIndex < tags.length - 1) tagList += ', ';
-          });
-          dd += tagList;
-          dd += '</dd>';
-          dl.append(dd);
-        }
+        dl.append('<dd>' + postInfo.content  '</dt>');
       });
       $('#matchedList').append(dl);
     }
