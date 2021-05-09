@@ -78,10 +78,10 @@ window.onload = function(){
           matchedPosts.push(postInfo);
           
           postInfo.title = postInfo.title.replace(regExp, function(match){
-            return "<em>" + match + "</em>";
+            return "<strong>" + match + "</strong>";
           });
           postInfo.content = postInfo.content.replace(regExp, function(match){
-            return "<em>" + match + "</em>";
+            return "<strong>" + match + "</strong>";
           });
           
         }
