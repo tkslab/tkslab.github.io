@@ -10,7 +10,7 @@ layout: null
     "title": "{{ post.title | escape }}",
     "url": "{{ post.url }}",
     "content": "{{ post.content | strip | strip_html | strip_newlines | replace, "	", " " | escape  }}"
-  }{% unless forloop.last %},{% endunless %}
+  },
   {% endunless %}
   {% endunless %}
   {% endif %}
