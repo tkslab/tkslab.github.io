@@ -60,6 +60,8 @@ dd {
   text-indent:4em;
 }
 
+
+
 /* IEだけに適応 */
 
 _:lang(x)::-ms-backdrop, .selector {
@@ -88,6 +90,11 @@ nav ul.breadcrumbs li::after{
 
 nav ul.breadcrumbs li:last-child::after{
   display: none;
+}
+
+
+nav.notice{
+  font-size: 1em;
 }
 
 
