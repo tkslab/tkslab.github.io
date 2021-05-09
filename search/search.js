@@ -78,10 +78,10 @@ window.onload = function(){
           matchedPosts.push(postInfo);
           
           postInfo.title = postInfo.title.replace(regExp, function(match){
-            return "<strong>" + match + "</strong>";
+            return "<span style='background:linear-gradient(transparent 70%, #FFFF00 0%)'>" + match + "</span>";
           });
           postInfo.content = postInfo.content.replace(regExp, function(match){
-            return "<strong>" + match + "</strong>";
+            return "<span style='background:linear-gradient(transparent 70%, #FFFF00 0%)'>" + match + "</span>";
           });
           
         }
