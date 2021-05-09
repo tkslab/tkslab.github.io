@@ -4,7 +4,7 @@ layout: null
 [
 {% for post in site.pages %}
   {% if post.url contains '.html' %}
-  {% unless post.url == '/search.html' %}
+  {% unless post.url == '/index.html' %}
   {% unless post.url == '/404.html' %}
   {
     "title": "{{ post.title | escape }}",
