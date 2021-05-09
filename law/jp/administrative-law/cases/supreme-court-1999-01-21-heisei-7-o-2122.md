@@ -9,7 +9,7 @@ case_name: "給水契約上の地位確認等請求事件"
 step: "第一審, 福岡地方裁判所, 平成3年（ワ）第872号, 平成4年2月13日, 判決|控訴審, 福岡高等裁判所, 平成4年（ネ）第126号, 平成7年7月19日, 判決"
 citation: "最高裁判所民事判例集53巻1号13頁"
 source_of_commentary_by_research_law_clerk: "大橋寛明, 最高裁判所判例解説民事篇平成11年度18頁"
-teaching_materials: "〔地方自治判例百選第4版〕78頁"
+teaching_materials: "地方自治判例百選第4版78頁"
 party_name:
 ---
 
