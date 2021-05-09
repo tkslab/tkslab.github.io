@@ -1,15 +1,19 @@
 ---
 layout: default
+css: [/css/search.css]
+js: [/js/jquery.js, /js/search.js]
 ---
+<div id="matchedList">
+  <h1>{{ page.title }}</h1>
+</div>
 
-<form action="get" id="site_search">
-  <label for="search_box">Search</label><input type="text" id="search_box">
-  <input type="submit" value="search">
-</form>
-
-<ul id="results"></ul>
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/assets/js/search.js"></script>
-
-
+<aside id="tagList">
+  <h1>{% if page.language == 'en' %}Tags{% else %}タグ一覧{% endif %}</h1>
+  <ul>
+    {% capture tagNamesString %}{% for tag in site.tags %}{{ tag[0] }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+    {% assign sortedTagNames = tagNamesString | split:',' | sort %}
+    {% for tagName in sortedTagNames %}
+    <li><a href="/search{% if page.language == 'en' %}_en{% endif %}.html?q=%5B{{ tagName }}%5D">{{ tagName }}<span>[{{ site.tags[tagName].size }}]</span></a></li>
+    {% endfor %}
+  </ul>
+</aside>
