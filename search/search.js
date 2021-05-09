@@ -87,7 +87,7 @@ window.onload = function(){
       matchedPosts.forEach(function(postInfo) {
         if(!postInfo.title.length) postInfo.title = 'untitled';
         dl.append('<dt><a href="' + postInfo.url + '">' + postInfo.title + '</a></dt>');
-        dl.append('<dd>' + postInfo.content  '</dt>');
+        dl.append('<dd>' + postInfo.content + '</dd>');
       });
       $('#matchedList').append(dl);
     }
