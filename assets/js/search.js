@@ -36,6 +36,7 @@ function getQuery()
     });
   });
 
+  console.log(query);
   return query;
 }
 
