@@ -49,7 +49,7 @@ $(function() {
   $('#globalNavigation form input[type="search"]').val(queryString);
 
   var matchedPosts = [];
-  $.getJSON('/search.json', function(posts) {
+  $.getJSON('/search/search_data.json', function(posts) {
     posts.forEach(function(postInfo) {
       if(!postInfo.tags) postInfo.tags = [];
       var postTagNames = [];
