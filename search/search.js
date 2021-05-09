@@ -40,7 +40,7 @@ function getQuery()
   return query;
 }
 
-$(function() {
+window.onload = function(){
   var query = getQuery();
   console.log("query test");
   var queryString = '';  // input要素に表示する文字列
