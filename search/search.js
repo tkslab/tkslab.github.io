@@ -40,6 +40,9 @@ function getQuery()
 }
 
 window.onload = function(){
+  // 入力フォームに URL パラメータ中の検索キーワードを渡す
+  $("#search_param").value = location.search.split("=")[1];
+  
   var query = getQuery();
   var queryString = '';  // input要素に表示する文字列
   query.tags.forEach(function(tagName) {
