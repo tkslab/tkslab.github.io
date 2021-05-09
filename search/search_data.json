@@ -5,7 +5,6 @@ layout: null
   {% for post in site.pages %}
   
   {% if post.url contains '.html' %}
-  {% unless post.url contains '/blog/' %}
   {% unless post.url == '/search.html' %}
   {% unless post.url == '/search_en.html' %}
   {% unless post.url == '/404.html' %}
@@ -16,7 +15,6 @@ layout: null
     "content": "{{ post.content | strip | strip_html | strip_newlines | replace, "	", " " | escape  }}"
   }{% unless forloop.last %},{% endunless %}
 
-  {% endunless %}
   {% endunless %}
   {% endunless %}
   {% endunless %}
