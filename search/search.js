@@ -39,6 +39,20 @@ function getQuery()
   return query;
 }
 
+function condenseContent(content)
+{
+  // マークアップしている箇所を探し出す
+  var index = content.indexOf("<span");
+  // マークアップしている箇所から10文字前の場所を取得
+  index -= 10;
+  // 10文字前の場所が-1など0よりも小さい値になったら0にリセット
+  if (index < 0) {
+    index = 0;
+  }
+  
+  return content.substring(index, index + 100);
+}
+
 window.onload = function(){
   // 入力フォームに URL パラメータ中の検索キーワードを渡す
   var search_param = location.search.split("=")[1];
@@ -100,7 +114,7 @@ window.onload = function(){
       matchedPosts.forEach(function(postInfo) {
         if(!postInfo.title.length) postInfo.title = 'untitled';
         dl.append('<dt><a href="' + postInfo.url + '">' + postInfo.title + '</a></dt>');
-        dl.append('<dd>' + postInfo.content + '</dd>');
+        dl.append('<dd>' + condenseContent(postInfo.content) + '</dd>');
       });
       $('#matchedList').append(dl);
     }
