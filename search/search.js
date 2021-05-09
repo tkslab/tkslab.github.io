@@ -59,8 +59,9 @@ function condenseContent(content)
 window.onload = function(){
   // 入力フォームに URL パラメータ中の検索キーワードを渡す
   var search_param = location.search.split("=")[1];
-  $("#search_param").val(decodeURIComponent(search_param));
-  
+  if (search_param != undefined) {
+    $("#search_param").val(decodeURIComponent(search_param));
+  }
   
   var query = getQuery();
   var queryString = '';  // input要素に表示する文字列
