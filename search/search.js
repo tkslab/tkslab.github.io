@@ -41,7 +41,9 @@ function getQuery()
 
 window.onload = function(){
   // 入力フォームに URL パラメータ中の検索キーワードを渡す
-  $("#search_param").val(location.search.split("=")[1]);
+  var search_param = location.search.split("=")[1];
+  $("#search_param").val(decodeURIComponent(search_param));
+  
   
   var query = getQuery();
   var queryString = '';  // input要素に表示する文字列
