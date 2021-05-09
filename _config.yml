@@ -32,6 +32,7 @@ plugins:
   - jekyll-coffeescript
   - jekyll-include-cache
   - jekyll-titles-from-headings
+  - jekyll-lunr-js-search
 
 sass:
   sass_dir: _sass
