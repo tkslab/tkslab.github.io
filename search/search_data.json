@@ -4,14 +4,12 @@ layout: null
 [
 {% for post in site.pages %}
   {% if post.url contains '.html' %}
-  {% unless post.url == '/index.html' %}
   {% unless post.url == '/404.html' %}
   {
     "title": "{{ post.title | escape }}",
     "url": "{{ post.url }}",
     "content": "{{ post.content | strip | strip_html | strip_newlines | replace, "	", " " | escape  }}"
   },
-  {% endunless %}
   {% endunless %}
   {% endif %}
 {% endfor %}
