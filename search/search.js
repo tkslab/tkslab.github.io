@@ -44,13 +44,13 @@ function condenseContent(content)
   // マークアップしている箇所を探し出す
   var index = content.indexOf("<span");
   // マークアップしている箇所から10文字前の場所を取得
-  index -= 10;
+  index -= 20;
   // 10文字前の場所が-1など0よりも小さい値になったら0にリセット
   if (index < 0) {
     index = 0;
   }
   
-  return content.substring(index, index + 100);
+  return content.substring(index, index + 200);
 }
 
 window.onload = function(){
