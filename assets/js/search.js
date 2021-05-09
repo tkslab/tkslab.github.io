@@ -42,6 +42,7 @@ function getQuery()
 
 $(function() {
   var query = getQuery();
+  console.log("query test");
   var queryString = '';  // input要素に表示する文字列
   query.tags.forEach(function(tagName) {
     queryString += '[' + tagName + '] ';
