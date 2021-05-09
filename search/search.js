@@ -41,6 +41,8 @@ function getQuery()
 
 function condenseContent(content)
 {
+  content = content.replace(/{%.*?%}/g, " ");
+  
   // マークアップしている箇所を探し出す
   var index = content.indexOf("<span");
   // マークアップしている箇所から10文字前の場所を取得
