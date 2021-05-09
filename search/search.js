@@ -76,6 +76,14 @@ window.onload = function(){
         var regExp = new RegExp(regexpString, 'i');
         if(postInfo.title.match(regExp) != null || postInfo.content.match(regExp) != null) {
           matchedPosts.push(postInfo);
+          
+          postInfo.title = postInfo.title.replace(regExp, function(match){
+            return "<em>" + match + "</em>";
+          });
+          postInfo.content = postInfo.content.replace(regExp, function(match){
+            return "<em>" + match + "</em>";
+          });
+          
         }
       }
     });
