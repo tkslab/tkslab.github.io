@@ -1,6 +1,5 @@
 ---
 title: "東京高等裁判所　判決　平成13年06月14日　判例時報1757号51頁"
-header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "東京高等裁判所"
