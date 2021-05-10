@@ -115,7 +115,9 @@ window.onload = function(){
     // ページ内の'#matchedList'に流し込む。
     if(matchedPosts.length) {
       var dl = $('<dl>');
-      matchedPosts.forEach(function(postInfo) {        
+      matchedPosts.forEach(function(postInfo) {
+        if(postInfo.title == "") return false;
+        
         if(!postInfo.title.length) postInfo.title = 'untitled';
         dl.append('<dt><a href="' + postInfo.url + '">' + postInfo.title + '</a></dt>');
         dl.append('<dd>' + condenseContent(postInfo.content) + '</dd>');
