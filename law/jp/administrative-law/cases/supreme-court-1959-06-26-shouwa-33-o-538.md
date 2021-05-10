@@ -13,7 +13,6 @@ teaching_materials: "行政判例百選1第7版128事件"
 party_name:
 ---
 
-
 {% include {{ page.summary_file }}  %}
 
 
