@@ -1,6 +1,5 @@
 ---
 title: "最高裁判所第三小法廷　判決　昭和34年09月22日　最高裁判所民事判例集13巻11号1426頁"
-header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第三小法廷"
