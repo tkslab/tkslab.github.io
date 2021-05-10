@@ -8,7 +8,7 @@ layout: null
   {
     "title": "{{ post.title | escape }}",
     "url": "{{ post.url }}",
-    "content": "{{ post.raw_content | strip | strip_html | strip_newlines | replace, "	", " " | escape  }}"
+    "content": "{{ post.content | strip | strip_html | strip_newlines | replace, "	", " " | escape  }}"
   },
   {% endunless %}
   {% endif %}
