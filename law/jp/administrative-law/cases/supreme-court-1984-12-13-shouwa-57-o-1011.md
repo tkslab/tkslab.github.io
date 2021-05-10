@@ -13,7 +13,6 @@ teaching_materials: "行政判例百選1第7版9事件|地方自治判例百選�
 party_name:
 ---
 
-
 {% include {{ page.summary_file }}  %}
 
 
