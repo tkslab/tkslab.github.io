@@ -1,6 +1,5 @@
 ---
 title: "最高裁判所第一小法廷　判決　平成11年01月21日　最高裁判所民事判例集53巻1号13頁"
-summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
 judgment_date: "平成11年01月21日"
