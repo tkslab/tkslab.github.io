@@ -1,6 +1,5 @@
 ---
 title: "最高裁判所第一小法廷　判決　昭和59年12月13日　最高裁判所民事判例集38巻12号1411頁"
-header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
