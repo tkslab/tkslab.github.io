@@ -1,6 +1,5 @@
 ---
 title: "最高裁判所第一小法廷　判決　平成15年06月26日　判例時報1831号94頁"
-header_file: "header_for_jp_cases.md"
 summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "判決"
 types_of_courts: "最高裁判所第一小法廷"
