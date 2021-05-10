@@ -1,17 +1,18 @@
 ---
-title: "最高裁判所第一小法廷　判決　平成15年06月26日　判例時報1831号94頁"
+title: "旭川地方裁判所　判決　平成21年09月08日　判例地方自治355号38頁"
 summary_file: "summary_for_jp_cases.md"
 types_of_judgment: "判決"
-types_of_courts: "最高裁判所第一小法廷"
-judgment_date: "平成15年06月26日"
-docket_number: "平成14年（行ヒ）第189号"
-case_name: "転居届不受理処分取消等請求事件"
-step: "第一審, 名古屋地方裁判所, 平成13年（行ウ）第50号, 平成13年12月12日, 判決|控訴審, 名古屋高等裁判所, 平成14年（行コ）第3号, 平成14年4月19日, 判決"
-citation: "判例時報1831号94頁"
+types_of_courts: "旭川地方裁判所"
+judgment_date: "平成21年09月08日"
+docket_number: "平成20年（行ウ）第9号"
+case_name: "土壌汚染対策法による土壌汚染状況調査報告義務付け処分取消請求事件"
+step: "控訴審, 札幌高等裁判所, 平成21年（行コ）第14号, 平成22年10月12日, 判決|上告審, 最高裁判所第二小法廷, 平成23年（行ヒ）第18号, 平成24年2月3日, 判決|差戻第一審, 旭川地方裁判所, 平成24年（行ウ）第1号, 平成24年11月27日, 判決|差戻控訴審, 札幌高等裁判所, 平成24年（行コ）第31号, 平成25年5月23日, 判決"
+citation: "判例地方自治355号38頁"
 source_of_commentary_by_research_law_clerk:
-teaching_materials: "地方自治判例百選第4版15事件"
+teaching_materials:
 party_name:
 ---
+
 
 {% include {{ page.summary_file }}  %}
 
