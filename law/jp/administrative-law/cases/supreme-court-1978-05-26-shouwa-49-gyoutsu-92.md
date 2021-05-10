@@ -13,6 +13,7 @@ teaching_materials: "行政判例百選1第7版29事件"
 party_name: "上告人, 被控訴人, 被告, 山形県　代理人　町田健次|被上告人, 控訴人, 原告, 有限会社平商事　代理人　安達十郎"
 ---
 
+
 {% include {{ page.summary_file }}  %}
 
 
