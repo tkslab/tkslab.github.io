@@ -13,6 +13,7 @@ teaching_materials: "行政判例百選1第7版54事件|租税判例百選第6�
 party_name:
 ---
 
+
 {% include {{ page.summary_file }}  %}
 
 
