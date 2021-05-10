@@ -13,6 +13,7 @@ teaching_materials: "地方自治判例百選第4版15事件"
 party_name:
 ---
 
+
 {% include {{ page.summary_file }}  %}
 
 
