@@ -6,10 +6,10 @@ types_of_courts: "最高裁判所大法廷"
 judgment_date: "昭和27年10月08日"
 docket_number: "昭和27年（マ）第23号"
 case_name: "日本国憲法に違反する行政処分取消請求事件"
-step:
 citation: "最高裁判所民事判例集6巻9号783頁"
 source_of_commentary_by_research_law_clerk:
 teaching_materials: "行政判例百選2第7版141事件|憲法判例百選2第7版187事件"
+step:
 party_name:
 ---
 
