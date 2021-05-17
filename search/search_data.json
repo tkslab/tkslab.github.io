@@ -5,11 +5,13 @@ layout: null
 {% for post in site.pages %}
   {% if post.url contains '.html' %}
   {% unless post.url == '/404.html' %}
+  {% unless post.url contains 'tools' %}
   {
     "title": "{{ post.title | escape }}",
     "url": "{{ post.url }}",
     "content": "{{ post.content | strip | strip_html | strip_newlines | replace: '\', '\\\\' | replace: '"', '\\"' | replace, "	", " " | escape  }}"
   },
+  {% endunless %}
   {% endunless %}
   {% endif %}
 {% endfor %}
