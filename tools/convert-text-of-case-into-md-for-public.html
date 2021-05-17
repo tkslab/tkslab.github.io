@@ -540,10 +540,10 @@
 	      [_1, _2, citationForCase] = txt.match(/^(.+?):(.+)$/);
 	    }
 	    
-	    txt = txt.replace(/^主　+文$/, '## 主文');
-	    txt = txt.replace(/^事　+実$/, '## 事実');
-	    txt = txt.replace(/^理　+由$/, '## 理由');
-	    txt = txt.replace(/^事実及び理由$/, '## 事実及び理由');
+	    txt = txt.replace(/^　*主　+文$/, '## 主文');
+	    txt = txt.replace(/^　*事　+実$/, '## 事実');
+	    txt = txt.replace(/^　*理　+由$/, '## 理由');
+	    txt = txt.replace(/^　*事実及び理由$/, '## 事実及び理由');
 
 	　　　 // 見出しの場合には冒頭のスペースを除去
 	    if (txt.match(/^#{3,} /)) {
@@ -599,7 +599,8 @@
 	    // Front Formatter 開始処理
 	    if (isFrontFormatter == false && txt == "---") {
 	      isFrontFormatter = true;
-	      buffer += `summary_file: "summary_for_jp_cases.md"`;
+	      buffer += `summary_file: "summary_for_jp_cases.md"
+`;
 
 	    } else if (isFrontFormatter == true && txt == "---") {
 	      // Front Formatter 終了処理
