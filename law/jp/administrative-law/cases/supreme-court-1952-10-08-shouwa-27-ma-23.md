@@ -13,14 +13,28 @@ teaching_materials: "行政判例百選2第7版141事件|憲法判例百選2第7
 party_name:
 ---
 
+
+
+
+
+
 {% include {{ page.summary_file }}  %}
 
 
 
 
 
-## 主文
 
+
+
+
+
+
+
+
+
+
+## 主文
 
 
 本件訴を却下する。
