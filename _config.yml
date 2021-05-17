@@ -32,7 +32,8 @@ plugins:
   - jekyll-coffeescript
   - jekyll-include-cache
   - jekyll-titles-from-headings
-
+  - jekyll-json-feed
+  
 sass:
   sass_dir: _sass
   style: compressed
