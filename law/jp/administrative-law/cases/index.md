@@ -330,6 +330,7 @@ summary_file: "summary_for_jp_cases.md"
 | [東京地方裁判所　判決　平成12年03月22日　判例地方自治214号25頁](district-court-tokyo-2000-03-22-heisei-11-gyouu-129) | |
 | [東京地方裁判所　決定　平成18年01月25日　判例時報1931号10頁](district-court-tokyo-2006-01-25-heisei-17-gyouku-277) | |
 | [東京地方裁判所　判決　平成18年10月25日　判例時報1956号62頁](district-court-tokyo-2006-10-25-heisei-17-gyouu-510) | |
+| [東京地方裁判所　判決　平成19年03月23日　判例時報1975号2頁](district-court-tokyo-2007-03-23-heisei-14-wa-22773 ) | |
 | [東京地方裁判所　判決　平成20年01月29日　判例時報2000号27頁](district-court-tokyo-2008-01-29-heisei-16-gyouu-470) | |
 | [東京地方裁判所　判決　平成25年03月26日　判例時報2209号79頁](district-court-tokyo-2013-03-26-heisei-22-gyouu-462) | |
 | [東京地方裁判所　判決　平成25年07月19日　判例地方自治386号46頁](district-court-tokyo-2013-07-19-heisei-20-wa-25098) | |
