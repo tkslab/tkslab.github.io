@@ -610,7 +610,7 @@
 	      isFrontFormatter = false;
 
 		    
-		let titleLine = "\ntitle: \"${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}\""
+		let titleLine = `\ntitle: "${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}"`;
 		buffer = strIns(buffer, buffer.indexOf("---") + "---".length, titleLine);
 		
 	      buffer += `
