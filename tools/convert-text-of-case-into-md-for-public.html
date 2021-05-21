@@ -22,6 +22,9 @@
 	  return ('0000000000' + num).slice(-length);
 	}
 	
+	function strIns(str, idx, val){
+		return str.slice(0, idx) + val + str.slice(idx);
+	};
 
 	var objCourtNames = {
 		'最高':'s-court',
@@ -606,7 +609,14 @@
 	      // Front Formatter 終了処理
 	      isFrontFormatter = false;
 
-	      buffer += `title: "${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}"
+		    
+		let titleLine = `
+		title: "${typesOfCourts.trim()}　${typesOfJudgment.trim()}　${judgmentDate.trim()}　${citationForCase.trim()}"`
+		buffer = strIns(buffer, buffer.indexOf("---") + "---".length, title_line);
+		
+		console.log(buffer.indexOf("---"), "---".length, title_line));
+		    
+	      buffer += `
 
 {% include {{ page.summary_file }}  %}`;
 
