@@ -10,7 +10,7 @@
 	<dt>判例集等巻・号・頁</dt><dd>{{ page.citation | replace:'|','</dd><dd>' }}  </dd>
 	
 	{% if page.courts_go_jp %}
-	<dt>裁判所検索</dt><dd><a href="{{ page.courts_go_jp }}">({{ page.courts_go_jp }}</a></dd>
+	<dt>裁判所検索</dt><dd><a href="{{ page.courts_go_jp }}">{{ page.courts_go_jp }}</a></dd>
 	{% endif %}
 	
 	{% if page.source_of_commentary_by_research_law_clerk %}
