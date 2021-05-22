@@ -372,6 +372,7 @@ summary_file: "summary_for_jp_cases.md"
 | [東京高等裁判所　判決　平成15年05月21日　判例時報1835号77頁](high-court-tokyo-2003-05-21-heisei-13-ne-3067) | |
 | [東京高等裁判所　判決　平成18年06月28日　最高裁判所民事判例集63巻2号351頁](high-court-tokyo-2006-06-28-heisei-18-gyouko-23) | |
 | [東京高等裁判所　決定　平成19年07月19日　判例時報1994号25頁](high-court-tokyo-2007-07-19-heisei-19-gyouta-55) | |
+| [東京高等裁判所　判決　平成23年11月15日　判例時報2131号35頁](high-court-tokyo-2011-11-15-heisei-23-ne-3630 ) | イレッサ |
 | [東京高等裁判所　決定　平成24年07月25日　判例時報2182号49頁](high-court-tokyo-2012-07-25-heisei-24-gyouta-111) | |
 | [東京高等裁判所　判決　平成26年02月19日　訟務月報60巻6号1367頁](high-court-tokyo-2014-02-19-heisei-25-gyouko-187) | |
 
