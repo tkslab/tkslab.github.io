@@ -14,6 +14,8 @@ party_name:
 courts_go_jp: 
 ---
 
+{% include {{ page.summary_file }} %}
+
 ## 主文
 
 本件上告ハ之ヲ棄却ス
