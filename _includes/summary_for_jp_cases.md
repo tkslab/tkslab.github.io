@@ -9,6 +9,10 @@
 	<dt>裁判種別</dt><dd>{{ page.types_of_judgment }}  </dd>
 	<dt>判例集等巻・号・頁</dt><dd>{{ page.citation | replace:'|','</dd><dd>' }}  </dd>
 	
+	{% if page.courts_go_jp %}
+	<dt>裁判所検索</dt><dd>[{{ page.courts_go_jp }}]({{ page.courts_go_jp }})</dd>
+	{% endif %}
+	
 	{% if page.source_of_commentary_by_research_law_clerk %}
 	<dt>調査官解説の出典</dt><dd>{{ page.source_of_commentary_by_research_law_clerk | replace:'|','</dd><dd>'  }}  </dd>
 	{% endif %}
