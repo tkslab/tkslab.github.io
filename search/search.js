@@ -1,3 +1,54 @@
+function replaceTextWighObj(string, obj) {
+	$.each(obj, function(key, value) {
+		string = string.replace(new RegExp(key, 'g'), value);
+	});
+	return string;
+}
+
+
+const large_numbers = {
+	'兆': 1000000000000,
+	'億': 100000000,
+	'万': 10000,
+	'千': 1000,
+	'百': 100,
+	'十': 10,
+	}
+
+const objChineseNumbersAndRomanNumbers = {
+	'〇': 0,
+	'一': 1,
+	'二': 2,
+	'三': 3,
+	'四': 4,
+	'五': 5,
+	'六': 6,
+	'七': 7,
+	'八': 8,
+	'九': 9,
+}
+
+const search_pattern_for_using_roman_numbers = [
+	"([〇一二三四五六七八九、]+[条項号]の){1,2}[〇一二三四五六七八九、]+[条項号]?[あ-ん、。]",
+	"[〇一二三四五六七八九、]+[条項号]",
+	"[〇一二三四五六七八九、]+各[条項号]",
+	// 割合
+	"[〇一二三四五六七八九]+分の[〇一二三四五六七八九]+",
+	// 日時
+	"[〇一二三四五六七八九]+・[〇一二三四五六七八九]+・[〇一二三四五六七八九]+",
+	"[〇一二三四五六七八九]+(年|月|箇月|カ月|日)",
+	"[〇一二三四五六七八九]+[時分秒]",
+	// 出典
+	"[〇一二三四五六七八九]+[巻号頁]",
+	// 金額
+	"[〇一二三四五六七八九、兆億万]+円",
+	// 大きさや長さ
+	"[〇一二三四五六七八九・]+(平方|立方|キロ|センチ|ミリ|ナノ)*(メートル|ヘクタール)",
+	// 個数
+	"[〇一二三四五六七八九]+(人|名)",
+]
+
+
 /*
 https://github.com/GenjiApp/genjiapp.github.io/blob/master/js/search.js
 */
@@ -73,6 +124,29 @@ window.onload = function(){
   var matchedPosts = [];
   $.getJSON('/search/search_data.json', function(posts) {
     posts.forEach(function(postInfo) {
+      
+
+		// 漢数字を算用数字に変換
+		$.each(search_pattern_for_using_roman_numbers, function(_, search_pattern) {
+			let patterns_matched = postInfo.content.match(new RegExp(search_pattern, "gi"));
+			
+			if (patterns_matched == null) {
+				return true;
+			}
+			
+			// 文字列の長さ順にソート
+			patterns_matched.sort(function(a, b) {return b.length - a.length;});
+			
+			$.each(patterns_matched, function(_, pattern) {
+				let text_with_hankaku_numbers = replaceTextWighObj(pattern,
+					objChineseNumbersAndRomanNumbers);
+
+				postInfo.content = postInfo.content.replace(new RegExp(pattern, 'g'),
+					text_with_hankaku_numbers);
+			});
+		});
+      
+      
       if(!postInfo.tags) postInfo.tags = [];
       var postTagNames = [];
       postInfo.tags.forEach(function(tag) {
